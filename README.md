@@ -11,4 +11,7 @@ Version 0.7 (September 11, 2020)
 
 Version 0.6 and earlier: Author: James Baughn with CGI support contributed by Fred Hirsch and small changes contributed by Peter Suschlik
 
-Original homepage: http://nonsense.sourceforge.net/ Online demo of the old version: http://nonsense.sourceforge.net/demo/ V. 0.6 was Released February 10, 2001 under the GNU General Public License 2.0
+Original homepage: http://nonsense.sourceforge.net/ 
+Online demo of the old version: http://nonsense.sourceforge.net/demo/ 
+
+V. 0.6 was Released February 10, 2001 under the GNU General Public License 2.0
