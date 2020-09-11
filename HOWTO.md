@@ -171,6 +171,8 @@ There's also a few special cases that allow Nonsense to handle more elaborate si
   {\###} - ASCII character in decimal
 ```
   
+  
+  
 * `{variablename=literal text}` - Stores the text on the right-hand side of the equals sign to the specified state variable, without outputting anything.  This is useful for preserving context and is used, for example, in the Slashdot simulator.
   
 * `{variablename:=command}` - Similar to above, but evaluates the command and stores the result into a state variable.
@@ -209,7 +211,7 @@ Command Line Usage
    `-e`   Disable direct eval()'s
 
    `-d`   Debug mode (shows each substituation)
-    -`D`   Verbose debug mode (shows each substitution and the result)
+   `-D`   Verbose debug mode (shows each substitution and the result)
 
 `cmd`     Instead of specifying a template file, you can just specify a section to pull out from the data files.
 
