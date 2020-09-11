@@ -17,4 +17,4 @@ Original homepage: http://nonsense.sourceforge.net/
 
 Online demo of the old version: http://nonsense.sourceforge.net/demo/ 
 
-V. 0.6 was Released February 10, 2001 under the GNU General Public License 2.0
+V. 0.6 was Released February 10, 2001 under the GNU General Public License 2.0. Updated to gplv3 for version 0.7.
