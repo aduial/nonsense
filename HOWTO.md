@@ -273,21 +273,22 @@ CGI Security
 
 Nonsense is not the most secure program around.  If you want to use this program on a public website, please be careful.  
 
-* You can change the source code so that the program will ignore all CGI parameters.  This avoids any chance that the user may pass malicious parameters designed to crash the system or read arbitrary files.
-  
-  In the source, set the $ignoreparameters variable to 1.  Then, change the hard-coded defaults.  If, for example, you want the program to generate the Slashdot homepage, replace these lines:
+You can change the source code so that the program will ignore all CGI parameters.  This avoids any chance that the user may pass malicious parameters designed to crash the system or read arbitrary files.
 
-    `my $template = '{Default}';`
-    `my $template_meta = '';`
-  
+In the source, set the $ignoreparameters variable to 1.  Then, change the hard-coded defaults.  If, for example, you want the program to generate the Slashdot homepage, replace these lines:
+
+```
+my $template = '{Default}';
+my $template_meta = '';
+```
 
 With this one:
 
     `my($template, $template_meta) = LoadTemplate('slashdot.html.template');`
 
-  This will load the Slashdot template in to memory directly.  Feel free to change the other defaults as well.
+This will load the Slashdot template in to memory directly.  Feel free to change the other defaults as well.
 
-* You can also wrap the program in a server-side include so that the user doesn't have direct access to it.  The program's output will be inserted into your webpage using only the parameters that you specify.
+You can also wrap the program in a server-side include so that the user doesn't have direct access to it.  The program's output will be inserted into your webpage using only the parameters that you specify.
 
 
 ------------
