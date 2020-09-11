@@ -137,7 +137,6 @@ There's also a few special cases that allow Nonsense to handle more elaborate si
 	{tag_2}
   ```
   
-  
   the likelihood that that tag_1 is picked is then multiplied by that number. In this example, `tag_1` will be picked 3 out of 4 times.
   
 * `#number#item` - identical to above, but adds a weight factor for literal items (lines) under a category, e.g.:
@@ -147,7 +146,6 @@ There's also a few special cases that allow Nonsense to handle more elaborate si
   #7#item_1
   #3#item_2
   ```
-
 
   for this example, `item_1` will be picked 7 out of 10 times, and `item_2` 3 out of 10.
 
@@ -169,9 +167,7 @@ There's also a few special cases that allow Nonsense to handle more elaborate si
   {\L} - Left brace '{'
   {\R} - Right brace '}'
   {\###} - ASCII character in decimal
-```
-  
-  
+  ```
   
 * `{variablename=literal text}` - Stores the text on the right-hand side of the equals sign to the specified state variable, without outputting anything.  This is useful for preserving context and is used, for example, in the Slashdot simulator.
   
@@ -198,8 +194,7 @@ Command Line Usage
            `[ -n number ] [ -p ] [ -b bullet string ] [ -e ]`
            [ -D | -d ] [ command string ]`
 
-   `-f`   Specify a data file to load in.  Use multiple -f parameters to include additional files. The default.data file is 
-        is always loaded.
+   `-f`   Specify a data file to load in.  Use multiple -f parameters to include additional files. The default.data file is always loaded.
    `-F`  Load ALL data files (i.e. all files in the current directory with a .data extension).
 
    `-t`   Use a template file.  The markup in this file will be processed and the result output to STDOUT.
@@ -213,7 +208,7 @@ Command Line Usage
    `-d`   Debug mode (shows each substituation)
    `-D`   Verbose debug mode (shows each substitution and the result)
 
-`cmd`     Instead of specifying a template file, you can just specify a section to pull out from the data files.
+   `cmd`  Instead of specifying a template file, you can just specify a section to pull out from the data files.
 
 
 ---------
