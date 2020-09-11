@@ -11,7 +11,6 @@ Version 0.7 (September 11, 2020)
 Version 0.6 and earlier: 
 
 Author: James Baughn 
-
 with CGI support contributed by Fred Hirsch and small changes contributed by Peter Suschlik
 
 Original homepage: http://nonsense.sourceforge.net/ 
