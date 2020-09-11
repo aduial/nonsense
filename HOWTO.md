@@ -193,23 +193,23 @@ Command Line Usage
   `nonsense [ -f file.data ] [ -t file.template ] [ -n number ] [ -p ] [ -b bullet string ] [ -e ] [ -D | -d ] [ command string ]`
 
    `-f`   Specify a data file to load in.  Use multiple -f parameters to include additional files. The default.data file is always loaded.
-   
+
    `-F`  Load ALL data files (i.e. all files in the current directory with a .data extension).
-   
+
    `-t`   Use a template file.  The markup in this file will be processed and the result output to STDOUT.
-   
+
    `-n`   Repeat n times. 
-   
+
    `-p`   Separate each item with a blank line (i.e. paragraph break)
-   
+
    `-b`   Specify a "bullet" to go in front of each item.
-   
+
    `-e`   Disable direct eval()'s
-   
+
    `-d`   Debug mode (shows each substituation)
-   
+
    `-D`   Verbose debug mode (shows each substitution and the result)
-   
+
    `command string`  Instead of specifying a template file, you can just specify a section to pull out from the data files.
 
 
@@ -225,48 +225,47 @@ The included form.html contains an HTML form (along with predefined links) for u
 
 Here are the CGI parameters that Nonsense takes:
 
-   `template=filename`
-      The template to use.  If the template has "html" in its filename, then the output will be of MIME type text/html,
-      otherwise it will be text/plain.
+-  `template=filename`
+  The template to use.  If the template has "html" in its filename, then the output will be of MIME type text/html,
+  otherwise it will be text/plain.
 
-   `file=filename`
-      Specify a single datafile to load
+-  `file=filename`
+  Specify a single datafile to load
 
-   `allfiles=1` 
-      Load all datafiles from the Nonsense directory
+-  `allfiles=1` 
+  Load all datafiles from the Nonsense directory
 
-   `cmd=string`
-      A section to pull out of the datafiles (if you don't use a template)
-                
-   `number=integer`
-      Number of iterations
-      
-   `debug=[1|2]`
-      Set the debug level (1=shows each substition, 2=shows each substitution and its replacement).  The debug information is hidden as an unobtrusive HTML comment.
-      
-   `standalone=1`
-      Outputs a standalone HTML page (i.e. with <HTML> and <BODY> tags) instead of just a page fragment
-      
-   `spacer=[p|br|nl|literal string]`
-      Specify a string that is output between each iteration
-      `p` is `"\n<P>\n"`
-      `br` is `"<BR>\n"` (the default)
-      `nl` is `"\n"` only
-      anything else is treated as a literal (with `'\n'` converted into a real newline character)
+-  `cmd=string`
+  A section to pull out of the datafiles (if you don't use a template)
+
+-  `number=integer`
+  Number of iterations
+-  `debug=[1|2]`
+  Set the debug level (1=shows each substition, 2=shows each substitution and its replacement).  The debug information is hidden as an unobtrusive HTML comment.
+        
+-  `standalone=1`
+  Outputs a standalone HTML page (i.e. with <HTML> and <BODY> tags) instead of just a page fragment
+        
+-  `spacer=[p|br|nl|literal string]`
+  Specify a string that is output between each iteration
+  `p` is `"\n<P>\n"`
+  `br` is `"<BR>\n"` (the default)
+  `nl` is `"\n"` only
+  anything else is treated as a literal (with `'\n'` converted into a real newline character)
 
    `bullet=[ol|ul]`
       Displays the text as an ordered list (ol) or an unordered
       list (ul)         
 
-* Examples:
+**Examples:**
 
 To output a bulleted list of 20 fortune cookies, the URL would look something like:
 
-   `nonsense?cmd=FortuneCookie&file=cookie.data&bullet=ul&number=20`
+​      `nonsense?cmd=FortuneCookie&file=cookie.data&bullet=ul&number=20`
 
 To output a newspaper front page:
 
-   `nonsense?template=newspaper.html.template&file=newspaper.data`
+​      `nonsense?template=newspaper.html.template&file=newspaper.data`
 
 ------------
 CGI Security
@@ -281,8 +280,9 @@ Nonsense is not the most secure program around.  If you want to use this program
     `my $template = '{Default}';`
     `my $template_meta = '';`
   
+
 With this one:
-  
+
     `my($template, $template_meta) = LoadTemplate('slashdot.html.template');`
 
   This will load the Slashdot template in to memory directly.  Feel free to change the other defaults as well.
