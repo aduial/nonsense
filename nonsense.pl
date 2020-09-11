@@ -180,12 +180,12 @@ foreach my $datafile ( @datafiles ) {
 
 if( $cgi_mode ) { 
    if( $output_mode eq 'html' ) { # HTML output
-		$res_header->header('Content-Type' => 'text/html');
+   	print "Content-type: text/html\n\n";
    } else {                       # Not an HTML template, treat as plain text
-		$res_header->header('Content-Type' => 'text/plain');
+   	print "Content-type: text/html\n\n";
    }
-	print $res_header->as_string;
-   print $header;
+	#print $res_header->as_string;
+   #print $header;
 }
 
 for( my $i = 0; $i < $iters; $i++ ) { 
