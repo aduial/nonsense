@@ -1,0 +1,958 @@
+DEFAULT
+{SlashdotHeadline}
+
+LINUXDOMAIN
+{linuxdomainname}.{bigtld}
+
+LINUXDOMAINNAME
+{linuxdomain1}{linuxdomain2}
+{linuxdomain1}{linuxdomain2}
+{linuxdomain1}{linuxdomain2}
+{linuxdomain1}{linuxdomain1}
+{linuxdomain1}{linuxdomain1}
+{linuxdomain1}{linuxdomain1}{linuxdomain2}
+{linuxdomain1}{linuxdomain1}-{linuxdomain2}
+{linuxdomain1}-{linuxdomain2}
+{linuxdomain0}{linuxdomain1}
+{linuxdomain0}{linuxdomain1}{linuxdomain2}
+{linuxdomain0}{linuxdomain2}
+{linuxdomain1}.{domainname}
+
+LINUXDOMAIN0
+cmdr
+captain
+super
+major
+taco
+cool
+phat
+burrito
+coffee
+mega
+meta
+slash
+dot
+colon
+grok
+about
+1st
+just
+everything
+project
+os
+techno
+source
+the
+open
+free
+new
+colonel
+go
+wow
+hot
+uber
+{firstname}
+
+LINUXDOMAIN1
+linux
+geek
+nerd
+hack
+unix
+bsd
+freebsd
+solaris
+apache
+gnu
+opensource
+penguin
+tux
+daemon
+linus
+hacker
+root
+kernel
+perl
+python
+programming
+bitbucket
+null
+
+LINUXDOMAIN2
+news
+week
+today
+tommorrow
+day
+newbie
+ware
+cheesymerchandise
+headlines
+stuff
+portal
+power
+shell
+hack
+fest
+web
+site
+forum
+community
+dotcom
+dotorg
+fun
+help
+advice
+world
+network
+net
+humor
+rules
+warez
+rulez
+kiddie
+geek
+nerd
+hacker
+moneymakingportal
+here
+planet
+city
+place
+chat
+grok
+one
+central
+plaza
+2000
+search
+find
+finder
+links
+directory
+apps
+business
+biz
+archives
+island
+software
+bandwagon
+life
+howto
+mag
+month
+minute
+chix
+meat
+women
+docs
+games
+focus
+{Newspaperpair2}
+start
+now
+future
+universe
+galaxy
+key
+party
+jobs
+tech
+
+LINUXDISTRO
+Red Hat Linux
+Debian GNU/Linux
+SuSE Linux
+TurboLinux
+Stampede Linux
+Caldera OpenLinux
+Slackware Linux
+Linux Mandrake
+Corel Linux
+
+LINUXCOMPANY
+Red Hat
+SuSE
+Caldera
+Corel
+LinuxCare
+VA Linux
+Internet.com
+Cobalt Networks
+Applix
+
+LINUXPERSONALITY
+Linus Torvalds
+Eric S. Raymond
+Richard M. Stallman
+Alan Cox
+Bernhard Rosenkraenzer
+Rik van Riel
+Larry Wall
+Bruce Perens
+Miguel de Icaza
+
+MICROSOFTPERSONALITY
+Bill Gates
+Steve Ballmer
+Ed Muth
+Nathan Myrrhvold
+
+PUNDITPERSONALITY
+Jesse Berst
+Fred Moody
+Bob Metcalfe
+
+TECHCOLUMNIST
+{PunditPersonality}
+Robert X. Cringely
+Jon Katz
+Nicholas Petreley
+John Dvorak
+
+LINUXPUBLICATION
+LinuxToday
+LWN
+LinuxWorld
+Linux.com
+
+LINUXEXPO
+{RealCity} Linux {LinuxExpoSuffix}
+{USState} Linux {LinuxExpoSuffix}
+Linux {LinuxExpoSuffix}
+LinuxWorld {LinuxExpoSuffix}
+LinuxExpo {LinuxExpoSuffix}
+LinuxCon {LinuxExpoSuffix}
+
+LINUXEXPOSUFFIX
+Showcase
+Expo
+Conference
+Convention
+{@%Y|0|0}
+Show
+Money-Making Expo
+PHB Get-Together
+
+TECHLAWSUITTARGET
+DeCSS
+Napster
+MP3.com
+2600
+
+TECHGEEKTARGET
+DMCA
+Microsoft
+Echelon
+Carnivore
+"Know Your Customer"
+Geek Profiling
+Software Patents
+
+TECHGEEKENEMY
+Microsoft
+RIAA
+MPAA
+DVD CCA
+Network Solutions
+
+GEEKPEOPLE
+Hackers
+Geeks
+Nerds
+Kids
+Teenagers
+{[Angst-Ridden|Troubled} Teens
+Anonymous Cowards
+Lurkers
+Flamers
+
+GEEKENEMY
+Bible-Thumpers
+Congresscritters
+{[Paranoid |Clueless |Hysterical | } Parents
+Recording Industry Executives
+Media Tycoons
+Bureaucrats
+Soccer Moms
+Prohibitionists
+Lawyers
+Attorneys
+Lobbyists
+Pointy Haird Bosses
+School Administrators
+Thought Police
+
+GEEKBADGUYS
+Script Kiddies
+Hackers
+Crackers
+Spammers
+
+GEEKPOLITICALPROBLEM
+censorship
+software patents
+{[Carnivore|Echelon}
+Geek Profiling
+"Know Your Customer"
+domain snatching
+
+TECHPROBLEM
+Script Kiddies
+Spammers
+Crackers
+Backhoes
+Network Outtages
+System Crashes
+
+LINUXERROR
+lp1 on fire
+kernel panic
+Signal 11
+Security hole found between chair and monitor
+User needs a cluestick
+This ain't Windows
+Bus error
+Black hole imminent
+Segmentation fault
+
+TECHTOPIC
+Bogus Patents
+Artificial Intelligence
+Embedded Systems
+Dotcom Meltdown
+Hackers/Crackers
+Spam
+Windows {WindowsVersion} Security Exploits
+
+GEEKENTERTAINMENT
+Star Wars
+Star Wars
+The Matrix
+Star Trek: {[TOS|TNG|DS9|Voyager}
+Star Trek
+The Simpsons
+X-Files
+Babylon 5
+MST3K
+
+GEEKSCIFIBOOK
+The {GeekSciFiBookPeople} Of The {GeekSciFiAlien} {GeekSciFiBookPlace}
+The {GeekSciFiBookPeople} Of {GeekSciFiAlien}
+{[The }{GeekSciFiBookEvent} Of The {GeekSciFiAlien} {GeekSciFiBookPlace}
+{[The }{GeekSciFiBookEvent} Of The {GeekSciFiBookPlace} Of The {GeekSciFiBookPeople}
+The {GeekSciFiBookThing} Of The {GeekSciFiAlien} {GeekSciFiBookPlace}
+{[The }{GeekSciFiBookPeople} Of The {GeekSciFiBookThing}
+{[The }{GeekSciFiBookPlace} {GeekSciFiBookThing}
+The {GeekSciFiBookEnemy} {[Awaits|Comes|Awakens|Returns}
+{[The }{GeekSciFiBookThing} Of The {GeekSciFiBookEnemy}
+{[The }{GeekSciFiBookEvent} Of The {GeekSciFiBookEnemy}
+{GeekSciFiBookThing} {[In The Balance|On Hold|In Limbo|Vanishes}
+{[The }{GeekSciFiBookEvent} Of The {GeekSciFiBookThing} Of {GeekSciFiAlien}
+{[The }{GeekSciFiBookAdj} {GeekSciFiBookPlace}
+{[The }{GeekSciFiBookAdj} {GeekSciFiBookPlace} Of {GeekSciFiAlien}
+{[The }{GeekSciFiBookAdj} {GeekSciFiAlien} {GeekSciFiBookThing}
+{[The }{LastName} {[Effect|Equation}
+
+GEEKSCIFIBOOKPLACE
+Planet
+Star
+Sun
+Universe
+Galaxy
+Solar System
+World
+Realm
+Asteroid
+Comet
+Outpost
+Matrix
+Constellation
+Continuum
+Cluster
+Quasar
+Nebula
+
+GEEKSCIFIBOOKTHING
+{[Techno|Cyber|Lawyer|Chrono}clysm
+Federation
+Future
+Community
+Civilization
+Spaceship
+Union
+Alliance
+Foundation
+Conspiracy
+Amulet
+Black Hole
+Anomoly
+Underground
+Empire
+
+GEEKSCIFIBOOKENEMY
+Menace
+Monster
+Machine
+Beast
+Devil
+
+GEEKSCIFIBOOKPEOPLE
+Explorer{[s}
+Pioneer{[s}
+Guardian{[s}
+Time Traveler{[s}
+Astrophysicist{[s}
+Stonecutter{[s}
+Mystic{[s}
+Fortuneteller{[s}
+Philosopher{[s}
+King{[s}
+God{[s}
+Goddess{[es}
+{[Dictator|Tyrant|Despot|Monarch}
+Aristocrat{[s}
+Mathematician{[s}
+Scientist{[s}
+Wizard{[s}
+
+GEEKSCIFIBOOKEVENT
+Revenge
+Return
+Rise
+Fall
+Destruction
+Implosion
+Annihilation
+Victory
+Defeat
+End
+
+GEEKSCIFIBOOKADJ
+Expanding
+Collapsing
+Imploding
+Derelict
+Abandoned
+Lost
+Triumphant
+Victorious
+Doomed
+Forbidden
+Unknown
+Null
+Infinite
+
+GEEKSCIFIELEMENT
+time travel
+artificial intelligence
+a sentient {animal}
+galactic civilizations
+faster-than-light travel
+parallel universes
+anti-gravity cars
+mind-reading aliens
+scientific techno-babble
+teleportation
+
+GEEKSCIFIALIEN
+{^RandomName}
+{GeekSciFiAlienStatic}
+
+GEEKSCIFIALIENSTATIC
+{Planet}
+Orion
+Andromeda
+Gaia
+Alpha Centauri
+Betelguese
+Alpha
+Beta
+Gamma
+Epsilon
+
+GEEKSCIFIAUTHOR
+Robert Heinlein
+Neal Stephenson
+Arthur C. Clarke
+Isaac Asimov
+Orson Scott Card
+
+BOGUSPATENT
+server side includes
+weblog-style sites
+random poetry generators
+{[beige|rectangular|translucent} computer cases
+rectangular computer cases
+dancing software assistants
+command-line interfaces
+floppy diskettes
+hypertext documents
+interpreted scripting languages
+{[double|zero|triple}-click shopping
+ROT13 encoding
+XOR encryption
+the quadratic formula
+CGI scripting
+spell checking
+pull-down menus
+{[horizontal|vertical} scroll bars
+
+PUNDITFLAME
+Linux is Communistic
+Linux will fail
+Linux is the worst operating system ever
+Could you get fired for choosing Linux?
+Unix is 1960s technology
+The GPL is even more restrictive than a Microsoft EULA
+The GNU Project is holding back the Open Source movement
+Open Source projects are uncreative and unoriginal
+Linux doesn't contain any innovations
+Microsoft is the most innovative company in the history of mankind
+Windows {WindowsVersion} is much better than Linux
+Unix sucks
+Windows is the only GUI with a consistent interface
+Why do end-users need source code anyways?
+Linux users all behave like immature {#7-16} year olds
+Linux = LinSux
+Linux is only free if your time is worthless
+Security through obscurity is the only way to go!
+Attack of the Snot-Nosed Linux Zealots
+Linux Advocacy: A Dangerous Brainwashing Religious Cult
+Microsoft Will Win
+
+PERIPHERAL
+Digital Camera
+{PeripheralInterface} Infrared Video Camera
+{PeripheralInterface} Scanner
+Software Modem
+Cable Modem
+Video Card
+3D Accelerator Card
+{PeripheralInterface} Time Travel Card
+{PeripheralInterface} Coffee Machine
+{#40-99} Inch Monitor
+Uninterruptible Power Supply
+{PeripheralInterface} CD-Recorder
+Beowulf-Cluster-in-a-Box
+
+PERIPHERALINTERFACE
+SCSI
+IDE
+Parallel Port
+USB
+FireWire
+Serial Port
+
+TECHHARDWARECOMPANY
+IBM
+Dell
+Compaq
+Maxtor
+Seagate
+Western Digital
+Transmeta
+Hewlett Packard
+
+OPENSOURCEPROJECT
+Linux
+FreeBSD
+NetBSD
+OpenBSD
+Apache
+Sendmail
+GNOME
+KDE
+X11
+Mozilla
+
+UNIXTOOL
+awk
+sed
+bison
+gcc
+vi
+emacs
+
+LINUXEVENT
+LinuxWorld Expo
+Atlanta Linux Showcase
+LinuxFest
+LinuxExpo
+
+LINUXUSERGROUP
+{LETTER}{LETTER}LUG
+{USPOSTALSTATE}LUG
+{LETTER}LUG
+
+FRESHMEATLINK
+http://freshmeat.net/news/{@%Y/%m/%d|0|50000}/{digit}{digit}{digit}{digit}{digit}{digit}{digit}{digit}{digit}.html
+
+FRESHMEATDESC
+{Apptype} {appsuffix}
+{Apptype} {appsuffix} for {FreshMeatDescFor}
+{Apptype} {appsuffix} written in {ComputerLanguage}
+{BuzzwordAdjective} {buzzwordnoun} written in {ComputerLanguage}
+{BuzzwordAdjective} {buzzwordnoun} for the {careertech}
+{BuzzwordAdjective} {buzzwordnoun} {buzzwordjob}
+{FreshMeatDescPrefix} {Apptype} {appsuffix}
+{ComputerLanguage} {appsuffix}
+{FreshMeatDescPrefix} {buzzwordnoun}
+Clone of {AppNameSimple}
+{FreshMeatDescPrefix} implementation of Microsoft {MicrosoftProduct}
+
+FRESHMEATDESCPREFIX
+Open Source
+Free
+Libre
+Updated
+Revamped
+Upgraded
+Shareware
+Freeware
+Public domain
+
+FRESHMEATDESCFOR
+Linux
+{LinuxDistro}
+Unix
+FreeBSD
+BeOS
+BSD Unix
+Perl/Tk
+Tcl/Tk
+KDE
+GNOME
+Qt
+Gtk
+X11
+
+FRESHMEATAPP
+{AppName} {AppVersion}
+
+APPNAME
+{AppNameSimple}
+{AppNameSimple}
+{AppNameSimple}
+{AppNameComplex}
+
+APPNAMESIMPLE
+{ACRONYM}
+{acronym}
+{acronym}
+{appprefix}{acronym}
+{appprefix}{syllable}{letter}
+{appprefix}{syllable}2{syllable}
+{Acronym}
+{letter}{ACRONYM}
+{RandomName}
+{LastName}
+{Syllable}{syllable}
+{letter}{Syllable}
+{letter}{letter}{letter}
+{letter}{letter}{letter}{letter}
+{LETTER}{letter}{letter}{letter}
+{letter}{LETTER}{letter}{letter}
+{LETTER}{letter}{letter}{NumberWord}
+{AppPrefix}{ACRONYM}
+{AppPrefix}{RandomName}
+{AppPrefix}{LETTER}{letter}{letter}{letter}
+{AppCommon}
+
+APPNAMECOMPLEX
+{FirstName}'s {AppType} {AppSuffix}
+{FirstName}'s {AppSuffix}
+{Acronym} {AppType}
+{ACRONYM} {AppType} {AppSuffix}
+{AppType} {AppSuffix}
+{Syllable}{syllable} {AppType} {AppSuffix}
+{RandomName} {AppSuffix}
+{AppPrefix}{LETTER}{letter}{letter}{letter} {AppSuffix}
+{AppPrefix}{Syllable}{syllable} {AppType} {AppSuffix}
+{AppCommon} {AppType} {AppSuffix}
+{TechCompany} {Peripheral} {[Device Driver|Driver|Kernel Module|Interface|Deamon}
+{BuzzwordAdjective} {AppSuffix}
+{FirstName}'s {BuzzwordAdjective} {BuzzwordNoun} {BuzzwordJob}
+{Acronym} {BuzzwordNoun}
+{AppPrefix}{RandomName} {BuzzwordAdjective} {BuzzwordJob} {AppSuffix}
+{RandomName} {BuzzwordJob}
+{BuzzwordAdjective} {BuzzwordNoun} {AppSuffix}
+{LinuxDistro}
+
+APPPREFIX
+GNU/
+GNU 
+Gnu
+GTK-
+Gtk
+KDE 
+X
+K
+X11
+Perl 
+Java 
+PHP_
+php
+Py
+GPL
+Linux
+Linux 
+My
+Qt
+Qt_
+lib
+Lib
+Mod
+mod_
+Wx
+CGI
+Web
+Net
+Html
+Phat
+Cool
+Wm
+Free
+News
+BSD
+
+APPSUFFIX
+Viewer
+Browser
+Client
+Server
+Proxy
+Agent
+Editor
+Database
+Object
+Programming Language
+Shell
+Hack
+Window Manager
+User Interface
+Front-End
+Back-End
+Interface
+Module
+Library
+Parser
+Generator
+Compiler
+Linker
+Plug-in
+Applet
+Project
+Office
+Environment
+Processor
+Parser
+Tools
+Toolkit
+Analyzer
+Electron Waster
+Simulator
+Clone
+Filesystem
+Device Manager
+Thingamajig
+
+APPTYPE
+Web
+Internet
+Object Oriented
+Buzzword-Enhanced
+TCP/IP
+HTML
+HTTP
+XML
+Graphics
+ASCII
+Unicode
+Threaded
+Cool
+CGI
+Scripting
+Online
+C
+Perl
+Java
+Python
+Modern
+Postmodern
+New & Improved
+
+APPCOMMON
+{letter}spell
+{letter}mail
+{LETTER}edit
+{letter}Edit
+{lastname}fs
+{randomname}lib
+{letter}find
+{randomname}X
+{letter}grep
+{letter}tools
+
+APPVERSION
+0.0.{#1-20}{AppVersionSuffix}
+0.{digitnozero}.{#0-30}
+1.0.{#0-30}
+1.{digitnozero}.{#0-30}{AppVersionSuffix}
+2.{digit}.{#0-30}
+2.{digit}.{#0-30}{AppVersionSuffix}
+{#3-9}.{digit}.{#0-30}
+0.0{digit}{AppVersionSuffix}
+0.{digit}
+0.{#1-99}
+1.0{AppVersionSuffix}
+1.00
+1.{#1-99}
+1.{#1-99}{AppVersionSuffix}
+{#2-20}.{#1-99}{AppVersionSuffix}
+{@%Y%m%d}
+
+APPVERSIONSUFFIX
+pl{digit}
+alpha
+beta
+-{#1-30}
+{letter}
+-ac{digit}
+-pre{digit}
+
+LINUXKERNELVERSION
+2.2.{#30-40}
+2.3.{#50-99}
+2.4.0-pre{#1-30}
+2.4.0-ac{#1-30}
+2.4.{digit}
+2.5.{#0-99}
+
+WINDOWSVERSION
+95
+98
+98 Second Edition
+Millennium Edition
+NT 4.0
+2000
+CE
+
+MICROSOFTPRODUCT
+Office
+Word
+Excel
+Access
+PowerPoint
+Bob
+Visual Basic
+Visual C++
+IIS
+FrontPage
+
+SOFTWAREPRODUCT
+CorelDRAW
+WordPerfect
+Microsoft Office
+Microsoft Word
+Borland Delphi
+Oracle
+Interbase
+AutoCAD
+
+MICROSOFTSLOGAN
+Making It All Make Cents
+Over {#5-20} Years of Innovation
+Wintel Inside
+Your Windows and Gates to the World
+Fighting the Department of Injustice Since Day One
+Because Anti-Trust Laws Are Obsolete
+Real People Use Our Software, Not Nerds & Geeks
+Crashes Are Normal
+Embracing & Extending For Over {#20-30} Years
+This Motto is Not Anti-Competitive
+Got Windows?  You Have To!
+One Microsoft Way.  It's Much More Than An Address.
+
+OPENSOURCELICENSE
+GNU General Public License
+GNU Lesser General Public License
+BSD License
+Artistic License
+Mozilla Public License
+X11 License
+Apache License
+
+RFCDOCUMENT
+{[Electricity|Water|Pizza|Beer}-over-IP
+IP Datagrams Carried by {[Pony Express|Taxicab|Fedex}
+PORN Over Real-time Networks
+
+SLASHDOTJONKATZ
+{SlashdotJonKatzPrefix1}: {SlashdotJonKatz1}
+{SlashdotJonKatz1}
+
+SLASHDOTJONKATZ1
+{SlashdotJonKatzIssues}, {SlashdotJonKatzIssues} and the {SlashdotJonKatzIssues2}
+{SlashdotJonKatzVerbs1} {SlashdotJonKatzActionsOfThem} {SlashdotJonKatzIssues}
+{SlashdotJonKatzPrefix2} {SlashdotJonKatzActionsOfThem} {SlashdotJonKatzIssues}
+
+SLASHDOTJONKATZPREFIX1
+Analysis
+Unplugged
+Part {NumberWord}
+Feature
+Jon Katz
+The Windbag Speaks
+
+SLASHDOTJONKATZPREFIX2
+The Rise Of
+Brief History Of
+The Road To
+The Myth Of
+Voices From
+Descent Into
+At The Crossroads Of
+Showdown With
+The Era Of
+The Power Of
+The Death Of
+The Nation Of
+Some Good News From
+Beyond
+
+SLASHDOTJONKATZVERBS1
+Dealing With
+Handling
+Facing
+Coping With
+Fighting
+Challenging
+
+SLASHDOTJONKATZACTIONSOFTHEM
+War On
+Battle Against
+Heavy-Handed Crusade Against
+Draconian Retaliation Against
+Foolish Crackdown On
+Crazy Attempts To Ban
+
+SLASHDOTJONKATZISSUES
+Criminal Libel
+Free Speech
+Free Music
+Fighting Monopolies
+Repealing Unjust Laws
+Software Patents
+Geek Profiling
+Sexbots
+Free Pornography
+
+SLASHDOTJONKATZISSUES2
+Net
+World
+Internet
+Worldwide Community
+Web
+Geek Population
+Future

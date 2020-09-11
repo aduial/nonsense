@@ -1,0 +1,241 @@
+DEFAULT
+{TVShow}
+
+TVSHOW
+{TVRealityShow}
+{TVSitcom}
+{TVShowStatic}
+{TVSoapOpera}
+{TVNews}
+
+TVSOAPOPERA
+The {TVSoapOperaItem} & The {TVSoapOperaItem}
+As The {[Universe|World|Planet|Earth} {[Turns|Rotates|Spins}
+The {[Days|Minutes|Milliseconds|Fortnights|Nights} Of Our {[Lives|Miserable Lives|Crappy Existence|Misery}
+{[Sex|Revenge|Backstabbing|Promiscuity} In The {[City|Big Apple|Metropolis}
+Party Of {TVSitcomWhoNumber} {TVSitcomWhoPrefix} {TVSitcomWhoExactly}
+{RealCity}, 902{digit}{digit}
+
+TVSOAPOPERAITEM
+Young
+Restless
+Bold
+Beautiful
+Sexaholic
+Immoral
+Filthy Rich
+
+TVSITCOM
+{TVSitcomWho} {TVSitcomWhere}
+
+TVSHOWSTATIC
+Survivor {SequelNumber}: Lost In {RealCity}
+Survivor {SequelNumber}: Trapped In {TVSitcomSetting}
+Who Wants To Be Embarrased On National TV By Regis Philbin?
+Who Wants To Eat A Meal?
+Big Brother: Sequestered At A Nudist Colony
+The HeX-Files: The Key Demographics Are Out There
+Touched By A Pervert
+Live With Regis And Somebody Else
+Saturday Night Recorded From An Earlier Broadcast
+Antiques Roadshow {SequelNumber}: {[The Stuff That Won't Even Sell On eBay|The Rest Of The Crap|More Outrageous Appraisals}
+The SeeBS Evening News With Dan Blather
+Cops: Scenes From A {[Doughnut|Coffee} Shop
+Law & Disorder: Special Spinoffs Unit
+{[Animal|Traffic|Divorce} Court With Judge {LastName}
+The Simpletons
+Everybody {[Intensely Dislikes|Hates|Loathes} {FirstName}
+Star Trek: {[The Rednecks Generation|Yet Another Spinoff|The Senile Generation}
+Concert Special: O.J. Simpson and the "{[Looking For The Real Killers|I Didn't Do It}" {[Dancers|Singers}
+20/100 With Barabara Wawa: Should A Speech Impediment Keep You Out Of Broadcasting?
+Martha Stewart Special: Turning Glitzy Trash Into Billions
+
+TVSITCOMWHO
+{TVSitcomWhoNumber} {TVSitcomWhoPrefix} {TVSitcomWhoExactly} {TVSitcomWhoSuffix}
+{TVSitcomWhoNumber} {TVSitcomWhoExactly} {TVSitcomWhoSuffix}
+{TVSitcomWhoNumber} {TVSitcomWhoPrefix} {TVSitcomWhoExactly}
+{TVSitcomWhoNumber} {TVSitcomWhoExactly}
+{TVSitcomWhoNumber} Guys & {TVSitcomWhoNumber} Girls
+{TVSitcomWhoNumber} Guys, {TVSitcomWhoNumber} Girls, And A Loveable {[Dog|Cat}
+
+TVSITCOMWHONUMBER
+Two
+Three
+Four
+Five
+Several
+
+TVSITCOMWHOEXACTLY
+Guys
+Girls
+People
+Friends
+
+TVSITCOMWHOPREFIX
+Sexy
+Sexually-Active
+Amorous
+Hip
+Cool
+Witty
+Neurotic
+Quirky
+Perfect
+Cute
+Good-Looking
+Ethnic
+Italian
+Irish
+Asian
+African-American
+British
+Chinese
+Japanese
+Mexican
+Canadian
+Latin-American
+
+TVSITCOMWHOSUFFIX
+With No Jobs
+With Too Much Free Time
+With Perfect Sex Lives
+With Endless Spending Money
+With Unlimited Spare Time
+
+TVSITCOMWHERE
+Living In A {TVSitcomSetting} Apartment
+Living In A {TVSitcomSetting} Condo
+Living In A {TVSitcomSetting} Loft
+Living In {TVSitcomSetting} Apartments
+Living In {TVSitcomSetting} Lofts
+Living In {TVSitcomSetting}
+In {TVSitcomSetting}
+
+TVSITCOMSETTING
+New York
+Los Angeles
+Chicago
+Manhattan
+Brooklyn
+
+TVREALITYSHOW
+{TVRealityShowMain}{TVRealityShowSuffix}
+
+TVREALITYSHOWMAIN
+When {TVRealityShowVerb}
+When {TVRealityShowItem} {[Attack|Go Bad}
+When {TVRealityShowItem} Attack {TVRealityShowItem}
+World's {TVRealityShowSuperlative} {TVRealityShowWhat}
+
+TVREALITYSHOWSUFFIX
+: Part {RomanNumeral}
+: Part {SequelNumber}
+ {RomanNumeral}
+ {#2-4}
+
+TVREALITYSHOWVERB
+Airplanes {[Go Bad|Crash}
+Computers {[Explode|Crash}
+Buildings {[Collapse|Go Boom|Explode}
+Bridges {[Collapse|Go Boom}
+{[Rogue Cops|FBI Agents|DEA Agents|Cops} {[Collect Bribes|Plant Evidence|Go Bad}
+Congressmen Accept {[Kickbacks|Bribes}
+
+TVREALITYSHOWITEM
+Animals
+TV Executives
+Magicians
+Babysitters
+Bears
+Snakes
+People
+Teachers
+Lawyers
+Used Car Dealers
+Insurance Salesmen
+Policemen
+Dogs
+Cats
+Elephants
+
+TVREALITYSHOWSUPERLATIVE
+Scariest
+Most Shocking
+Funniest
+Most Bizarre
+
+TVREALITYSHOWWHAT
+Police Videos
+Robberies Caught On {TVRealityTape}
+Incidents Caught On {TVRealityTape}
+Police Chases Caught On {TVRealityTape}
+
+TVREALITYTAPE
+Tape
+Video
+Camera
+Film
+
+SEQUELNUMBER
+Two
+Three
+Four
+Five
+Six
+
+TVNEWS
+{TVNewsName} Exclusive Report: {TVNewsFeature}
+{TVNewsName} Report: {TVNewsFeature}
+{TVNewsName} Feature: {TVNewsFeature}
+{TVNewsName} Special Feature: {TVNewsFeature}
+{TVNewsName} Special Report: {TVNewsFeature}
+{TVNewsName} Investigation: {TVNewsFeature}
+{TVNewsName} Exclusive Investigation: {TVNewsFeature}
+{TVNewsName} Investigative Report: {TVNewsFeature}
+{TVNewsName} In-Depth Report: {TVNewsFeature}
+{TVNewsName}: {TVNewsFeature}
+
+TVNEWSNAME
+20/100 With Barbara Wawa
+20/100
+Smartline
+Smartassline
+Tonightline
+Tonightline With Ted Floppel
+30 Minutes With Andy Looney
+30 Minutes
+24 Hours With {[Dan Rather Biased|Dan Blather}
+24 Hours
+Entertainment Yesterday
+
+TVNEWSFEATURE
+Transvestite Cops: Policemen By Day, Metermaids By Night
+Are Cops Getting Free {[Doughnuts|Coffee}?
+Are The Creators Of "{TVShowStatic}" {[Satanists|Bible-Thumping Fundamentalists|Left-Wing Eco-Freaks|Perverts}?
+A Behind-The-Scenes Look At White House Interns
+Do Cafeteria "Mystery Meat" Dishes Actually Contain Meat?
+Is Roadkill Healthy?
+Roadkill Or Mystery Meat: You Decide
+Should Your Tax Dollars Go To Support The "{OrgPolitical}"?
+Story Of A Disgruntled Rogaine User ("Hair Today, Gone Tommorrow")
+More Pork Comes From Washington Than From The Midwest
+What Do They Actually Put In Porkbarrels?
+{CongressCritter} Secures A ${#4-9}.{digit} Million Pension
+{CongressCritter} Arrested For Reckless Lawmaking
+Should An Impeached President Get A Pension?
+Just How Many Women Has The President Slept With?
+How Exactly Does Bill Clinton Define "Sex"?
+The First Lady: Dutiful Wife Or Power-Hungry Maniac?
+{University} Raises Tuition By {#100-500}%
+Is A Congressmen A Good Tax-Deductible Investment?
+What Does A Special Interest Group Consider A Good Return On Investment For A Congressman?
+When Does The Millennium Really Start?
+What Is The Meaning Of Life?
+Which Religion Is Right?
+Will Hell Ever Fill To Capacity?
+Will "Saturday Night Live" Ever Stop Sucking?
+Every Single New Fall TV Show Has Been Cancelled
+"{TVSoapOpera}" Goes Into {#24-30}th Season, Storyline Remains Unchanged
+The Legend Of The Honest Car Dealer
+{[Broccoli|Chocolate Milk|Asparagus}: The Silent Killer
+Is "{TVNewsName}" Biased?

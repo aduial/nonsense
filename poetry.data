@@ -1,0 +1,100 @@
+DEFAULT
+{Haiku}
+
+HAIKU
+{Hnl= }{HaikuTrad}
+
+HAIKUHTML
+{Hnl=<BR>}{HaikuTrad}
+
+HAIKUTRAD
+{^HaikuArticle} {HaikuAdjTrad2} {HaikuNounTrad2}{$Hnl}{\n}{^HaikuArticle} {HaikuNounTrad1} {HaikuVerbTrad1} {HaikuPrepTrad2} {HaikuArticle} {HaikuNounTrad1}{$Hnl}{\n}{^HaikuAdjTrad1} {HaikuAdjTrad2} {HaikuNounTrad2}
+{^HaikuArticle} {HaikuAdjTrad2} {HaikuNounTrad2}{$Hnl}{\n}{^HaikuArticle} {HaikuNounTrad1} {HaikuVerbTrad1} {HaikuPrepTrad2} {HaikuArticle} {HaikuNounTrad1}{$Hnl}{\n}{^HaikuAdjTrad2} {HaikuAdjTrad2} {HaikuNounTrad1}
+{^HaikuNounTrad1} {HaikuPrepTrad2} {HaikuArticle} {HaikuNounTrad1}{$Hnl}{\n}{^HaikuArticle} {HaikuAdjTrad1} {HaikuNounTrad1} {HaikuPrepTrad2} {HaikuArticle} {HaikuNounTrad1}{$Hnl}{\n}{^HaikuAdjTrad2} {HaikuAdjTrad2} {HaikuNounTrad1}
+{^HaikuNounTrad1} {HaikuPrepTrad2} {HaikuArticle} {HaikuNounTrad1}{$Hnl}{\n}{^HaikuArticle} {HaikuAdjTrad1} {HaikuNounTrad1} {HaikuPrepTrad1} {HaikuArticle} {HaikuNounTrad2}{$Hnl}{\n}{^HaikuAdjTrad2} {HaikuAdjTrad2} {HaikuNounTrad1}
+{^HaikuNounTrad1} {HaikuPrepTrad1} {HaikuArticle} {HaikuNounTrad2}{$Hnl}{\n}{^HaikuArticle} {HaikuAdjTrad2} {HaikuNounTrad1} {HaikuPrepTrad1} {HaikuArticle} {HaikuNounTrad1}{$Hnl}{\n}{^HaikuAdjTrad1} {HaikuAdjTrad2} {HaikuNounTrad2}
+{^HaikuNounTrad2} {HaikuPrepTrad1} {HaikuArticle} {HaikuNounTrad1}{$Hnl}{\n}{^HaikuArticle} {HaikuAdjTrad1} {HaikuNounTrad2} {HaikuPrepTrad1} {HaikuArticle} {HaikuNounTrad1}{$Hnl}{\n}{^HaikuAdjTrad2} {HaikuAdjTrad1} {HaikuNounTrad2}
+{^HaikuArticle} {HaikuAdjTrad1} {HaikuAdjTrad1} {HaikuNounTrad2}{$Hnl}{\n}{^HaikuPrepTrad1} {HaikuArticle} {HaikuAdjTrad1} {HaikuAdjTrad2} {HaikuNounTrad2}{$Hnl}{\n}{^HaikuArticle} {HaikuNounTrad2} {HaikuVerbTrad2}
+{^HaikuArticle} {HaikuAdjTrad1} {HaikuAdjTrad2} {HaikuNounTrad1}{$Hnl}{\n}{^HaikuPrepTrad1} {HaikuArticle} {HaikuAdjTrad2} {HaikuAdjTrad2} {HaikuNounTrad1}{$Hnl}{\n}{^HaikuArticle} {HaikuAdjTrad2} {HaikuNounTrad1} {HaikuVerbTrad1}
+{^HaikuArticle} {HaikuAdjTrad2} {HaikuAdjTrad1} {HaikuNounTrad1}{$Hnl}{\n}{^HaikuPrepTrad2} {HaikuArticle} {HaikuAdjTrad2} {HaikuNounTrad2}{$Hnl}{\n}{^HaikuArticle} {HaikuAdjTrad1} {HaikuNounTrad2} {HaikuVerbTrad1}
+
+HAIKUARTICLE
+the
+
+HAIKUPREPTRAD1
+near
+by
+
+HAIKUPREPTRAD2
+under
+across
+within
+over
+
+HAIKUNOUNTRAD1
+breeze
+moon
+rain
+wind
+sea
+sky
+storm
+sun
+stream
+creek
+cloud
+tree
+fox
+deer
+stone
+
+HAIKUNOUNTRAD2
+river
+forest
+flower
+mountain
+hillside
+valley
+
+HAIKUADJTRAD1
+white
+black
+clear
+clean
+spring
+crisp
+fresh
+
+HAIKUADJTRAD2
+liquid
+summer
+gentle
+vibrant
+happy
+mellow
+golden
+
+HAIKUVERBTRAD1
+flies
+grows
+shakes
+jumps
+swims
+drifts
+zooms
+glides
+waits
+drifts
+stops
+sighs
+dreams
+
+HAIKUVERBTRAD2
+struggles
+slithers
+whispers
+travels
+departs
+wonders
+exists
+ponders

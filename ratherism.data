@@ -1,0 +1,106 @@
+DEFAULT
+{Ratherism}
+
+RATHERISM
+{RatherismSaying}{\n}   -- {RatherismName}, {RatherismShow}
+
+RATHERISMTEMPLATE
+{RatherismSaying}<BR>&nbsp;&nbsp;&nbsp;-- {RatherismName}, {RatherismShow}
+
+RATHERISMNAME
+Dan Blather
+Dan Rather Biased
+
+RATHERISMSHOW
+SeeBS Evening News, November {#7-9}, 2000
+Election Night Coverage, November {#7-8}, 2000
+
+RATHERISMSAYING
+{^RatherismRace} as {ratherismclose} as a too-small bathing suit on a too-long ride back from the beach.
+{^RatherismRace} tick-tight.
+{^RatherismRace} spandex tight.
+{^RatherismRace} still hotter than a {[Houston|San Antonio|Laredo|Dallas} parking lot.
+{^RatherismRace} crackling like a hickory fire here.
+{^RatherismRace} as hot and squallid as a New York elevator in August.
+{^RatherismRace} so wild, wacky and wooly, nobody knows how it's going to come out.
+The heat from {RatherismRace} hot enough to peel house paint.
+The fingernails of the advisors for the {[Bush|Gore} campaign must be starting to sweat.
+Any way you slice it, any way you dress it, the latest {[poll results|exit-poll results|numbers|vote counts} from {USState} are good news for {[George Bush|Al Gore}.
+It looks like {USState} is going to go for {RatherismCandidate}... but the way this night has been, wild and wooly as it's been, who can say?
+{RatherismLead} has evaporated faster than an ice cream cone in the microwave
+{RatherismLead} is now shakier than cafeteria Jell-O.
+You can bet {RatherismCandidate} will be madder than a rained-on rooster {RatherismIf}
+{CongressCritter} spent ${#40-100} million on his re-election campaign in {USState}... he spent money like he had shorted Microsoft, and won this race.
+{RatherismCandidate} is sweeping through the {[South|Midwest|Great Plains} like a tornado through a trailer park.
+Bush has swept through Dixie like a big wheel through a cotton field.
+We've lived by the crystal ball and learned to eat so much broken glass tonight that we're in critical condition.
+You can sooner expect a tall talking broccoli stick to offer to mow your lawn for free than to see {RatherismCandidate} win {USState}.
+I'm so excited about this {[election|race} I have a 3,000-calorie attack about every half hour just thinking about it.
+The polls have been veering and wobbling so much that neither NASA nor the Russian Cosmodrome can track them in some cases.
+They didn't get those {[1992|1996} absentee votes counted in {USState} until the cows literally had gone to sleep and then came back the next day.
+The results from {USState} have to be giving the {[Bush|Gore} {[people|folks} the knee-wobbles.
+There's no way {RatherismCandidate} can win this thing without {USState}.  It'd be like trying to scratch his ear with his elbow.
+That will have the {[Gore people in Nashville|Bush people in Austin} jumping out of their seats like they were stabbed with hat pins.
+We've been told that the situation in {[Florida|New Mexico|Oregon|Tennessee} has wobbled into Wierdsville.
+Bush's eyes probably got as cold as your average pawnbroker's when Gore took back his concession.
+{FirstNameMale} {LastName}, who has been around these things since Trigger was a colt, says he hasn't seen anythin like it.
+We may see Michael Jackson's baby before we see some of the results in these races.
+In terms of the Electoral College, if {[California|Texas|Florida|New York} isn't the whole enchilada, it certainly is a really big taco.
+Now you may say to yourself, '{RatherismCandidate} is beginning to hear the first faint, faint whisper of the ax,' but it's too early to say that he's out of it.
+Things are getting very, very close to the time when {RatherismCandidate} can celebrate, but close only counts with hand grenades and horse shoes.
+This much tension you can't cut with a saw, it requires a blow torch: {#200-230} for Bush, {#160-230} for Gore.
+Don't bet the trailer money on a {[Gore|Bush} victory just yet.
+Nader is doing well in {[Oregon|Alaska|Montana|Wyoming|Massachusetts|California|Florida}... this has to be giving the Gore {[folks|people} the knee-wobbles.
+Bush galloped out to an early lead with {#40-100} electoral votes... but now he's stopped to breathe his pony.
+You can bet that they're smiling like a cat in a creamery down in {[Nashville|Austin} because they almost positively had to have {USState}.
+Here's another look at the {[Florida vote count|electoral vote count|popular vote count}. Can't get a cigarette paper between them.
+Well, we've said it many times, if a frog had side pockets, he'd carry a handgun.  But {RatherismCandidate} doesn't have side pockets, so maybe he won't get {USState} and maybe he will.
+Both sides, of course, have champagne on ice... But that champagne may get so cold and frozen up, you'd have to get a pickax to open it up, as {ratherismclose} as things are.
+I think you're more likely see a hippopotamus come running through this room than you are to see {RatherismCandidate} win {USState}.
+Better pull the cot up to the television set and don't get too comfy, don't count sheep, we may still be counting electoral votes for {[hours|days|weeks|months} before we can make the call for president."
+Call the doctor, call the police, call a psychic. In {USState}, it's tightened up.
+I have been to goat ropings and space shots and I've covered presidential elections since the 1950s, and I have never seen anything like this.
+
+RATHERISMRACE
+this race is
+this thing is
+this election is
+the Electoral College vote is
+the Presidential race is
+the Florida {[vote is|results are}
+the {[Iowa|Wisconsin|Oregon} vote is
+the {USState} Senate race is
+the {[New York|Missouri} Senate race is
+
+RATHERISMLEAD
+{RatherismCandidate}'s lead in {USState}
+{RatherismCandidate}'s lead
+{RatherismCandidate}'s advantage in {USState}
+
+RATHERISMIF
+if he loses his home state
+if he loses {USState}
+if he falls behind in {USState}
+if he loses this election
+if he wins the popular vote by loses the electoral vote
+if he fails to pick up {USState}
+
+RATHERISMCANDIDATE
+{RatherismCandidateBush}
+{RatherismCandidateGore}
+
+RATHERISMCANDIDATEGORE
+Gore
+Al Gore
+Vice President Gore
+
+RATHERISMCANDIDATEBUSH
+Bush
+George Bush
+George W. Bush
+Governor Bush
+
+RATHERISMCLOSE
+close
+tight
+

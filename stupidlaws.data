@@ -1,0 +1,294 @@
+DEFAULT
+{StupidLaw}
+
+STUPIDLAW
+{^StupidLawWhere}, {StupidLawIllegal} {StupidLawWhat}.
+{^StupidLawWhere}, {StupidLawIllegal} {StupidLawWhat}.
+{^StupidLawIllegal} {StupidLawWhat} {StupidLawWhere}.
+{^StupidLawIllegal} in {City}, {USState} {StupidLawWhat}.
+
+STUPIDLAWWHERE
+in {City}, {USState}
+in {City} County, {USState}
+in {USState}
+under the {USState} State Constitution
+according to {USState} law
+
+STUPIDLAWILLEGAL
+it's illegal
+it's a violation of the law
+it's a crime
+it's against the law
+it's a misdemeanor
+it's a felony
+it's a Class {[A|B|C} {[misdemeanor|felony}
+it's unlawful
+it's forbidden
+it's prohibited
+it's punishable by a ${#1-9},000 fine
+
+STUPIDLAWWHAT
+to {StupidLawCommonVerb} and {StupidLawCommonVerb} at the same time {StupidLawSuffix}
+to kill a {StupidLawLivingThing} {StupidLawPlace} {StupidLawException}
+to {[insult|make fun of|humiliate|embarrass} an elected official on July 4th
+for a women weighing more than {#200-300} pounds to {StupidLawCommonVerb} {StupidLawSuffix}
+to serve uncooked roadkill to a neighbor {StupidLawTime}
+to discriminate against a {StupidLawPerson} who is unable to {StupidLawCommonVerb}
+for a married man to {StupidLawCommonVerb} {StupidLawPlace} unless his wife is present
+for a man to give his {[girlfriend|sweetheart|prom date|wife|significant other} a box of candy costing less than ${#20-60} or weighing less than {#20-60} pounds
+to wear {StupidLawUglyColor} {StupidLawGarmentPlural} {StupidLawTime}
+to wear a white {StupidLawGarment} after Labor Day
+to laugh at a lawyer joke
+to {[sneeze|belch|cough|burp} {StupidLawSuffix}
+to use the word "{randomname}" in a perjorative way
+for a thunderstorm to hit during a parade
+to use a clothes dryer on a sunny day
+for a teacher or professor to give a failing grade to the son or daughter of a {StupidLawPerson}
+to hitch a horse {StupidLawPlace}
+to exceed the speed of {#2-4}-1/2 miles per hour while riding a bicycle in a city park
+to sit on a toilet for more than {#60-360} minutes
+for a man to flirt with a restaurant waitress unless he is a {StupidLawPerson}
+to {StupidLawCommonVerb} while in a burning building
+to attempt to bribe an elected official with less than ${#2-20},000
+to compile and distribute a list of "stupid laws"
+to use a seat cushion as a floatation device
+to give alcohol to any {animal} {StupidLawSuffix}
+to scare a sleeping {animal} except {StupidLawTime}
+for a {StupidLawPerson} to {StupidLawCommonVerb} while on duty
+to speak English in the presense of a {StupidLawPerson}
+to enter the city limits in an automobile without first contacting a {StupidLawPerson}
+to spit on a sidewalk within {#100-500} feet of a posted "NO SPITTING ON SIDEWALK" sign
+to protest naked {StupidLawPlace} {StupidLawException}
+to hold a yard sale without first obtaining a business license
+to sell fleas at a flea market
+to urinate within plain view of a {StupidLawPerson}
+to {StupidLawVice} {StupidLawSuffix}
+for a {StupidLawPerson} to {StupidLawVice} with their friends
+for a teenager to {StupidLawVice} {StupidLawException}
+to {StupidLawCommonVerb} and {StupidLawVice} simultaneously {StupidLawSuffix}
+to hit a {StupidLawPerson} over the head with a {StupidLawWeapon}
+to hit a {StupidLawLivingThing} with a {StupidLawWeapon}
+for a minor to use a {StupidLawWeapon} as a weapon {StupidLawException}
+to mispronounce the name of the state {[flower|animal|tree|song}
+for a rooster or hen to make a loud noise within {#100-500} feet of a private residence {StupidLawException}
+to ice skate on an outdoor pond during the summer
+for a lawmaker to compose a law that a typical {ordinal}-grader would be unable to comprehend
+to carry a concealed toy gun {StupidLawException}
+to make faces at a {animal}
+to paint a house {StupidLawUglyColor} {StupidLawException}
+for a domesticated animal to mate {StupidLawPlace}
+to detonate a nuclear device {StupidLawException}
+to allow a pet to bite a {StupidLawPerson}
+to curse {StupidLawPlace}
+to install more than two {StupidLawItem}s in one house
+to allow a minor to operate a {StupidLawItem} unsupervised
+to purchase a {StupidLawItem} made in {Nation}
+to keep Christmas decorations on a house past February {#1-28}
+for a person declared as a "Town Drunk" to drink more than {#3-10} beers within an hour
+for a woman declared as "ugly" to be seen in public without wearing makeup
+to steal a road sign unless you have a good reason
+to {StupidLawCommonVerb} while undressed
+to use a {StupidLawItem} without first reading the manual
+to {StupidLawVice} while riding in an elevator
+to post election signs for a {[Republican|Democratic} candidate {StupidLawException}
+to {StupidLawCommonVerb} while drinking alcohol
+to operate a microbrewery {StupidLawPlace}
+to sell a {StupidLawItem} to a {StupidLawPerson}
+to serve gasoline as a beverage
+to name a child "{RandomName}"
+to read a newspaper upside-down
+to allow a dog to eat a child's homework
+to loiter in front of a {StupidLawPerson}'s house
+to use a {animal} as a mascot
+to skip church to go to a {StupidLawEvent} on a Sunday
+to catch a fly ball at a baseball game without offering to give it back to the team
+for a farmer to plant corn in {Month}
+to attend a {StupidLawEvent} while wearing {StupidLawUglyColor} {StupidLawGarmentPlural}
+for a woman to ask a man out on a date except on {DayOfWeek}
+to keep more than {#4-20} inoperable vehicles in front of a house
+for birds to sing after {#9-12}:00 o'clock in the evening
+to sell your soul to Satan {StupidLawException}
+for a person to wear a cowboy hat unless they own more than {[two|three|four} cows
+to attend church without bringing a loaded gun to ward off Indian attacks
+to cook a chicken {StupidLawTime}
+to panhandle without a ${digit},000 permit
+to {StupidLawCommonVerb} while at a {StupidLawEvent}
+to yell out "This movie sucks!" in a crowded theater
+to bring a crying baby to a {StupidLawEvent}
+to hold a {StupidLawWeapon} within your mouth
+to annoy any {animal} {StupidLawPlace}
+to show a frown in public
+to carry a concealed {StupidLawWeapon} {StupidLawException}
+to use any {animal} as part of a religious ceremony
+to operate a {StupidLawItem} while blindfolded
+to fall asleep while wearing a {StupidLawGarment}
+to view a {animal} from an airplane
+to {StupidLawCommonVerb} while in a swimming pool
+to hitch a horse to a parking meter {StupidLawSuffix}
+to refer to a New York Times columnist as a "major league asshole" {StupidLawException}
+to discharge a cannon at a wedding while drunk
+to set a mousetrap without a hunting permit
+to share {StupidLawFood} with a {StupidLawPerson} at a restaurant
+to eat {StupidLawFood} with your mouth open {StupidLawPlace}
+to awaken a sleeping {StupidLawPerson}
+to flip a coin in order to determine who will pay the bill at a restaurant
+to put live squirrels in your pants for the purposes of {[gambling|fortunetelling}
+to engage in a public display of affection for more than {#5-20} minutes
+for the host at a dinner party to serve {StupidLawFood} on {StupidLawUglyColor} plates
+to breastfeed someone else's baby {StupidLawException}
+to create a website that contains {[frames|JavaScript|Java|ActiveX|a dancing baby animation|more than five "Under Construction" icons}
+to tell someone "{[Have a nice day|Merry Christmas|Good luck}!" unless you really mean it
+to refer to an elderly person as a "geezer" {StupidLawException}
+to switch your long distance carrier more than {#3-7} times in a month
+to build a time machine {StupidLawException}
+to violate {[the laws of Thermodynamics|Newton's Laws Of Motion} {StupidLawSuffix}
+to use "dihydrogen monoxide" as a dangerous weapon
+to attempt to fight City Hall
+to write {[a research paper|an editorial|a book} about "stupid laws"
+to write a letter to the editor of a newspaper unless you are registered to vote
+to use the saying "Life is like a {[box of chocolates|bowl of cherries}" unless you know what it really means
+to build a snowman taller than {#80-140} inches
+
+STUPIDLAWCOMMONVERB
+walk backwards
+chew gum
+drive a car
+carry an ice cream cone
+whistle
+sing
+eat peanuts
+open a soda can
+operate a fax machine
+ride a bicycle
+
+STUPIDLAWVICE
+dance
+go bowling
+play poker
+have fun
+tell jokes
+drink non-alcoholic beer
+swat a fly
+
+STUPIDLAWSUFFIX
+{StupidLawTime}
+{StupidLawPlace}
+{StupidLawPlace} {StupidLawTime}
+{StupidLawException}
+
+STUPIDLAWEXCEPTION
+with no exceptions
+except during an emergency
+except during a fire
+without a good reason
+without a license
+without a permit
+without the express written permission of the appropriate governing body
+without the express written {[consent|permission} of Major League Baseball
+without permission
+unless a {StupidLawPerson} is present
+
+STUPIDLAWTIME
+on Sunday
+on {DayOfWeek}
+at night
+in the afternoon
+in the morning
+in the evening
+before dawn
+after sunset
+when the President is giving a speech on national television
+during a thunderstorm
+within {numberword} days of an election
+
+STUPIDLAWPLACE
+on a public street
+on a bridge
+{StupidLawPlaceVicinity} a city library
+{StupidLawPlaceVicinity} a city park
+{StupidLawPlaceVicinity} a public school
+{StupidLawPlaceVicinity} a church
+{StupidLawPlaceVicinity} a landfill
+{StupidLawPlaceVicinity} a {StupidLawEvent}
+
+STUPIDLAWPLACEVICINITY
+within {#10-90}0 feet of
+within a mile of
+near
+in the vicinity of
+close to
+
+STUPIDLAWPERSON
+police officer
+clergyman
+elected official
+school teacher
+fireman
+city alderman
+lawyer
+milkman
+webmaster
+
+STUPIDLAWGARMENTPLURAL
+pants
+socks
+shoes
+
+STUPIDLAWGARMENT
+hat
+coat
+fur coat
+pair of shoes
+XXXL T-shirt
+
+STUPIDLAWLIVINGTHING
+housefly
+mosquito
+wasp
+hornet
+kudzu vine
+poison ivy plant
+
+STUPIDLAWWEAPON
+comb
+rain gauge
+cardboard box
+floppy diskette
+ice cream scoop
+
+STUPIDLAWITEM
+bathtub
+microwave oven
+desktop computer
+ceiling fan
+electric can opener
+vibrating bed
+garbage disposal
+touch-tone phone
+digital camera
+refrigerator
+
+STUPIDLAWEVENT
+baseball game
+concert
+basketball game
+tractor pull
+demolition derby
+football game
+school play
+city council meeting
+
+STUPIDLAWFOOD
+a hamburger
+a cheeseburger
+an apple pie
+a T-bone steak
+a salad
+a baked potato
+
+STUPIDLAWUGLYCOLOR
+"puke green"
+chartreuse
+hot pink
+bright orange
+{color}

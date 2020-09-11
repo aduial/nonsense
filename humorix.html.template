@@ -1,0 +1,162 @@
+prereqs: humorix.data
+__BEGIN__
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML>
+<HEAD>
+<TITLE>Humorix:  All Linux Humor.  All Copied Mottos.  All the Time. [Produced by Nonsense]</TITLE>
+<META NAME="description" CONTENT="Humorix:  Jokes, humor, and fun about Linux, everyone's favorite non-Microsoft operating system">
+<META NAME="keywords" CONTENT="LINUX, MICROSOFT, UNIX, BSD, LINUS, TORVALDS, HUMOR, JOKES, PARODY, PARODIES, FAKE, NEWS, SARCASM, GRAPHICS, HA, ROTFL, SLOGANS, QUOTES, FUN, GEEK, NERD, SLASHDOT, ANTI-MICROSOFT, WINDOWS, WINDOZE, WINBLOWS, X, X WINDOW SYSTEM, X11, MAILING, LIST, ARCHIVE, WORST, PORTAL, BEST, FAUX">
+<META NAME="generator" CONTENT="Written by hand using a text editor.  I don't need no stinkin' HTML editor!">
+<BASE HREF="http://i-want-a-website.com/about-linux/">
+</HEAD>
+
+<!-- {[This secret message is not here yet|There is no conspiracy|This is not a subliminal message}. -->
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#AA3333" VLINK="#AA8888" ALINK="#FF0000">
+<CENTER><SMALL>
+<A NAME="Top"><IMG SRC="http://i-want-a-website/about-linux/humorix.gif" ALT="Humorix Banner" WIDTH=300 HEIGHT=125></A><BR>
+<P><I>
+"{HXFortune}"<BR>
+&nbsp;&nbsp;&nbsp;-- from a Slashdot post
+</I>
+</SMALL></CENTER>
+<P>
+<TABLE WIDTH="100%"><TR>
+<TD VALIGN=TOP WIDTH="65%"><TABLE>
+
+{HXStoryTemplate#8-12}
+
+ </TD></TR></TABLE>
+<TD VALIGN=TOP>
+
+<TABLE>
+<TR><TD BGCOLOR="#AA3333">
+ <FONT COLOR="#FFFFFF"><BIG>What is this?</BIG></FONT>
+</TD></TR><TR><TD BGCOLOR="#EEEEEE">
+ <SMALL>Humorix shows the lighter side of <A HREF="http://www.linux.com/">Linux</A>,
+ the <A HREF="http://www.opensource.org/">open source</A> operating system everyone
+ and their brother are talking about.  Jokes about <A HREF="http://slashdot.org/">Slashdot</A>,
+ <A HREF="http://i-want-a-website.com/about-microsoft/">Microsoft</A>, and 
+ <A HREF="http://www.isc.tamu.edu/~lewing/linux/">Tux Penguin</A> are thrown in for good measure.
+ See the <A HREF="about.shtml">About</A> page for details.</SMALL>
+ <P>
+ <SMALL>The <A HREF="articles.shtml"><B>fake</B> news articles</A> that appear here 
+ have been written by <A HREF="people.shtml#James-Baughn">James Baughn</A>
+ or various <A HREF="people.shtml">contributors</A>.  If you
+ would like to contribute a funny article, <A HREF="about.shtml#Contribute">send it in</A>!
+ </SMALL>
+<BR><BR>
+</TD></TR><TR><TD BGCOLOR="#AA3333">
+ <FONT COLOR="#FFFFFF"><BIG>Past Articles</BIG></FONT>
+</TD></TR><TR><TD BGCOLOR="#EEEEEE">
+ <B><A HREF="{HXStoryPath}.shtml">{@%B %Y|$time|0}</A></B>
+ <P>
+ <SMALL>
+ {HXHeadlineTemplate#10-20}
+ </SMALL>
+<BR><BR>
+</TD></TR><TR><TD BGCOLOR="#AA3333">
+ <FONT COLOR="#FFFFFF"><BIG>Mailing List</BIG></FONT>
+</TD></TR><TR><TD BGCOLOR="#EEEEEE">
+ <SMALL>Join the <A HREF="about.shtml#List">Humorix Mailing List</A> and
+ receive the latest updates by mail.  To subscribe, send a message
+ to <A HREF="mailto:majordomo@mail.nl.linux.org">majordomo@mail.nl.linux.org</A> with
+ "<TT>subscribe humorix</TT>" in the body.
+ </SMALL>
+<BR><BR>
+</TD></TR><TR><TD BGCOLOR="#AA3333">
+ <FONT COLOR="#FFFFFF"><BIG>Join the Vast Spy Network(tm)</BIG></FONT>
+</TD></TR><TR><TD BGCOLOR="#EEEEEE">
+ <SMALL>We don't let just anyone become an international Linux spy... we
+ only let in people who pay US$14 for a 
+ <B><A HREF="http://www.cafepress.com/humorix">Humorix T-shirt</A></B>.
+ </SMALL>
+<BR><BR>
+</TD></TR><TR><TD BGCOLOR="#AA3333">
+ <FONT COLOR="#FFFFFF"><BIG>Humorix Syndication Network(tm)</BIG></FONT>
+</TD></TR><TR><TD BGCOLOR="#EEEEEE">
+ <SMALL>The latest Humorix headlines are broadcasted to the
+ <A HREF="http://my.userland.com/viewChannel$1035">my.userland.com</A>
+ and <A HREF="http://my.netscape.com/addchannel.tmpl?service=net.1576">my.netscape.com</A> portals, among others.
+ You can also syndicate Humorix on your own website; see the
+ <A HREF="about.shtml#Syndication">About page</A> for details.
+ </SMALL>
+<BR><BR>
+</TD></TR><TR><TD BGCOLOR="#AA3333">
+ <FONT COLOR="#FFFFFF"><BIG>Slogans &amp; One-liners</BIG></FONT>
+</TD></TR><TR><TD BGCOLOR="#EEEEEE">
+ <SMALL>Visit Humorix's <A HREF="slogans.shtml">collection</A>
+ of Linux and Microsoft slogans, one-liners, and quotes, such as
+ <I>{HXFortune}</I>  You can
+ also download a <A HREF="downloads.shtml#Fortunes">fortune file</A>
+ containing these slogans along with a selection of condensed Humorix articles
+ and brief Microsoft jokes.</SMALL>
+<BR><BR>
+</TD></TR><TR><TD BGCOLOR="#AA3333">
+ <FONT COLOR="#FFFFFF"><BIG>Humorix Button</BIG></FONT>
+</TD></TR><TR><TD BGCOLOR="#EEEEEE">
+ <SMALL>Netscape 4.x has a bunch of toolbar buttons that are rarely
+ used.  By hacking the <TT>.Xdefaults</TT> file, it's possible to transform
+ the 'Home' or 'Shop' buttons into a convenient <B>'Humorix' button</B>.
+ <A HREF="about.shtml#Netscape">Find out how</A>.
+ </SMALL>
+<BR><BR>
+</TD></TR><TR><TD BGCOLOR="#AA3333">
+ <FONT COLOR="#FFFFFF"><BIG>Other Humor</BIG></FONT>
+</TD></TR><TR><TD BGCOLOR="#EEEEEE">
+ <SMALL>A selection of humor on other sites:<BR>
+ - <A HREF="http://www.psychokitty.com/~cujo/">Microsoft Pie</A><BR>
+ - <A HREF="http://www.somethingawful.com/cartoons/lf-archives.htm">Loser Friendly</A><BR>
+ - <A HREF="http://www.sjswebhack.com/microfits/v2/mstrigger.htm">Microsoft Apps Ship With Trigger Locks</A><BR>
+ - <A HREF="http://bbspot.com/News/2000/4/linux_distros.html">Linux Distros Surpass Users</A><BR>
+ - <A HREF="http://www.linux4texas.com/redneck.html">You might be a Linux redneck if...</A><BR>
+ - <A HREF="http://www.ipa.net/~jamesmcinis/sig.html">Slashdot Sigs</A><BR>
+ - <A HREF="http://www.lostbrain.com/microsoft.html">Microsoft's plans for penalties</A><BR>
+ - <A HREF="http://udlug.org/~nate/winemu.html">NatesWinEmu</A><BR>
+ </SMALL>
+<BR>
+</TD></TR><TR><TD BGCOLOR="#AA3333">
+ <FONT COLOR="#FFFFFF"><BIG>Linux Webring</BIG></FONT>
+</TD></TR><TR><TD BGCOLOR="#EEEEEE">
+ <SMALL><A HREF="http://www.webring.org/cgi-bin/webring?ring=linux;home">Join</A> the rapidly expanding Linux Webring
+ or travel to:<BR>
+ - the <A HREF="http://www.webring.org/cgi-bin/webring?ring=linux;id=175;prev">previous</A> page<BR>
+ - the <A HREF="http://www.webring.org/cgi-bin/webring?ring=linux;id=175;next">next</A> page<BR>
+ - the <A HREF="http://www.webring.org/cgi-bin/webring?ring=linux;list">index</A> page<BR>
+ - the <A HREF="http://stats.webring.org/cgi-bin/wrstats?ring=linux">statistics</A> page<BR>
+ - a <A HREF="http://www.webring.org/cgi-bin/webring?ring=linux;random">random</A> page<BR>
+ </SMALL>
+<BR>
+</TD></TR><TR><TD BGCOLOR="#AA3333">
+ <FONT COLOR="#FFFFFF"><BIG>Humorix Reruns</BIG></FONT>
+</TD></TR><TR><TD BGCOLOR="#EEEEEE">
+ <SMALL>The major TV networks don't seem to have a problem with broadcasting
+ 50% repeated material, so we're taking advantage of this marketing scheme
+ by showcasing some of our "classic" Humorix <A HREF="articles.shtml">articles</A>, including:</SMALL>
+ <P>
+ {HXReruns}
+ <BR><BR>
+</TD></TR></TABLE>
+
+</TD></TR></TABLE>    
+<P>
+<HR SIZE=1 NOSHADE>
+<CENTER>
+<FONT COLOR="#AA3333"><BIG>H</BIG>UMORIX</FONT><BR>
+<SMALL><I>All Linux Humor.  All Copied Mottos.  All the Time.</I></SMALL>
+<P>
+<SMALL>
+[ <A HREF="index.shtml">Home</A> ]
+[ <A HREF="articles.shtml">Articles</A> ]
+[ <A HREF="about.shtml">About</A> ]
+[ <A HREF="people.shtml">Contributors</A> ]
+[ <A HREF="links.shtml">YaHumorix!</A> ]
+[ <A HREF="slogans.shtml">Slogans</A> ]
+[ <A HREF="downloads.shtml">Downloads</A> ]
+</SMALL></CENTER>
+<HR SIZE=1 NOSHADE>
+<CENTER><SMALL>
+Copyright 1998-{@%Y}, <B><A HREF="about.shtml">Humorix</A></B> and <A HREF="people.shtml">other contributors</A><BR>
+This page's URL is <A HREF="http://i-want-a-website.com/about-linux/index.shtml">http://i-want-a-website.com/about-linux/index.shtml</A>.<BR>
+This page was last updated <B>{@%B %d, %Y}</B>.
+</SMALL></CENTER><HR SIZE=1 NOSHADE></BODY></HTML>

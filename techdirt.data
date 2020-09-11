@@ -1,0 +1,38 @@
+TECHDIRTSTORYTEMPLATE
+{topicid=tech}{body:=TechDirtStory}{TechDirtStoryHeader}{TechDirtStoryHeader2}{$Body}{TechDirtStoryFooter}{\n}
+
+TECHDIRTSTORYHEADER
+<table width=99% border=0><tr><td><TABLE width=99% bgcolor=cccccc><TR><TD><FONT size=4 color=000000 face='arial,helvetica'><B>{$Title}</B></FONT><BR></TD></TR></TABLE>
+
+TECHDIRTOPICCODEXXXX
+<A href=/search.pl?topic=Bleeding><IMG src=/images/topics/bleeding.gif width=89 height=65border=0 alt="Bleeding Edge" align=right hspace=20 vspace=10></A>
+
+TECHDIRTSTORYHEADER2
+<B>Contributed by {TechDirtAuthor} on {@%A %B %d, @%I:%M%p|$time|10000}</B><BR><B><small>from the {$Dept} dept.</small></B><BR>
+
+TECHDIRTSTORYFOOTER
+<BR><A href="/articles/{link:=TechDirtStoryPath}{$link}_F.shtml"><B>Comments?</B></A></td></tr></table>
+<BR><A href="/articles/{link:=TechDirtStoryPath}{$link}_F.shtml"><B>Read More...</B></A><BR><b> {#2-10} comments</b></td></tr></table>
+
+TECHDIRTSTORYPATH
+{@%y%m%d|$time|0}/{#100000-9999999}
+
+TECHDIRTOLDERSTUFF
+<TR><TD valign=top><FONT size=2><B>{@%H:%M%p|$time|5000}</B></FONT></TD><TD valign=top><SMALL><A href="/articles/{TechDirtStoryPath}_F.shtml">{SDHeadlineNews}</A> ({#0-10})</SMALL></TD></TR>
+
+TECHDIRTSTORY
+{title=Software patents are patently offensive}{dept=kill-all-the-lawyers}{SDContributor} writes "<I>I was browsing IBM's patent server when I came across this disturbing patent on '{BogusPatent}'.  Not good!</I>"  {SDContributor} pointed out an <A HREF="{SDCite}{$publink}">article</A> in {$Pub} about a patent on {BogusPatent} held by {SDBigEvilCompany}. Dozens of people sent <A HREF="{SDCite}{$publink}">linkage</A> to a {$Pub} {[op-ed|editorial|column|feature} entitled "Why Software Patents Benefits Consumers" written by {CongressCritter}.  Finally, {SDContributor} sent us an rebuttal editorial about the evils of software patents. Click below to read it."
+{title=Attack of the Killer Backhoe}{dept=nerds-panic-nationwide}Net access was severaly disrupted earlier today by an errant backhoe that accidentally cut two major net backbone cables near {[Palo Alto|San Jose|Mountain View}, California. Preliminary reports indicate that as much as {#20-50}% of all US-based websites were offline for as many as three hours.  The backhoe operator, "Bubba" {LastName}, says that he "pulled the wrong lever". A full investigation by the FCC will commence as soon as the department receives sufficient funding.
+{title=Modern Art Beowulf Cluster}{dept=i-should-have-majored-in-art}{SDContributor} writes, "<I>A bored grad student at {University} created a modern art sculpture in the campus courtyard made entirely out of old {#2-4}86 computers.  The cool part is that this Rube Goldberg-like contraption actually works -- part of it is a fully functional Beowulf cluster!  The Computer Science Club's  <A HREF="http://geekzilla.cs.{acronym}.edu">website</A> is served by the cluster, which is nicknamed Geekzilla</I>." I wish they had cool stuff like that at my college.
+{title=Linux Possibly Defamed Somewhere!}{dept=call-out-the-linux-brigade!}Several hundred people have sent word of a Linux  <A HREF="{SDCite}{$publink}">roast-a-thon</A> over at {$Pub}.  We recommend you send hostile flames to the <A HREF="mailto:{username}@{acronym}.{[net|com}">{[author|editor|publisher}</A> to let your voice be heard -- we simply cannot and will not allow idiots to badmouth our favorite operating system.
+{title:=SDArticleNewLinuxKernel}{dept=download-compile-reboot}{SDContributorPhrase} the latest, greatest version of the Linux kernel is now available at a download site near you.  You know what to do.
+{title:=SDArticleNewHardDrive}{dept:=SDGenericDeptCoolStuff}{SDArticleNewHardDriveBody}
+{title:=SDArticleDotBomb}{SDTopicNews}{author:=SDAuthor}{dept:=SDGenericDept}{cmts:=SDCmtsLow}{totalcmts:=SDCmtsMed}{SDCite}{$Pub} takes a <A HREF="{$publink}">look</A> at why {$Firm} failed and what they probably could have done to survive. They suggest that they {SDArticleDotBombExp}.  Another explanation is that the company {SDArticleDotBombExp}. I realized as I read this that I never once bought anything from {$Firm}.  Oh well.
+{title:=SDArticleDotBomb2}{SD/TopicNews}{author:=SDAuthor}{dept:=SDGenericDept}{cmts:=SDCmtsMed}{totalcmts:=SDCmtsHigh}Another day, another dotcom bites the dust.  This time it's {$Firm}.  This <A HREF="{SDCite}{$publink}">article</A> in {$Pub} analyzes the latest victim in the dotcom downturn, suggesting that the company failed because it {SDArticleDotBombExp}.
+{title:=SDArticleDotBomb3}{SDTopicNews}{author:=SDAuthor}{dept:=SDGenericDept}{cmts:=SDCmtsLow}{totalcmts:=SDCmtsMed}{[Financial experts|Analysts|Pundits} are worried about {$Firm}, which is not only in financial trouble but has been acting very {[erratically|strange} lately. Instead of laying off employees that they don't need, they've increased their workforce by {#30-50}% even though in a few months they'll start bouncing payroll checks.  According to some, the company is doomed because it {SDArticleDotBombExp}.  So what gives?
+{title:=SDArticleMerger}{SDTopicNews}{author:=SDAuthor}{dept=a-match-made-in-hell}{cmts:=SDCmtsMed}{totalcmts:=SDCmtsHigh}This {SDCite}<A HREF="{$publink}">{[article|feature|editorial}</A> over at {$Pub} argues that {$Firm1} should merge with {$Firm2}.  Why? Because "{SDArticleMergerExp}."
+
+TECHDIRTAUTHOR
+<A HREF="http://www.techdirt.com">Ryan</A>
+<A HREF="http://www.techdirt.com">Mike</A>
+<A HREF="http://www.techdirt.com">Dennis</A>

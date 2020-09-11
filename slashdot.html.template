@@ -1,0 +1,300 @@
+Slashdot HTML Template
+Prereqs: slashdot.data, linux.data
+__BEGIN__
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML><HEAD><TITLE>Slashdot: News for nerds, stuff that matters [Produced by Nonsense]</TITLE>
+<BASE HREF="http://slashdot.org">
+ </HEAD>
+<BODY bgcolor="#000000" text="#000000" link="#006666" vlink="#000000">
+<CENTER>
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0><TR><TD WIDTH=2><SCRIPT LANGUAGE="JAVASCRIPT">
+<!--
+now = new Date();
+tail = now.getTime();
+document.write("<IMG SRC='http://images2.slashdot.org/Slashdot/pc.gif?/index.shtml,");
+document.write(tail);
+document.write("' WIDTH=1 HEIGHT=1 BORDER=0>");
+document.write("<IMG SRC='http://images.slashdot.org/pagecount.gif?/index.shtml,");
+document.write(tail);
+document.write("' WIDTH=1 HEIGHT=1 BORDER=0><BR>");
+//-->
+</SCRIPT>
+<NOSCRIPT>
+<IMG SRC="http://images2.slashdot.org/Slashdot/pc.gif?/index.shtml,973363471" WIDTH=1 HEIGHT=1 BORDER=0>
+<IMG SRC="http://images.slashdot.org/pagecount.gif?/index.shtml,973363471" WIDTH=1 HEIGHT=1 BORDER=0><BR>
+</NOSCRIPT></TD></TR></TABLE>
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0><TR><TD WIDTH=468><SCRIPT LANGUAGE="JAVASCRIPT">
+<!--
+now = new Date();
+tail = now.getTime();
+AltText = "\"Click Here!\"";
+document.write("<A HREF='http://images.slashdot.org/cgi-bin/adlog.pl?index,tkgk0092en' TARGET=_top>");
+document.write("<IMG SRC='http://images.slashdot.org/banner/tkgk0092en.gif?");
+document.write(tail);
+document.write("' WIDTH=468 HEIGHT=60 BORDER=0 ALT=");
+document.write(AltText);
+document.write("></A><BR>");
+//-->
+</SCRIPT>
+<NOSCRIPT>
+<A HREF="http://images.slashdot.org/cgi-bin/adlog.pl?index,tkgk0092en" TARGET=_top><IMG SRC="http://images.slashdot.org/banner/tkgk0092en.gif?973363471" WIDTH=468 HEIGHT=60 BORDER=0 ALT="Click Here!"></A><BR>
+</NOSCRIPT></TD></TR></TABLE>
+
+</CENTER>
+<P>
+<TABLE bgcolor="#FFFFFF" cellpadding=0 cellspacing=0 border=0 width="99%" align=center>
+ <TR>
+  <TD valign=top align=left valign=top><A HREF="http://slashdot.org/"><IMG
+   src="http://images.slashdot.org/title.gif" width=275 height=72 border=0
+   alt="Welcome to Slashdot"></A></TD>
+   	{SDAnyTopic}<TD><A HREF="http://slashdot.org/search.pl?topic={$topicid}"><IMG
+		SRC="http://images.slashdot.org/topics/{$topicimg}" WIDTH="{$topicimgw}" HEIGHT="{$topicimgh}"
+		BORDER="0" ALT="{$topiclabel}"></A>
+	</TD>
+
+   	{SDAnyTopic}<TD><A HREF="http://slashdot.org/search.pl?topic={$topicid}"><IMG
+		SRC="http://images.slashdot.org/topics/{$topicimg}" WIDTH="{$topicimgw}" HEIGHT="{$topicimgh}"
+		BORDER="0" ALT="{$topiclabel}"></A>
+	</TD>
+
+   	{SDAnyTopic}<TD><A HREF="http://slashdot.org/search.pl?topic={$topicid}"><IMG
+		SRC="http://images.slashdot.org/topics/{$topicimg}" WIDTH="{$topicimgw}" HEIGHT="{$topicimgh}"
+		BORDER="0" ALT="{$topiclabel}"></A>
+	</TD>
+
+   	{SDAnyTopic}<TD><A HREF="http://slashdot.org/search.pl?topic={$topicid}"><IMG
+		SRC="http://images.slashdot.org/topics/{$topicimg}" WIDTH="{$topicimgw}" HEIGHT="{$topicimgh}"
+		BORDER="0" ALT="{$topiclabel}"></A>
+	</TD>
+
+   	{SDAnyTopic}<TD><A HREF="http://slashdot.org/search.pl?topic={$topicid}"><IMG
+		SRC="http://images.slashdot.org/topics/{$topicimg}" WIDTH="{$topicimgw}" HEIGHT="{$topicimgh}"
+		BORDER="0" ALT="{$topiclabel}"></A>
+	</TD>
+
+
+</TR></TABLE>
+<TABLE width="99%" align=center cellpadding=0 cellspacing=0
+  border=0 bgcolor="#FFFFFF"><TR>
+<TD valign=top rowspan=5><NOBR><FONT size=2><B>
+&nbsp;<A href=/faq/>faq</A> <BR>
+&nbsp;<A href=/code.shtml>code</A> <BR>
+&nbsp;<A href=http://www.osdn.com/>osdn</A> <BR>
+&nbsp;<A href=/awards.shtml>awards</A> <BR>
+&nbsp;<A href=http://Andover.Net/privacy.html>privacy</A> <BR>
+&nbsp;<A href=http://slashnet.org>slashNET</A> <BR>
+&nbsp;<A href=/search.pl>older stuff</A> <BR>
+&nbsp;<A href=http://cmdrtaco.net>rob's page</A> <BR>
+&nbsp;<A href=/users.pl?op=preferences>preferences</A> <BR>
+&nbsp;<A href=/submit.pl>submit story</A> <BR>
+&nbsp;<A href=/advertising.shtml>advertising</A> <BR>
+&nbsp;<A href=/supporters.shtml>supporters</A> <BR>
+&nbsp;<A href=/pollBooth.pl>past polls</A> <BR>
+&nbsp;<A href=/topics.shtml>topics</A> <BR>
+&nbsp;<A href=/about.shtml>about</A> <BR>
+&nbsp;<A href=/jobs.shtml>jobs</A> <BR>
+&nbsp;<A href=/hof.shtml>hof</A>
+
+</B></FONT></NOBR>
+ <P>
+
+<!-- begin section index block -->
+
+<TABLE border=0 cellpadding=1 cellspacing=0 align=center bgcolor="#CCCCCC"><TR>
+  <TD><FONT size=2 color="#000000"><B> Sections</B></FONT></TD></TR>
+ <TR><TD><TABLE border=0 cellspacing=1 cellpadding=1 bgcolor="#FFFFFF" width="100%"><TR><TD><FONT color="" size=2><NOBR>
+11/1<BR>
+<B><A HREF="http://slashdot.org/index.pl?section=apache">apache</A></B><BR>
+
+{SDSectionIndex}
+<B><A HREF="http://slashdot.org/index.pl?section=askslashdot">askslashdot</A></B><BR>
+
+{SDSectionIndex}
+<B><A HREF="http://slashdot.org/index.pl?section=awards">awards</A></B><BR>
+
+{SDSectionIndex}
+<B><A HREF="http://slashdot.org/index.pl?section=books">books</A></B><BR>
+
+{SDSectionIndex}
+<B><A HREF="http://slashdot.org/index.pl?section=bsd">bsd</A></B><BR>
+
+{SDSectionIndex}
+<B><A HREF="http://slashdot.org/index.pl?section=features">features</A></B><BR>
+
+{SDSectionIndex}
+<B><A HREF="http://slashdot.org/index.pl?section=interviews">interviews</A></B><BR>
+
+{SDSectionIndex}
+<B><A HREF="http://slashdot.org/index.pl?section=radio">radio</A></B><BR>
+
+{SDSectionIndex}
+<B><A HREF="http://slashdot.org/index.pl?section=science">science</A></B><BR>
+
+{SDSectionIndex}
+<B><A HREF="http://slashdot.org/index.pl?section=yro">yro</A></B><BR>
+ </NOBR></FONT></TD></TR></TABLE>
+
+<!-- end section index block -->
+
+<TR> <TD><A href=http://www.osdn.com/><FONT size=2 color=#000000><B>OSDN</B></FONT></A></TD></TR><TR><TD><TABLE border=0 cellspacing=1 cellpadding=1 bgcolor=#FFFFFF><TR><TD><FONT color=#000000 size=2><NOBR><A href=http://www.freshmeat.net/>Freshmeat</A><BR><A href=http://www.linux.com/>Linux.com</A><BR><A href=http://www.sourceforge.net/>SourceForge</A><BR><A href=http://www.thinkgeek.com/>ThinkGeek</A><BR><A href=http://www.questionexchange.com/>Question<BR>&nbsp;Exchange</A><BR></NOBR></FONT></TD></TR></TABLE></TD></TR></TABLE></P>
+ <P><!-- andovermenu --></P>
+</TD><TD valign=top align=left><FONT color="#000000">
+
+{SDStoryTemplate#6-12}
+
+</TD><TD width=210 align=center valign=top><TABLE cellpadding=1 cellspacing=0 border=0 width="200" align=center>
+<TR bgcolor="#006666">
+ <TD valign=top><FONT size=4 color="#FFFFFF" face="arial,helvetica">
+{SDSlashBox} 
+</FONT></TD>
+</TR>
+</TABLE><P>
+<TABLE cellpadding=1 cellspacing=0 border=0 width="200" align=center>
+<TR bgcolor="#006666">
+ <TD valign=top><FONT size=4 color="#FFFFFF" face="arial,helvetica"><B><A HREF="/users.pl"><FONT COLOR="#FFFFFF">Slashdot Login</FONT></A></B></FONT></TD>
+</TR><TR><TD bgcolor="#CCCCCC"><FONT color="#000000" size=2><FORM action=/users.pl METHOD=POST>
+<B>Nickname:</B><BR>
+<INPUT type=text name=unickname size=20 value=""><BR>
+<B>Password:</B><BR>
+<INPUT type=hidden name=returnto value=index.pl>
+<INPUT type=password name=upasswd size=20><BR>
+<INPUT type=submit name=op value=userlogin>
+</FORM>
+Don't have an account yet?  <A href=/users.pl>Go
+Create One</A>.  A user account will allow you to
+customize all these <A href=/cheesyportal.shtml>nutty little boxes</A>,
+tailor the stories you see, as well as remember your comment viewing
+preferences.</FONT></TD>
+</TR>
+</TABLE><P>
+<TABLE cellpadding=1 cellspacing=0 border=0 width="200" align=center>
+<TR bgcolor="#006666">
+ <TD valign=top><FONT size=4 color="#FFFFFF" face="arial,helvetica"><B>Older Stuff</B></FONT></TD>
+</TR><TR><TD bgcolor="#CCCCCC"><FONT color="#000000" size=2><P><B><A HREF="http://slashdot.org/index.pl?section=&issue=73{#1000-9999}&mode=thread">
+<FONT SIZE="4">{@%A</FONT></A> %B %d|$time|0}</B></P>
+{SDOlderStuff}
+<P><B><A HREF="http://slashdot.org/index.pl?section=&issue=73{#1000-9999}&mode=thread">
+<FONT SIZE="4">{@%A</FONT></A> %B %d|$time|0}</B></P>
+{SDOlderStuff}
+<P ALIGN="RIGHT"><BR><A HREF="http://slashdot.org/search.pl?section=&min=30">
+<B>Older Articles</B></A>
+<BR><A HREF="http://slashdot.org/index.pl?section=&mode=thread&issue=73{#1000-9999}">
+<B>Yesterday's Edition</B></A>
+</FONT></TD>
+</TR>
+</TABLE><P>
+<TABLE cellpadding=1 cellspacing=0 border=0 width="200" align=center>
+<TR bgcolor="#006666">
+ <TD valign=top><FONT size=4 color="#FFFFFF" face="arial,helvetica"><B>Slashdot Poll</B></FONT></TD>
+</TR><TR><TD bgcolor="#CCCCCC"><FONT color="#000000" size=2><FORM ACTION="http://slashdot.org/pollBooth.pl">
+	<INPUT TYPE="hidden" NAME="qid" VALUE="{var1:=SDStoryPathPast}{$var1}">
+{SDSlashBoxPoll}
+<BR><INPUT TYPE="submit" VALUE="Vote"> [ <A HREF="http://slashdot.org/pollBooth.pl?qid={$var1}&aid=-1"><B>Results</B></A> | <A HREF="http://slashdot.org/pollBooth.pl?"><B>Polls</B></A>  ] <BR>
+Comments:<B>{SDCmtsVeryHigh}</B> | Votes:<B>{#20000-50000}</B>
+</FORM>
+</FONT></TD>
+</TR>
+</TABLE><P>
+<TABLE cellpadding=1 cellspacing=0 border=0 width="200" align=center>
+<TR bgcolor="#006666">
+ <TD valign=top><FONT size=4 color="#FFFFFF" face="arial,helvetica"><B><A HREF="http://slashdot.org/index.pl?section=books"><FONT COLOR="#FFFFFF">Book Reviews</FONT></A></B></FONT></TD>
+</TR><TR><TD bgcolor="#CCCCCC"><FONT color="#000000" size=2>
+<p>{SDSlashBoxBookReviewItem}
+<p>{SDSlashBoxBookReviewItem}
+<p>{SDSlashBoxBookReviewItem}
+<p>{SDSlashBoxBookReviewItem}
+
+<P>Visit <A href="http://slashdot.org/index.pl?section=books">Our Book Reviews Section</A> for
+more.<br>
+<B>Update: 9/21 13:19</B> by <B><A href=mailto:hemos@slashdot.org>H</A></B>:</FONT></TD>
+</TR>
+</TABLE><P>
+<TABLE cellpadding=1 cellspacing=0 border=0 width="200" align=center>
+<TR bgcolor="#006666">
+ <TD valign=top><FONT size=4 color="#FFFFFF" face="arial,helvetica"><B>Quick Links</B></FONT></TD>
+</TR><TR><TD bgcolor="#CCCCCC"><FONT color="#000000" size=2><B>Cool Sites:</B>
+<LI><A href=http://bigempire.com/filthy/>The Filthy Critic</A> (He Hates Everything)
+<LI><A href=http://everything2.com>Everything</A> (Blow your Mind)
+<LI><A href=http://www.geekculture.com/geekycomics/Aftery2k/aftery2kmain.html>After Y2k</A> (<I>This</I> is Post-Apocalyptic?)
+<LI><A href=http://www.oldmanmurray.com/>Old Man Murray</A> (Games, Sorta)
+<LI><A href=http://themes.org>Themes.org</A> (Make X Perty)
+
+<P><B>Support Slashdot:</B>
+<LI><A href=http://www.thinkgeek.com>ThinkGeek</A> (Clothe Yourself in Slashdot)
+</FONT></TD>
+</TR>
+</TABLE><P>
+<TABLE cellpadding=1 cellspacing=0 border=0 width="200" align=center>
+<TR bgcolor="#006666">
+ <TD valign=top><FONT size=4 color="#FFFFFF" face="arial,helvetica"><B><A HREF="http://freshmeat.net"><FONT COLOR="#FFFFFF">Freshmeat</FONT></A></B></FONT></TD>
+</TR><TR><TD bgcolor="#CCCCCC"><FONT color="#000000" size=2><P><FONT size=4 color="#006666"><B>{@%A %d, %Y}</B></FONT><BR>
+<LI><A href="{FreshmeatLink}">{FreshmeatApp}</A>
+<LI><A href="{FreshmeatLink}">{FreshmeatApp}</A>
+<LI><A href="{FreshmeatLink}">{FreshmeatApp}</A>
+<LI><A href="{FreshmeatLink}">{FreshmeatApp}</A>
+<LI><A href="{FreshmeatLink}">{FreshmeatApp}</A>
+<LI><A href="{FreshmeatLink}">{FreshmeatApp}</A>
+<LI><A href="{FreshmeatLink}">{FreshmeatApp}</A>
+<LI><A href="{FreshmeatLink}">{FreshmeatApp}</A>
+<LI><A href="{FreshmeatLink}">{FreshmeatApp}</A>
+<LI><A href="{FreshmeatLink}">{FreshmeatApp}</A>
+
+<FORM METHOD="get" ACTION="http://freshmeat.net/search.php3">
+<FONT size=3 color=#006666><B>Search Freshmeat:</B></FONT><BR>
+<INPUT TYPE="hidden" NAME="link" VALUE="freshmeat.net">
+<INPUT TYPE="text" NAME="q">
+</FORM>
+<P align=right><A href="http://freshmeat.net"><B>More Meat...</B></A></FONT></TD>
+</TR>
+</TABLE><P>
+</FONT></TD>
+         </TR>
+        </TABLE><TABLE cellpadding=0 cellspacing=0 border=0 width="99%"
+                align=center    bgcolor="ffffff">
+            <TR>
+             <TD colspan=4 align=center><IMG src="http://images.slashdot.org/greendot.gif"
+                alt="" width="80%" height=1 hspace=10 vspace=30></TD>
+            </TR><TR>
+             <TD align=center><FONT size=2 face="arial,helvetica">
+  <FORM method=GET action="http://slashdot.org/search.pl">
+         <INPUT type=name name=query value="" width=20 size=20 length=20>
+        <INPUT type=submit value="Search">
+  </FORM>
+  </FONT>
+  </TD>
+  <TD bgcolor="#ffffff" width=25>  &nbsp; </TD>
+  <TD align=center>
+    <FONT size=2 face="arial,helvetica"><I>
+    {SDFortune}</I></FONT>
+    </FONT>
+  </TD></TR>
+  <TR><TD colspan=4 align=center>
+  <FONT size=1 color="#006666" face="arial,helvetica">
+
+ All trademarks and copyrights on this
+  page are owned by their respective owners.  Comments
+  are owned by the Poster.
+  The Rest © 1997-2000 <A href="http://www.osdn.com/">OSDN</A>.
+</FONT></CENTER>
+             </TD>
+            </TR>
+           </TABLE>
+        <CENTER>
+          <FONT size=2 color="#006666">
+
+         [ <A href="http://slashdot.org/"><Font color="#ffffff">home</FONT></A> |
+         <A href="http://slashdot.org/awards.shtml"><Font color="#ffffff">awards</FONT></A> |
+         <A href="http://slashdot.org/supporters.shtml"><FONT color="#ffffff">supporters</FONT></A> |
+         <A href="http://CmdrTaco.net"><FONT color="#ffffff">rob's homepage</FONT></A> |
+         <A href="http://slashdot.org/submit.pl"><FONT color="#ffffff">contribute story</FONT></A> |
+         <A href="http://slashdot.org/search.pl"><FONT color="#ffffff">older articles</FONT></A> |
+         <A href="http://www.osdn.com/"><FONT color="#ffffff">OSDN</FONT></A> |
+         <A href="http://slashdot.org/advertising.shtml"><FONT color="#ffffff">advertising</FONT></A> |
+         <A href="http://slashdot.org/pollBooth.pl"><FONT color="#ffffff">past polls</FONT></A> |
+         <A href="http://slashdot.org/about.shtml"><FONT color="#ffffff">about</FONT></A> |
+         <A href="http://slashdot.org/faq/"><FONT color="#ffffff">faq</FONT></A> ]
+           </FONT>
+          </CENTER>
+</BODY>
+</HTML>
+

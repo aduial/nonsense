@@ -1,0 +1,513 @@
+DEFAULT
+{MissionStatement}
+
+MISSIONSTATEMENT
+{Opening} {workphrase} {verbpart} {nounpart}.
+{Opening} {workphrase2} {verbpart2} {nounpart}.
+{Opening} {verbpart} {nounpart}.
+{Opening} {workphrase} {verbpart} {nounpart} and {verbpart} {nounpart}.
+{Opening} {workphrase2} {verbpart2} {nounpart} and {verbpart2} {nounpart}.
+{Opening} {verbpart} {nounpart} and {nounpart}.
+{Opening} {workphrase} {verbpart} {nounpart} {connector} {goal}.
+{Opening} {workphrase2} {verbpart2} {nounpart} {connector} {goal}.
+{Opening} {verbpart} {nounpart} {connector} {goal}.
+{Opening} {workphrase} {verbpart} {nounpart} {connector} {goal} and {goal}.
+{Opening} {workphrase2} {verbpart2} {nounpart} {connector} {goal} and {goal}.
+{Opening} {verbpart} {nounpart} {connector} {goal} and {goal}.
+{Opening} {workphrase} {verbpart} {nounpart} and {verbpart} {nounpart} {connector} {goal}.
+{Opening} {workphrase2} {verbpart2} {nounpart} and {verbpart2} {nounpart} {connector} {goal}.
+{Opening} {verbpart} {nounpart} and {nounpart} {connector} {goal}.
+{Opening} {verbpart} {nounpart}, {nounpart}, and {nounpart} {connector} {goal}.
+{Opening} {workphrase} {verbpart} {nounpart} {connector} {verbpart} {nounpart} {connector} {goal}.
+{Opening} {workphrase2} {verbpart2} {nounpart} {connector} {verbpart} {nounpart} {connector} {goal}.
+{Opening} {verbpart} {nounpart} {connector} {verbpart} {nounpart} {connector} {goal}.
+
+VERBPART
+{verbhow} {verb}
+{verb}
+
+VERBPART2
+{verbhow} {verbgerund}
+{verbgerund}
+
+NOUNPART
+our {adjective} {noun}
+our {noun}
+our {Nounprefix}{noun}
+{adjective} {Nounprefix}{noun}
+{adjective} {noun}
+{noun}
+
+OPENING
+It's our {duty} to
+It is our {duty} to
+It is our {mission} to
+It's our {mission} to
+Our {mission} is to
+Our {duty} is to
+We are committed to
+We have committed to
+We
+We resolve to
+
+DUTY
+duty
+responsibility
+obligation
+
+MISSION
+mission
+task
+goal
+job
+business
+function
+
+VERB
+aggregate
+deliver
+deploy
+embrace
+empower
+enable
+engage
+engineer
+enhance
+envision
+extend
+facilitate
+generate
+harness
+implement
+innovate
+integrate
+leverage
+maximize
+optimize
+reinvent
+revolutionize
+simplify
+spearhead
+strategize
+streamline
+syndicate
+synergize
+synthesize
+transform
+unleash
+utilize
+visualize
+
+VERBGERUND
+aggregating
+delivering
+deploying
+embracing
+empowering
+enabling
+engaging
+engineering
+enhancing
+envisioning
+extending
+facilitating
+generating
+harnessing
+implementing
+innovating
+integrating
+leveraging
+maximizing
+optimizing
+reinventing
+revolutionizing
+simplifying
+spearheading
+strategizing
+streamlining
+syndicating
+synergizing
+synthesizing
+transforming
+unleashing
+utilizing
+visualizing
+
+VERBHOW
+dramatically
+practically
+conveniently
+efficiently
+productively
+rapidly
+enthusiastically
+completely
+competently
+assertively
+quickly
+intelligently
+endlessly
+tirelessly
+effectively
+skillfully
+proficiently
+professionally
+swiftly
+energetically
+vigorously
+zealously
+briskly
+speedily
+shrewdly
+cleverly
+sharply
+astutely
+successfully
+expertly
+
+WORKPHRASE
+strive to
+work to
+endeavor to
+continue to
+execute a strategic plan to
+
+WORKPHRASE2
+strive towards
+work towards
+endeavor towards
+continue towards
+make progress towards
+make strides towards
+take steps towards
+achieve progress in
+engage in
+execute a strategic plan involving
+
+NOUN
+action items
+architectures
+assets
+bandwidth
+channels
+communities
+content
+deliverables
+eyeballs
+face time
+functionalities
+infomediaries
+infrastructures
+initiatives
+interfaces
+key players
+leadership skills
+markets
+metrics
+middleware
+mindshare
+perspectives
+networks
+niches
+paradigms
+partnerships
+platforms
+portals
+relationship corridors
+relationships
+synergies
+schemas
+skill sets
+solutions
+strategic alliances
+supply-chains
+synergies
+technologies
+total quality management
+version control
+vision
+catalysts for {noun}
+
+NOUNPREFIX
+sub-
+meta-
+mega-
+e-
+E-
+cyber-
+Net-
+
+ADJECTIVE
+best-of-breed
+bilateral
+bleeding-edge
+client-centered
+cross-platform
+cross-media
+customer-centric
+cutting-edge
+distributed
+dot-com
+dynamic
+effective
+efficient
+effort-intensive
+enterprise
+evolutionary
+extensible
+forward-thinking
+frictionless
+future-proof
+global
+granular
+hyperlinked
+idiot-proof
+innovative
+integrated
+interactive
+intuitive
+killer
+leading-edge
+legacy
+massively-parallel
+mission-critical
+multilevel
+next-generation
+object-oriented
+open-source
+proactive
+progressive
+real-time
+revolutionary
+robust
+scalable
+seamless
+strategic
+synergistic
+transparent
+turn-key
+two-tier
+ubiquitous
+user-centric
+value-added
+vertical
+viral
+virtual
+visionary
+wireless
+world-class
+
+CONNECTOR
+so that we may
+in order to
+as part of our master plan to
+as part of a larger strategy to
+to
+to
+in order that we may
+to allow us to
+to enable us to
+to permit us to
+so that hopefully we may
+as part of our five-year plan to
+as part of our business plan to
+as a component of our plan to
+as the first step in our scheme to
+
+GOAL
+{make} a lot of {money}
+produce {profit} for our {shareholders}
+produce more {profit} for our {shareholders}
+{increase} {profit} for our {shareholders}
+better serve our customers
+better serve our {shareholders}
+better serve the {world}
+{increase} our {bottomline}
+get out of debt
+prevent bankruptcy
+stay competitive for {todays} {world}
+remain profitable in {todays} {world}
+{setusapart} {competition}
+{defeat} {competition}
+{increase} customer satisfaction
+create a {better} {product}
+market a {lesser} {product}
+produce a {better} {product} that kicks {competition}'s {butt}
+market a {lesser} {product} that {make}s us a lot of {money}
+exceed customer {demands}
+meet the {demands} of our valued customers
+meet the {demands} of the {world}
+successfully market an overhyped {lesser} {product}
+take over the {world}
+dominate the {world}
+waste a lot of time in meetings
+make our founder enough {money} to exceed the net worth of the world's richest man
+
+DEMANDS
+demands
+expectations
+wants
+needs
+requirements
+
+PRODUCT
+product
+product line
+line of products
+line of services
+brand
+
+BETTER
+better
+superior
+finer
+more affordable
+quality
+higher quality
+popular
+robust
+
+LESSER
+lesser
+highly inferior
+subpar
+worse
+more expensive
+weak
+lower quality
+poor
+
+MAKE
+make
+earn
+produce
+create
+yield
+
+DEFEAT
+defeat
+counter
+challenge
+beat
+strike back at
+conquer
+crush
+shellac
+rout
+vanquish
+reign victorious over
+overwhelm
+beat the snot out of
+
+COMPETITION
+the competition
+our competitors
+the rest of the industry
+our evil competitors
+the market
+the industry
+our enemies
+
+SETUSAPART
+set us apart from
+pull ahead from
+distance us from
+take us ahead of
+
+TODAYS
+today's
+tommorrow's
+the future
+
+SHAREHOLDERS
+shareholders
+employees
+executive officers
+head honchos
+workers
+serfs
+investors
+venture capitalists
+sponsors
+
+INCREASE
+increase
+shore up
+inflate
+enlarge
+enrich
+add to
+augment
+advance
+expand
+burgeon
+grow
+multiply
+make greater
+
+PROFIT
+profit
+dividends
+cash
+money
+revenue
+income
+earnings
+proceeds
+rewards
+benefits
+
+MONEY
+money
+cash
+currency
+moola
+greenbacks
+dough
+bread
+scratch
+bucks
+simoleons
+
+WORLD
+world
+industry
+globe
+universe
+nation
+country
+market
+economy
+
+BUTT
+butt
+ass
+rear end
+posterior
+behind
+
+BOTTOMLINE
+bottom line
+stock price
+net worth
+earnings
+revenue
+sales
+
+BIZPLAN
+{^VerbPart} {nounpart}<LI>{Bizplan}
+{^VerbPart} {nounpart}<LI>{Bizplan}
+{^VerbPart} {nounpart}<LI>{Bizplan}
+{^VerbPart} {nounpart}
+{^VerbPart} {nounpart} and {nounpart}<LI>{Bizplan}
+{^VerbPart} {nounpart} and {nounpart}<LI>{Bizplan}
+{^VerbPart} {nounpart} and {nounpart}<LI>{Bizplan}
+{^VerbPart} {nounpart} and {nounpart}
+
+BIZPLANCLOSING
+Our ultimate goals are to {goal} and {goal}.
+Our ultimate goals are to {goal}, {goal}, and, most importantly, {goal}.
+Our ultimate goal is to {goal} and {goal}
+With this plan, we hope to {goal}.
+With this plan, we hope to {goal} and {goal}.
+With this plan, we hope to {goal}, {goal}, and {goal}.

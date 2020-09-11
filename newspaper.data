@@ -1,0 +1,590 @@
+DEFAULT
+{Headline}
+
+HEADLINE
+{HeadlinePrefix} {HeadlineNews}
+{HeadlineNews}{HeadlineSuffix}
+{HeadlineNews}
+{HeadlineStudy}
+{HeadlinePrefix} {HeadlineStudy}
+{HeadlineTabloid}
+{HeadlinePrefix} {HeadlineTabloid}
+{HeadlineOpinion}
+{HeadlineSports}
+
+HEADLINEFRONTPAGE
+{HeadlineNews}
+{HeadlineNews}
+{HeadlineNews}
+{HeadlineNews}
+{HeadlineStudy}
+{HeadlineSports}
+
+HEADLINENEWS
+{CongressCritter} Takes Taxpayer-Funded Hawaii Vacation
+Gas Prices Rise {#2-5} Cents Nationwide, Motorists Panic
+{AreaMan} Puts Election Vote For Sale On eBay, Bidding Up To ${#1-9},000
+Convicted Kidnapper Gets Kidnapped In {USState}
+Governor {LastName} Failed High School Gym Class
+Federal Government Declares {HeadlineCompany} {DangerousProduct}(tm) Unsafe
+Oklahoma Set To Open {#44-50}th Turnpike
+{RealCity} City Hall Closed For Pest Control
+Surgeon General Sued For Malpractice
+President Says He Chugged Beer, But Didn't Swallow
+Kleptomania Treatment Center Sign Stolen
+Moose Near White House Mistaken For Senator {LastName}
+Tornado Hits Mobile Home Park For The {#10-20}th Time This Month
+"Green Peace" Ship Collides With Oil Tanker, Causes Huge Oil Spill
+London's "Big Ben" Found To Be {#3-10} Minutes {[Fast|Slow|Wrong}
+Local Millionaire Wins ${#10-50} Million In Lottery
+Forest Fires Erupt In {USState}, Threaten Top Secret Military Base
+Oldest Tree In {RealCity} Cut Down For New {FastFoodJoint} Restaurant
+{NeutralCountry} Declares War On US
+{NeutralCountry} Launches Nuclear Bomb
+Congress Exempts Itself From Income Tax
+Audit Reveals Federal Government Spent ${#100-200} Million On {[Toilet Paper|Paperclips|Slide Rules} Last Year
+{RealCity} School Board Introduces New Capital Punishment Policy
+Nuclear War Kills 6 Billion People, Only {#3-7} Billion Roaches & {#2-5} Newspaper Journalists Survive
+{AreaMan} Invents Better Mousetrap, Patent Lawyers Beat A Path To His Door
+{USState} Teachers On Strike, Students Ecstatic
+Congress Passes The "It's For The Children Act Of 2000"
+{Person} and {Person} Declared "Town Drunks" By {City} City Council
+Convicted Felon Wins Election; He Was Unopposed
+{AreaMan} Fired After Being Late To Work, Blames Daylight Saving Time Change
+Flash Flood Wipes Out Junkyard, Neighbors Ecstatic
+{NeutralCountry} Invades {NeutralCountry}, {#50-200} Killed
+{PublicSchoolFullName} To Require Uniforms, Students Plan To Strike
+{PublicSchoolFullName} Student Suspended {#3-10} Days For {[Talking In Class|Doodling|Using Independent Thought|Not Smiling Enough}
+"Nonsense" Author Wins ${#4-10} Million Lottery Prize
+Wal-Mart Supercenter Causes Last Mom & Pop Operation In {RealCity} To Close
+Membership In The "{OrgPolitical}" Increases By {#10-50}%
+{#100-500} Members Of The "{OrgPolitical}" Protest In Front Of City Hall
+{AreaMan} Loses Life Savings In Las Vegas Gambling Junket
+President Suffers Nosebleed During State Of The Union Address
+{AreaMan} Falsely Accused Of Jaywalking
+{AreaMan} Receives ${#1-9}{digit}{digit},{digit}{digit}{digit} Hospital Bill By Mistake
+{AreaMan} Held Hostage By The Radical "{OrgPolitical}"
+Al Gore Appointed Ambassador To Chad!
+
+HEADLINEOPINION
+{HeadlineOpinionPrefix} {HeadlineOpinionWhat}
+{HeadlineOpinionPrefix} {HeadlineOpinionWhat}
+"{HeadlineOpinionWhat}" Says Columnist {Person}
+
+HEADLINEOPINIONPREFIX
+Opinion:
+Today's Rant:
+Letter To The Editor:
+Columnist {Person}:
+Editorial:
+Daily Soapbox:
+
+HEADLINEOPINIONWHAT
+Corn Prices Are As High As An Elephant's Eye
+{HeadlineLocalOfficial} {LastName} Is A Moron
+This Season's TV Sitcoms Really Suck
+Microsoft Windows Is A Load Of Crap
+We Need A US Constitution Version 2.0
+Everyone Wants A New Taxpayer-Funded Stadium, Except Taxpayers
+Can You Believe What {CongressCritter} Just Did?
+It's All A Vast {[Left|Right}-Wing Conspiracy
+{RealCity} Needs To Erect 'Speed Trap Ahead' Road Signs
+The Federal Government Sends Another ${#10-50} Billion Down The Drain
+{FastFoodJoint}'s Latest Promotion Is A Joke
+Shakespeare Was Right: Let's Kill All The Lawyers
+'Your Tax Dollars At Work' Road Signs Are A Waste Of Your Tax Dollars
+I'm Renouncing My US Citizenship And Moving To {[Venezuala|Belize|Madagascar|Timbuktu}
+Something Needs To Be Done About That Pothole On {Street}
+This Is The {[Fourth|Fifth|Sixth} Time My Bank Has Been Acquired By Another Company
+Why Does Everybody Hog The Left Lane On The Interstate?
+It's Impossible To Lose Weight When You Live Next To A {FastFoodJoint}
+Put The Cell Phone Away And Pay Attention To The Road
+That Billboard On {Street} Is Offensive
+Vote Yes On Proposition {^Letter}
+If Proposition {^Letter} Passes, I'm Moving Away From This State
+If {Person} Wins The Election For {HeadlineLocalOfficial}, I'm Going To Puke
+The '{OrgPolitical}' Has Gone Too Far
+
+HEADLINETABLOID
+Giant Mutant Cockroaches Created By Scientists At {University}
+UFOs Invade {RealCity}, {#100-200} Abducted
+"Killer Beagle" On The Loose In {USState}
+{^Animal} With Two Heads Found Near Nuclear Plant
+Computer Possessed By Satanic Daemon
+Fort Knox Gold Is Really Silver
+Movie Star {Person} Suffers From {MedicalCondition}!
+Elvis Sighted In {RealCity}
+{CelebrityDead} Really Died From {MedicalCondition}!
+{CelebrityMale} and {CelebrityFemale} Elope To Las Vegas!
+Photos From The Secret {CelebrityMale} and {CelebrityFemale} Wedding
+{CelebrityFemale} Claims She Was Abducted By Aliens At Age {#5-16}
+{Celebrity} Caught In Middle Of Bizarre Love Triangle!
+Is {Celebrity} A {[Communist|Fascist|Vampire}?  No, But It Makes A Good Headline Anyway
+{Celebrity} Held For Ransom By {NeutralCountry} Terrorists!
+"I Was Spanked By {CelebrityMale}!" Says {RealCity} {Occupation}
+{#100-999} Men Have Their Names Legally Changed To "{CelebrityMale}"
+{#100-999} Women Legally Change Their Names To "{CelebrityFemale}"
+Guardian Angel {[Murders|Kills|Slaughters} {RealCity} {Occupation}
+Cannibals Order Pizza, Then Eat Deliveryman!
+The Titanic Was Sunk By A Submarine From {NeutralCountry}!
+{CelebrityMale} Moons Dinner Guests
+Clairvoyant {^Animal} Earns Gambler ${#10-20} Million!
+"I Look Just Like {Celebrity} And I Can't Stand It Anymore!" Says Upset {USStateAdjective}
+{FastFoodJoint} Mascot Gets Audited By The IRS!
+{^Animal} Undergoes Sex-Change Operation In {USState}!
+{NeutralCountry} Building Tunnel Through Earth To Attack United States!
+New Study Claims {#3-7} Out Of 10 Americans Are Reincarnated In {NeutralCountry}
+{HeadlineCompany} Releases Condoms... For Your Pet {^Animal}
+{Celebrity} Impersonators Hold National Convention In {RealCity}
+Exposed: {CelebrityMale} Gay Love Letters!
+Revealed: {CelebrityFemale} Lesbian Love Letters!
+"I'm Carrying {CelebrityMale}'s Baby!" Says {CelebrityFemale}
+{CelebrityFemale} Goes Berserk!
+{CelebrityMale} Kicked Out By Wife
+{CelebrityMale}'s Drunken Binge Caught On Tape!
+{CelebrityMale} And {CelebrityFemale} Secret Divorce {[Plan|Deal|Pact|Agreement}
+{CelebrityFemale} Falls For {CelebrityMale}
+{Celebrity} Suicide Watch
+{CelebrityMale} Shacks Up With {CelebrityFemale}
+{Celebrity} Loses Life Savings In Pyramid Scheme
+{CelebrityFemale}: "{[Breast Implants|Liposuction|Plastic Surgery} Saved My Career!"
+{CelebrityFemale} Voted "Babe Of The Year"
+{Celebrity} Wins Nobel Prize
+Bill Clinton {[Museum|Library} Built Near Sex Shop
+Bill Clinton Becomes {[Editor Of|Official Breast Inspector For|Head Photographer} For {[Playboy|Playdude|Penthouse} Magazine
+"{[Survivor|Who Wants To Be A Millionaire?|Jeopardy|Wheel Of Fortune}" Is {[One Big Scam|Rigged}!
+{CelebrityFemale} Gains {#30-50} Pounds!
+All {[Fat People|Vegetarians|Republicans|Democrats} Will Go To Hell, Says TV Evangelist!
+{CelebrityFemale} Reveals Her Battle With Depression In Sensational Tell-All Book
+{CelebrityMale} Paid Ex-Lover ${#10-50} Million, Now Wants It Back
+{CelebrityDead} Killed As Part Of {[FBI|CIA|Alien|Canadian|Mexican} Conspiracy!
+{CelebrityDead} Was Really Abducted By Aliens
+{CelebrityFemale}'s Breast Implants Explode!
+{CelebrityFemale}'s Lost Baby Discovered In {USState}!
+{CelebrityFemale} Wants To Have {CelebrityMale}'s Baby!
+
+HEADLINESTUDY
+New Study Reveals {HeadlineStudyWhat}
+{University} Study Finds {HeadlineStudyWhat}
+{HeadlineStudyWhat}, New Study Claims
+Researchers Discover {HeadlineStudyWhat}
+
+HEADLINESTUDYWHAT
+Used Car Commercials Cause {MedicalCondition}
+{#40-75}% Of Citizens Can't Name The {HeadlineFederalOfficial}
+{#40-99}% Of {USState} Residents Can't Name Their {HeadlineLocalOfficial}
+Dog Biscuits Reduce The Risk Of {MedicalCondition}
+"Santa Claus" Is A Scam Used By Toy Companies To Increase Sales
+{#30-60}% Of Medical Studies Are {[Scams|Bogus}
+{#30-60}% Of Studies Later Turn Out To Be False
+{#30-99}% Of Statistics Are {[False|Wrong|Misleading}
+{#40-99}% Of America Online CDs Are Used As {[Frisbees|Drink Coasters|Skeet Shoot Targets}
+{HeadlineCompany} {DangerousProduct}(tm) Caused {#100-200} Deaths Last Year
+{#30-99}% Of School Cafeteria "Mystery Meat" Dishes Don't Actually Contain Meat
+{#50-99}% Of US Congressmen Are Multi-Millionaires
+2 + 2 = 5, For Extremely Large Values Of 2
+The Passage Of Time Slows Down By {#5-20}% When In-Laws Are Nearby
+{#10-50}% Of Readers Believe Tabloid Articles Are Always True
+{#80-99}% Of Naysayers Always Say Nay
+{#30-70}% Of {USState} Residents Believe The Internet Is Evil
+John Hancock's Signature On The Declaration Of Independence Was A Forgery
+{#10-30}% Of Deaths Are Caused By Dihydrogen Monoxide
+PI Is Really Equal To 3.{digit#5-10}!
+
+HEADLINETEASER
+Dave Barry: "My Tax Audit"
+Dave Barry Plugs His New Book
+Dave Barry: "I Am Not Making This Up"
+Dave Barry: "Okay, So Maybe I Am Making This Up"
+Dave Barry: "Yet Another Column About Bodily Functions"
+Dear Abby Says "Get A Divorce"
+Dear Abby Says "Will You Quit Asking Me These Stupid Questions?"
+Mr. Food: "Spinach Surprise"
+Mr. Food: "101 {[Shrimp|Turnip|Lettuce} Recipes"
+Today's Crappy TV Lineup
+Ask Dr. Aitchemoh: "What Causes {MedicalCondition}?"
+
+HEADLINEPREFIX
+Breaking News:
+This Just In:
+Stop The Presses:
+Top Story:
+
+HEADLINESUFFIX
+: An Exclusive Report
+!  Film At 11.
+: A Special Report
+
+NEUTRALCOUNTRY
+Andorra
+Switzerland
+Leichtenstein
+San Marino
+Monaco
+Iceland
+Greenland
+Finland
+
+DANGEROUSPRODUCT
+Chocolate Covered Wasps
+Toy Electric Chair
+Bag-O-Rusty-Nails
+Chewable Morphine
+Asbestos-On-A-Stick
+Hand Grenade, Jr.
+
+HEADLINEFEDERALOFFICIAL
+Supreme Court Chief Justice
+Secretary Of Education
+Secretary Of State
+
+HEADLINELOCALOFFICIAL
+State Senator
+US Senator
+State Representative
+US Representative
+State Auditor
+
+HEADLINECOMPANY
+Acme
+Ronco
+Drugco
+Bigco
+
+FILLERTEXT
+{FillerParagraph}
+{FillerParagraph}{FillerParagraph}
+{FillerParagraph}{FillerParagraph}{FillerParagraph}
+
+FILLERPARAGRAPH
+&nbsp;&nbsp;&nbsp{FillerLines}{FillerLines}{FillerLineEnd}
+&nbsp;&nbsp;&nbsp{FillerLines}{FillerLines}{FillerLines}{FillerLineEnd}
+&nbsp;&nbsp;&nbsp{FillerLines}{FillerLines}{FillerLines}{FillerLines}{FillerLineEnd}
+
+FILLERLINES
+____ ______ ___ _____ ____ ___ _ _____ ___ _______ ____ __ ________ ____
+___ _____ ______ ___ _____ __ ___ ____ _______ ______ ___ _ _______ ____
+____ ____ _________ __ ____ ____ __ _____ ______ _______ ____ ___ __ ___
+_ ____ ___ _____ ___ ___ ____ _____ ____ ____ _____________ ___ _____ __
+
+FILLERLINEEND
+___<BR>
+__<BR>
+_ __<BR>
+
+SUBLINE
+By {Person}
+{Person}, Staff Writer
+{Person}, Freelance Reporter
+Associated Press
+Special to the {$PaperName}
+An Investigative Report
+A Special Report
+Exclusive Report
+{SublineQuote}
+{SublineQuote}
+
+SUBLINEQUOTE
+"It was horrible," says {SublineQuoteWho}.
+"I've never seen anything like it," exclaims {SublineQuoteWho}.
+"Holy cow!" say {SublineQuoteWho}s
+"I still can't believe it", says stunned {SublineQuoteWho}
+"It was something to see," says {SublineQuoteWho}. 
+"We'll be talking about this for years", exclaims {SublineQuoteWho}.
+
+SUBLINEQUOTEWHO
+observer
+bystander
+onlooker
+
+TEMPLATEWEATHER
+{TemplateWeatherSummer}
+{TemplateWeatherWinter}
+
+TEMPLATEWEATHERSUMMER
+Sunny<BR>High {#78-105}, Low {#60-77}
+Partly Cloudy<BR>High {#78-100}, Low {#65-77}
+Overcast<BR>High {#78-95}, Low {#65-77}
+Overcast & Gloomy<BR>{#78-89}, Low {#65-77}
+Showers<BR>High {#78-95}, Low {#60-77}
+Rain<BR>High {#78-93}, Low {#60-77}
+T-Storms<BR>High {#78-100}, Low {#65-77}
+Sultry & Steamy<BR>High {#90-105}, Low {#74-89}
+Hot & Hellish<BR>High {#90-105}, Low {#74-89}
+
+TEMPLATEWEATHERWINTER
+Sunny<BR>High {#35-50}, Low {#15-34}
+Partly Cloudy<BR>High {#30-45}, Low {#22-29}
+Overcast<BR>High {#30-42}, Low {#24-29}
+Overcast & Gloomy<BR>High {#30-42}, Low {#24-29}
+Arctic Cold<BR>High {#15-25}, Low {#0-14}
+Rain<BR>High {#35-50}, Low {#25-34}
+Mixed Precip<BR>High {#28-42}, Low {#25-27}
+Snow<BR>High {#28-34}, Low {#24-27}
+Blizzard<BR>High {#28-34}, Low {#24-27}
+
+TEMPLATETOPSTORY
+<B>{HeadlineNews}</B>
+<SMALL><I>{HeadlinePrefix}</I></SMALL><BR><B>{HeadlineNews}</B>
+<BIG>{HeadlineNews}</BIG>
+<B><BIG>{HeadlineNews}</BIG></B>
+
+TEMPLATETOPITEM
+{HeadlineNews}
+{HeadlineOpinion}
+{HeadlineSports}
+{HeadlineTabloid}
+{HeadlineStudy}
+{HeadlineTeaser}
+{HeadlineTeaser}
+
+HEADLINESPORTS
+{HeadlineSportsPro}
+{HeadlineSportsPro}
+{HeadlineSportsCollege}
+{HeadlineSportsSchool}
+
+HEADLINESPORTSPRO
+{BaseballTeam} {#5-10}, {BaseballTeam} {#0-4}
+{BaseballTeam} {#8-15}, {BaseballTeam} {#0-7}
+{BaseballTeam} {#3-12}, {BaseballTeam} {#0-2}
+{BaseballTeam} Win {^Ordinal} Game Against {BaseballTeam} This Season
+{BaseballTeam} Extend Their Winning Streak To {#4-15}
+{BaseballTeam} Lose {#4-10}th Straight Game
+{BaseballTeam} {HeadlineSportsVerb} The {BaseballTeam} {#7-10}-{#0-4}
+{BaseballTeam} Beat The {BaseballTeam} {#4-6}-{#1-3} After {#10-14} Innings
+{BaseballTeam} Sign Contract With {BaseballPosition} {FirstNameMale} {LastName} For ${#25-50} Million
+{BaseballTeam} {BaseballPosition} {FirstNameMale} {LastName} Placed On Disabled List
+{BaseballTeam} {BaseballPosition} {FirstNameMale} {LastName} Diagnosed With {MedicalCondition}
+{BaseballTeam} {BaseballPosition} {FirstNameMale} {LastName} Made {#3-10} Errors In Last Night's Game
+{FootballTeam} {#14-60}, {FootballTeam} {[0|3|6|7}
+{FootballTeam} {#21-42}, {FootballTeam} {#7-20}
+{FootballTeam} {#30-50}, {FootballTeam} {#14-29}
+{FootballTeam} Win {#4-15}th Straighth Game
+{FootballTeam} Lose {#4-10}th Straight Game
+{FootballTeam} {HeadlineSportsVerb} The {FootballTeam} {#21-50}-{#0-20}
+{FootballTeam} {FootballPosition} {FirstNameMale} {LastName} Placed On Disabled List
+
+HEADLINESPORTSCOLLEGE
+{CollegeFootballTeam} Wins The {RealCompany} Bowl
+{CollegeFootballTeam} {#21-60}, {CollegeFootballTeam} {#7-20}
+{CollegeFootballTeam} {#30-50}, {CollegeFootballTeam} {#14-29}
+{CollegeFootballTeam} Suffered {#3-5} Injuries In Yesterday's Game
+
+HEADLINESPORTSSCHOOL
+{PublicSchool} {SportsTeam} Win {[Baseball|Softball|Soccer} Tournament
+{City} {SportsTeam} Win {[American Legion|Little League|Triple-A} World Series
+{City} {SportsTeam} {HeadlineSportsVerb} The {City} {SportsTeam} {#5-10}-{#0-4}
+{City} {SportsTeam} {HeadlineSportsVerb} The {City} {SportsTeam} {#21-35}-{#0-14}
+{City} {SportsTeam} {#5-10}, {City} {SportsTeam} {#0-4}
+{City} {SportsTeam} {#21-35}, {City} {SportsTeam} {#0-14}
+
+HEADLINESPORTSVERB
+Beat
+Beat
+Trounce
+Clobber
+Rout
+Pummel
+Defeat
+Conquer
+Whip
+Shellac
+
+BASEBALLTEAM
+Angels
+Astros
+A's
+Blue Jays
+Braves
+Brewers
+Cardinals
+Cubs
+Devil Rays
+Diamondbacks
+Dodgers
+Expos
+Giants
+Indians
+Mariners
+Marlins
+Mets
+Orioles
+Padres
+Pirates
+Rangers
+Red Sox
+Reds
+Rockies
+Royals
+Tigers
+Twins
+White Sox
+Yankees
+
+BASEBALLPOSITION
+Pitcher
+Catcher
+First Baseman
+Second Baseman
+Third Baseman
+Outfielder
+
+FOOTBALLTEAM
+49ers
+Bears
+Bengals
+Bills
+Broncos
+Browns
+Buccaneers
+Cardinals
+Chargers
+Chiefs
+Colts
+Cowboys
+Dolphins
+Eagles
+Falcons
+Giants
+Jaguars
+Jets
+Lions
+Packers
+Panthers
+Patriots
+Raiders
+Rams
+Ravens
+Redskins
+Saints
+Seahawks
+Steelers
+Titans
+Vikings
+
+FOOTBALLPOSITION
+Quarterback
+Fullback
+Halfback
+Kicker
+Safety
+Linebacker
+
+COLLEGEFOOTBALLTEAM
+{USState}
+{USState} State
+{USState} Tech
+{USState} A&M
+{[Central|Northern|Western|Eastern|Southern} {USState}
+
+SPORTSTEAM
+{BaseballTeam}
+{FootballTeam}
+Tigers
+Indians
+Bears
+Mules
+Wildcats
+Wolverines
+
+CELEBRITY
+{CelebrityMale}
+{CelebrityFemale}
+
+CELEBRITYMALE
+David Letterman
+Jay Leno
+Dan Rather
+Jerry Seinfeld
+Michael Jordan
+Michael Jackson
+Rush Limbaugh
+Howard Stern
+Al Gore
+Bill Clinton
+Bob Dole
+Dan Quayle
+George W. Bush
+Fidel Castro
+Slobidan Milosevich
+Saddam Hussein
+Elvis Presley
+Regis Philbin
+Mel Gibson
+Elton John
+Robert Downey Jr.
+Harrison Ford
+Ted Kennedy
+O. J. Simpson
+Jerry Springer
+
+CELEBRITYFEMALE
+Madonna
+Queen Elizabeth
+Monica Lewinsky
+Britney Spears
+Pamela Anderson
+Dolly Parton
+Julia Roberts
+Tipper Gore
+Hillary Clinton
+Kathie Lee Gifford
+Janet Reno
+Anna Nicole Smith
+Tonya Harding
+Vanna White
+Meg Ryan
+Susan Lucci
+
+CELEBRITYDEAD
+Elvis
+Elvis
+J.F.K.
+Princess Di
+Princess Diana
+JonBenet Ramsey
+
+FASTFOODJOINT
+McDonalds
+Burger King
+Taco Bell
+Hardees
+Dairy Queen
+
+MEDICALCONDITION
+Chronic Headaches
+Heart Attacks
+High Blood Pressure
+Alzeimer's Disease
+Insanity
+Suicidal Tendencies
+Alcoholism
+{LastName}'s {[Disorder|Disease}
+
+AREAMAN
+Area Man
+Local Man
+Area Woman
+Local Woman
+Local Resident
+{Occupation}
+Local {Occupation}
+{Occupation}
+{[Village Idiot|Local Idiot|Local Boob|Local Dweeb|Town Fool}
+
+OCCUPATION
+Housewife
+Webmaster
+Fireman
+Police Officer
+{FastFoodJoint} Manager
+Janitor
+Teacher
+City Alderman
+Pointy Haired Boss
+Actor
+Farmer
+Computer Programmer
+College Professor
+

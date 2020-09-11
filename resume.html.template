@@ -1,0 +1,67 @@
+<HTML><HEAD>
+<TITLE>Resume</TITLE>
+</HEAD>
+<BODY>
+<CENTER>
+<H1>{FullName}</H1>
+{Streetaddress}<BR>
+{City}, {Uspostalstate}  {Zipcode}<BR>
+<P>
+<B>{Usphonenumber}</B>
+</CENTER>
+<P>
+<H2>Availability</H2>
+<UL>
+<LI>Available {Resumeavailability}.  Seeking a position
+as <B>{Careertech}</B> with {Resumeavailability2}.
+</UL>
+<H2>Skills</H2>
+<UL>
+<LI>Fluent in <B>{Computerlanguage}</B> and <B>{Computerlanguage}</B>
+(including {numberword} years experience in both).
+<LI>Currently learning <B>{Computerlanguage}</B> and <B>{Computerlanguage}</B>.
+<LI>Skilled with <B>{Computerskill}</B> and <B>{Computerskill}</B>.
+</UL>
+<H2>Job Experience</H2>
+<UL>
+<LI><B>{Careertech}</B>, {Company} ({City}, {Uspostalstate}).  {^Numberword} years experience.
+<P>
+<LI><B>{Careertech}</B>, {Company} ({City}, {Uspostalstate}).  {^Numberword} years experience.
+<P>
+<LI><B>Webmaster</B>, "www.{domainname}.com".  Successful 
+{[E-commerce site|tech news site|online community|personal homepage}
+with {#20-10000}0 daily visitors.
+</UL>
+<H2>Education</H2>
+<UL>
+<LI>Bachelor degree in {Collegemajortech} at {University}, May {#1970-1999}.
+Graduated in the top {#1-35}% of class, with a {gradepointavg} GPA.
+<P>
+<LI>High school diploma, {Publicschool} High School.  Finished
+in the top {#1-30}% of graduating class, with a GPA of {gradepointavg}.
+</UL>
+<H2>Awards</H2>
+<UL>
+<LI>Voted <B>"Most Likely to {Highschoolaward}"</B> by high school graduating
+class.
+<P>
+<LI>{^Ordinal} place, <B>"{Sillycontest} Contest"</B>, {Usstate} State Fair.
+</UL>
+<H2>References</H2>
+<UL>
+<LI><B>{FullName}, {^Resumereference}</B><BR>
+<I>Postal address:</I> {Streetaddress}, {City}, {Uspostalstate}, {Zipcode}<BR>
+<I>Phone:</I> {Usphonenumber}<BR>
+<I>Email:</I> {Email}<BR>
+<P>
+<LI><B>{FullName}, {^Resumereference}</B><BR>
+<I>Postal address:</I> {Streetaddress}, {City}, {Uspostalstate}, {Zipcode}<BR>
+<I>Phone:</I> {Usphonenumber}<BR>
+<I>Email:</I> {Email}<BR>
+<P>
+<LI><B>{FullName}, {^Resumereference}</B><BR>
+<I>Postal address:</I> {Streetaddress}, {City}, {Uspostalstate}, {Zipcode}<BR>
+<I>Phone:</I> {Usphonenumber}<BR>
+<I>Email:</I> {Email}<BR>
+</UL>
+</BODY></HTML>

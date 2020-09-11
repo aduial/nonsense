@@ -1,0 +1,448 @@
+DEFAULT
+{CollegeCourse}
+
+COLLEGEANNOUNCEMENT
+Next {[fall|year|semester}, {University} will offer "{CollegeCourse}".
+The {University} class "{CollegeCourse}" has been cancelled due to lack of interest.
+Starting next year, incoming freshman at {University} will be required to take "{CollegeCourse}."
+"{CollegeCourse}" will no longer be offered at {University} due to lack of interest.
+"{CollegeCourse}" is the most popular {[graduate|undergraduate|freshman|Liberal Arts} class at {University}.
+Due to overwhelming popularity, an additional section of "{CollegeCourse}" will be offered at {University} next semester.
+Not one single student signed up for {University}'s "{CollegeCourse}" last semester.
+A {[poll|survey} of students at {University} revealed "{CollegeCourse}" is the {[least|most} popular {[class|course} offered.
+
+COLLEGECOURSE
+{CollegeCourseAdj} {CollegeCourseNoun} {CollegeCourseSuffix}
+{CollegeCourseAdj} {CollegeCourseNoun}: {CollegeCourseEnding}
+{CollegeCourseAdj} {CollegeCourseNoun} And {CollegeCourseAdj} {CollegeCourseNoun} {CollegeCourseSuffix}
+{CollegeCourseNoun} & {CollegeCourseNoun} {CollegeCourseSuffix}
+{CollegeCourseGroup1} {CollegeCourseGroup2} {CollegeCourseLife} {CollegeCourseSuffix}
+{CollegeCourseGroup2} {CollegeCourseNoun} {CollegeCourseLife} {CollegeCourseSuffix}
+{CollegeCourseGroup1} {CollegeCourseGroup2} {CollegeCourseLife} Since {#1800-1970}
+{CollegeCourseGroup2} {CollegeCourseLife}: {CollegeCourseEnding}
+Contemporary {CollegeCourseGroup2} {CollegeCourseLife} & {CollegeCourseLife}
+Contemporary {CollegeCourseGroup2} {CollegeCourseLife}: {CollegeCourseEnding}
+Transforming The {CollegeCourseGroup1} {CollegeCourseGroup2} Experience
+{CollegeCoursePrefix} {CollegeCourseGroup1} {CollegeCourseGroup2} {CollegeCourseLife}
+{CollegeCoursePrefix} {CollegeCourseGroup2} {CollegeCourseLife} {CollegeCourseSuffix}
+{CollegeCoursePrefix} {CollegeCourseAdj} {CollegeCourseNoun} {CollegeCourseSuffix}
+{CollegeCoursePrefix} The {CollegeCourseGroup1} {CollegeCourseGroup2} {CollegeCourseMovement} {CollegeCourseSuffix}
+{CollegeCourseAdj} {CollegeCourseLife}: {CollegeCourseEnding}
+{CollegeCourseAdj} {CollegeCourseNoun} In Modern {CollegeCourseMedium}
+{CollegeCourseNoun} {CollegeCourseSuffix}: {CollegeCourseEnding}
+{CollegeCoursePrefix} {CollegeCourseNoun} & {CollegeCourseNoun} {CollegeCourseSuffix}
+The {CollegeCourseAdj} Dimension Of {CollegeCourseGroup1} {CollegeCourseGroup2} {CollegeCourseMedium}
+{CollegeCoursePrefix} {CollegeCourseTopic} In {CollegeCourseGroup2} {CollegeCourseMedium}: {CollegeCourseEnding}
+{CollegeCourseTopic} & {CollegeCourseTopic} {CollegeCourseSuffix}
+{CollegeCourseGroup2} {CollegeCourseMedium} Interpretation: {CollegeCourseEnding}
+{CollegeCourseGroup2} {CollegeCourseMedium} As A {CollegeCourseAdj} Genre
+{CollegeCoursePrefix} {CollegeCourseGroup1} {CollegeCourseGroup2} {CollegeCourseMedium}
+{CollegeCourseLife} Of {CollegeCourseGroup2} {CollegeCourseNoun}: {CollegeCourseEnding}
+{CollegeCoursePrefix} {CollegeCoursePopCulture}: {CollegeCourseEnding}
+{CollegeCoursePopCulture} {CollegeCourseSuffix}: {CollegeCourseEnding}
+{CollegeCoursePrefix} {CollegeCourseAdj} {CollegeCourseNoun} & {Theory}
+{CollegeCoursePrefix} {CollegeCourseAction}: {CollegeCourseEnding}
+{CollegeCourseAction} {CollegeCourseSuffix}: {CollegeCourseEnding}
+{CollegeCoursePrefix} {CollegeCourseNounPrefix}{CollegeCourseAncient} {CollegeCourseMedium}: {CollegeCourseEnding}
+Ethnicity {CollegeCourseSuffix}: The {CollegeCourseGroup1} {CollegeCourseGroup2} {[Condition|Experience}
+Masterpieces Of {CollegeCourseGroup1} {CollegeCourseGroup2} {CollegeCourseMedium}
+{CollegeCourseBuzzword2}, {CollegeCourseBuzzword2}, And {CollegeCourseBuzzword2} {CollegeCourseSuffix}: {CollegeCourseEnding}
+{CollegeCourseBuzzword2}, {CollegeCourseBuzzword2}, And {CollegeCourseBuzzword2} In {CollegeCourseGroup2} {CollegeCourseMedium}: {CollegeCourseEnding}
+{CollegeCoursePrefix} {CollegeCourseEvent}: {CollegeCourseEnding}
+{CollegeCourseEvent} As {CollegeCourseExplored} In {CollegeCourseGroup1} {CollegeCourseGroup2} {CollegeCourseMedium}
+{UniversitySubject} As {CollegeCourseExplored} In {CollegeCourseGroup1} {CollegeCourseGroup2} {CollegeCourseMedium}
+{CollegeCourseTheImpactOf}: {CollegeCourseEnding}
+{CollegeCourseStatic}
+{CollegeCourseStatic}
+
+COLLEGECOURSESTATIC
+{[Saving The World|The End Of The World|The Sky Is Falling|Here Come The Mass Extinctions}: {CollegeCoursePrefix} {[Modern Environmentalism|Environmental Biology|Environmental Activism}
+{CollegeCoursePrefix} {[The Greenhouse Effect|Planetwide Climatic Change|Global Warming}: Policy {CollegeCourseSuffix}
+The Meaning Of Life As {CollegeCourseExplored} In {CollegeCourseGroup1} {CollegeCourseGroup2} {CollegeCourseMedium}
+The {CollegeCourseImpact} Of {CollegeCourseGroup2} {[Researchers|Thinkers|Scientists} On {CollegeCourseContemporary} {UniversitySubject}: {CollegeCourseEnding}
+The {[Rise|Emergence|Success|Empowerment} Of {CollegeCourseGroup2} {[Researchers|Thinkers|Scientists} In {CollegeCourseContemporary} {UniversitySubject}: {CollegeCourseEnding}
+{CollegeCourseAncient} {CollegeCourseMedium} As The {[Roots|Foundations} Of {CollegeCourseContemporary} {UniversitySubject}
+{CollegeCourseBuzzword2}, {CollegeCourseBuzzword2}, And {CollegeCourseBuzzword2} As {CollegeCourseExplored} In {CollegeCourseContemporary} {[Film|Fiction|Television|Cinema|Theater}: {CollegeCourseEnding}
+The History Of {CollegeCourseGroup2} {CollegeCourseLife}: {CollegeCourseEnding}
+The {[Archetype|Symbolism} Of The {[Quest Paradigm|Journey|Awakening|Rite Of Passage} In {CollegeCourseGroup1} {CollegeCourseGroup2} {CollegeCourseMedium}
+{[Cross-Cultural|Multi-Ethnic} {[Studies In|Perspectives On} {CollegeCourseGroup2} {CollegeCourseLife}
+
+COLLEGECOURSEEVENT
+The African Diaspora
+The Harlem Renaissance
+The Civil Rights Movement
+The Italian Renaissance
+Westward Expansion
+Manifest Destiny
+Women's Suffrage
+World War I
+World War II
+The War Of 1812
+The American Revolution
+The French Revolution
+The Russian Revolution
+The American Civil War
+The Spanish-American War
+The Franco-Prussian War
+The JFK Assasination
+
+COLLEGECOURSEACTION
+Basketweaving
+Aquatic Ballet
+Synchronized Swimming
+Professional Sports
+The {CollegeCourseAdj} Pottery Experience
+Home Economics
+Cardplaying
+Sports{[person|man}ship
+The Culinary {[Arts|Experience}
+Birdwatching
+
+COLLEGECOURSENOUN
+Diversity
+Globalism
+Equality
+Feminism
+Sexuality
+Self-Actualization
+Political Correctness
+Environmentalism
+Marxism
+Socialism
+Communism
+Darwinism
+Activisim
+Queer Theory
+{CollegeCourseNounPrefix}Romanticism
+{CollegeCourseNounPrefix}Dadaism
+{CollegeCourseNounPrefix}Cubism
+{CollegeCourseNounPrefix}Realism
+Paganism
+Homosexuality
+Sexuality
+Evolution
+Poverty
+Fundamentalism
+Intellectualism
+Multiculturalism
+
+COLLEGECOURSENOUNPREFIX
+{\0}
+{\0}
+Post-
+Pre-
+Early 
+Classical 
+
+COLLEGECOURSEADJ
+Progressive
+Liberal
+Liberal
+Aesthetic
+Postmodern
+Feminist
+Radical
+Populist
+Humanist
+Reformist
+Liberated
+
+COLLEGECOURSEPREFIX
+Ad-Hoc Investigation Of
+The Potential Of
+Foundations Of
+Literature Of
+The History Of
+Principles Of
+Exploration Of
+Philosophy Of
+Psychology Of
+Meta-Physics Of
+Dynamic Exploration Of
+Symbolism Of
+Topics In
+Advanced Topics In
+Selected Topics In
+Special Topics In
+Survey Of
+The Universe Of
+The Meaning Of
+Theories Of
+Perspectives In
+Topics In
+Special Studies In
+Introduction To
+Research Capstone In
+Quantitative Methods In
+Colloquium In
+Senior Seminar In
+Critical Perspectives In
+Brief Survey Of
+Concepts In
+The Highlights Of
+
+COLLEGECOURSESUFFIX
+In The Postmodern Era
+In The Postmodern World
+In The Modern Age
+In Modern Society
+In Modern America
+In Today's Society
+In The American Landscape
+In The United States
+In The 21st Century
+In Recent Times
+In The Real World
+In The {CollegeCourseAdj} World
+
+COLLEGECOURSEENDING
+Ideas In Conflict
+Ideas In Transition
+Critical Issues Facing The {CollegeCourseContemporary} {CollegeCoursePerson}
+A Process Approach
+{CollegeCourseBuzzword}, {CollegeCourseBuzzword}, and {CollegeCourseBuzzword}
+A {CollegeCourseMetaphor} Of {CollegeCourseNoun} {CollegeCourseSuffix}
+A {CollegeCourseMetaphor} Of {CollegeCourseAncient} {CollegeCourseLife}
+A {CollegeCourseMetaphor} {CollegeCourseExplored} In American {CollegeCourseMedium}
+A {CollegeCourseMetaphor} {CollegeCourseExplored} In {CollegeCourseContemporary} {CollegeCourseMedium}
+What Is To Be Learned From It?
+An Interdisciplinary {[Approach|Study}
+From {LastName} To {LastName}
+{Theory} At Work
+Policy {CollegeCourseSuffix}
+Different Points Of View
+{CollegeCourseBuzzword} and {CollegeCourseBuzzword}
+The Big Picture
+A Paradigm Shift
+{[Modern|Contemporary} {[Ideas|Theories}
+Myth & Reality
+The Untold Story
+{[A Journey Of|A Quest For|An Odyssey Of} {[Discovery|Exploration|Thought|Self-Actualization}
+
+COLLEGECOURSEGROUP1
+Gay & Lesbian
+Homosexual
+Bisexual
+Transgender
+Inner City
+Rural
+Suburban
+Urban
+Southern
+Western
+Eastern
+Liberated
+Upper Class
+Middle Class
+{CollegeCourseAdj}
+
+COLLEGECOURSEGROUP2
+African-American
+Hispanic
+European
+Latino
+Native American
+Pacific Islander
+Australian
+Latvian
+Elbonian
+Italian
+African
+American
+Asian
+Chinese
+Japanese
+French
+German
+Russian
+Middle Eastern
+Scandinavian
+Mexican
+Female
+Female
+Female
+Neo-Pagan
+Atheist
+Polytheistic
+Minority
+Multi-Ethnic
+
+COLLEGECOURSEANCIENT
+Roman
+Etruscan
+Greek
+Byzantine
+Mayan
+Incan
+Aztec
+Viking
+Babylonian
+Egyptian
+Sumerian
+Hittite
+Renaissance
+Chinese
+Native American
+
+COLLEGECOURSELIFE
+Life
+Literature
+Music
+Art
+Issues
+Perspectives
+Lifestyles
+Thought
+Ethics
+Values
+Landscapes
+Culture
+Society
+Images
+Ideas
+Endeavors
+Expression
+Affairs
+Morals
+Retrospectives
+Symbols
+Religion
+Traditions
+Civilization
+
+COLLEGECOURSEMETAPHOR
+Metaphor
+Study
+Presentation
+Collage
+Figure
+Symbol
+
+COLLEGECOURSEEXPLORED
+Explored
+Expressed
+Analyzed
+Interpreted
+Seen
+
+COLLEGECOURSEPERSON
+Individual
+American
+Person
+Citizen
+Student
+Well-Rounded Person
+Woman
+Minority
+Liberal
+
+COLLEGECOURSEBUZZWORD
+Understanding
+Analysis
+Synthesis
+Synergy
+Practice
+The Human Condition
+Development
+Cross-Cultural Awareness
+Cross-Cultural Perspectives
+Evaluation
+Interpretation
+Abstraction
+Decision-Making
+Perspectives
+Context
+Paradigms
+Critical Thinking
+Relationships
+Discovery
+Empowerment
+
+COLLEGECOURSEBUZZWORD2
+Race
+Class
+Status
+Gender
+Age
+Sex
+Work
+Family
+Community
+Culture
+Politics
+Struggle
+Conflict
+
+COLLEGECOURSEMOVEMENT
+Movement
+Revolution
+Evolution
+Transformation
+Metamorphosis
+Campaign
+
+COLLEGECOURSEMEDIUM
+Art
+Paintings
+Literature
+Folklore
+Mythology
+Poetry
+Sculptures
+Music
+Architecture
+Dance
+Drama
+
+COLLEGECOURSETOPIC
+Sex
+Death
+Suicide
+Trauma
+Drama
+Life
+Mythology
+Crime
+Love
+Hate
+Anger
+Passion
+Infidelity
+Horror
+
+COLLEGECOURSEPOPCULTURE
+'Star Wars'
+'Star Trek'
+Cyberpunk Literature
+Harlequin Romances
+'The Simpsons'
+'The X-Files'
+Daytime Soap Operas
+Radio Talk Shows
+Shakespeare's {[Comedies|Tragedies}
+'The Scarlet Letter'
+'Seinfeld'
+Classic American Literature
+Classic {CollegeCourseAncient} {[Literature|Art}
+Political Cartoons
+Pornography
+'The Jerry Springer Show'
+
+COLLEGECOURSECONTEMPORARY
+Contemporary
+Modern
+21st Century
+20th Century
+
+COLLEGECOURSETHEIMPACTOF
+The {CollegeCourseImpact} Of {CollegeCourseAncient} {CollegeCourseMedium} On {CollegeCourseGroup1} {CollegeCourseGroup2} {CollegeCourseMedium} {CollegeCourseSuffix}
+The {CollegeCourseImpact} Of {CollegeCourseAncient} {CollegeCourseMedium} On {CollegeCourseContemporary} {UniversitySubject}
+The {CollegeCourseImpact} Of {CollegeCourseAncient} {CollegeCourseMedium} On {CollegeCourseContemporary} {CollegeCourseAdj} {CollegeCourseNoun}
+The {CollegeCourseImpact} Of {CollegeCourseGroup1} {CollegeCourseGroup2} {CollegeCourseMedium} On {CollegeCourseContemporary} {CollegeCourseAdj} {CollegeCourseNoun}
+The {CollegeCourseImpact} Of {CollegeCourseGroup1} {CollegeCourseGroup2} {CollegeCourseMedium} On {UniversitySubject}
+
+COLLEGECOURSEIMPACT
+Impact
+Effect
+Consequences
+Influence

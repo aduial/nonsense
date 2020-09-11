@@ -1,0 +1,1283 @@
+SDSTORYTEMPLATE
+{body:=SDStory}{SDStoryHeader}{SDTopicCode}{SDStoryHeader2}{$Body}{SDStoryFooter}
+
+SDSTORY
+{section=article}{SDArticle}
+{section=article}{SDArticle}
+{section=article}{SDArticle}
+{section=askslashdot}{author:=SDAuthorCliff}{dept:=SDArticleAskDept}{cmts:=SDCmtsMed}{totalcmts:=SDCmtsHigh}{SDArticleAskSlashdot}
+{section=article}{title:=SDHeadlineQuickies}{author:=SDAuthorCmdrTaco}{SDTopicQuickies}{dept:=SDArticleQuickiesDept}{cmts:=SDCmtsLow}{totalcmts:=SDCmtsMed}{SDArticleQuickies}
+{section=bookreview}{SDArticleBookReview}
+{section=article}{title:=SDHeadlineSlashback}{author:=SDAuthorTimothy}{dept:=SDGenericDept}{SDTopicSlashback}{cmts:=SDCmtsLow}{totalcmts:=SDCmtsMed}{SDArticleSlashback}
+{section=features}{SDArticleFeature}
+
+SDHEADLINE
+{SDHeadlineNews}
+{SDHeadlineNews}
+{SDHeadlineNews}
+Ask Slashdot: {SDHeadlineAskSlashdot}
+Feature: {SDHeadlineFeature}
+{SDHeadlineJonKatz}
+{SDHeadlineQuickies}
+{SDHeadlineSlashback}
+Book Review: {SDHeadlineBookReview}
+
+SDHEADLINESLASHBACK
+Slashback: {SDSlashbackItem}, {SDSlashbackItem}, {SDSlashbackItem}
+
+SDHEADLINEASKSLASHDOT
+What does "{LinuxError}" mean?
+Why do I keep getting this "{LinuxError}" error?
+What can we do to defend {TechLawsuitTarget}?
+How can we stop {Techgeektarget}?
+How to get hired at {Realcompany}?
+Should I upgrade to {Freshmeatapp}?
+Will Linux Support My {Peripheral}?
+Best Linux-Supported {Peripheral}?
+{Peripheral} Support For Linux?
+Pros and Cons of {OpenSourceLicense}?
+Holiday Geek Gift Ideas?
+Best {Peripheral} for Unix?
+Most Secure FTP Server?
+Which is the best Linux portal?
+Most 'Mom-Friendly' Linux Distro?
+When's {Linuxpersonality}'s Birthday?
+How to start a Linux LUG?
+Best Way To Learn {ComputerLanguage}?
+Unicode Support For Linux?
+Is Windows {WindowsVersion} Actually Y2K Compliant?
+Best Way to Contact Microsoft Tech Support?
+BASIC Compiler for Unix?
+What Does '{[CmdrTaco|Hemos}' Really Mean?
+Where to Buy Cool Computer Cases?
+Best Place to Buy O'Reilly Books?
+Linux {LinuxKernelVersion} Performance Problems
+GPL Licensing Question
+Configuring sendmail?
+What Exactly is a {CareerTech}?
+
+SDHEADLINEBOOKREVIEW
+Nothing But {ComputerLanguage}
+Learn {ComputerLanguage} In {#21-1000} Days
+Fighting {TechGeekTarget}
+The War Against {TechGeekEnemy}
+Putting A Stop To {TechProblem}
+The Art Of {ComputerLanguage} Programming
+The {OpenSourceProject} Revolution
+Hacker With An Attitude: {LinuxPersonality}'s Official Biography
+Fighting The Evil Empire: {LinuxPersonality}'s Unauthorized Bio
+The {TechColumnist} Anthology
+{ComputerLanguage} {SDHeadlineBookReviewSuffix}
+{LinuxDistro} {SDHeadlineBookReviewSuffix}
+Windows {WindowsVersion} {SDHeadlineBookReviewSuffix}
+{ComputerLanguage} In A Nutshell (the {animal} book)
+
+SDHEADLINEBOOKREVIEWSUFFIX
+For Dummies
+For Fscking Morons
+For Complete Idiots
+For Total Idiots
+For Complete Morons
+
+SDHEADLINEFEATURE
+{Techlawsuittarget}: It's All About Freedom
+When will the politicians learn that {Techgeektarget} is evil?
+Internet Access in {Cardinal} {USState} Sucks
+Clueless PHBs at {RealCompany} File Frivolous Lawsuit
+{Punditflame} -- Just Kidding!
+When the heck is {Punditpersonality} ever going to shut up?
+FreeBSD vs. Linux -- The War Continues
+Microsoft's Slogan Should Be "{MicrosoftSlogan}"
+ICANN... Well, Maybe Not
+{TechGeekEnemy} Must Be Stopped Now
+Moore's Law Is Wrong!
+
+SDHEADLINENEWS
+{#10-90},000 Node Beowulf Cluster Built!
+Microsoft Acquires {RealCompany}
+Linux Kernel {linuxkernelversion} Released
+Download-Compile-Reboot: Linux {linuxkernelversion} Released
+{TechLawsuitTarget} Sued Again
+More Bad {TechGeekTarget} News
+Finally, Some Good News About {TechGeekTarget}
+{Freshmeatapp} Released
+Yet another dotcom bites the dust
+{^Domainname}.com Goes Bankrupt
+{^Domainname}.com Files for IPO
+{RealCompany} Obtains Dubious Patent
+{TechCompany} Unveils New {Peripheral} Model
+{Peripheral} on sale for ${digit}.95 due to inventory error
+{LinuxPersonality} Hired as New {CorpJobTitle} By {LinuxCompany}
+{LinuxCompany} Hires {Person} as New {CorpJobTitle}
+{TechCompany} Hires {Person} as {CareerTech}
+{TechCompany} {CorpJobTitle} Resigns Amid Controversy
+Interview with {LinuxPersonality} In {TechPublication}
+Big Linux Spread in {RealNewspaper}
+{PunditPersonality} Says "{PunditFlame}"
+{MicrosoftPersonality} Interview in {BizPublication}; Says "{PunditFlame}"
+Linux Possibly Defamed Somewhere!
+Get a Free T-shirt from {Techcompany}
+{LinuxCompany} Launches new Ad Campaign
+Yet Another Linux Portal Launches
+New Linux Portal Founded: {LinuxDomain}
+{^LinuxDomain} Interview with {LinuxPersonality}
+{^LinuxDomain} Hit with Slashdot Effect; {#10-500} Injured
+{LinuxEvent} Roundup
+Live Report From {LinuxEvent}
+Microsoft and {TechCompany} Squabble Over Licensing Rights
+{USState} Passes Anti-Spam Law
+{USState} Passes Draconian "Anti-Hacker" Law
+RIAA Infuriates Music Lovers Again
+Get Free Cheesy Merchandise from {LinuxDomain}
+Owner of {domainname}.com Accused of Cybersquatting, Taken to Court
+Nasty IIS Security Hole Uncovered
+New Outlook Virus Attacks Windows
+Another Windows {WindowsVersion} Exploit? Say It Ain't So!
+Mozilla M{#20-30} Released
+{[RMS|ESR} Responds to Recent Criticism
+{LinuxPersonality} Publishes New Essay
+GNU-Free BSD/Linux 0.1 Released
+Microsoft Office for Linux Rumors (Part {#5-30})
+{TechCompany} Class-Action Lawsuit Filed
+Cryogenic CPU Cooling Product
+{LinuxDistro} Chooses New Logo
+{LinuxCompany} -- A Bad Investment, Says {BizPublication}
+Slashdot Wins Another Award
+Microsoft Unveils New Slogan: "{MicrosoftSlogan}"
+{USState} Names Freeway After {MicrosoftPersonality}
+Attack of the Killer Backhoe in {RealCity}
+Star Wars Rumors
+{^LinuxDomain} Editorial on Linux
+Microsoft Announces Plans For Seattle Theme Park
+{TechGeekEnemy} Ticks Off More Customers
+USPTO Grants {TechCompany} Patent on {BogusPatent}
+{RealCompany} Obtains Patent on {BogusPatent}
+Patent On {BogusPatent} Set to Expire in {#1-30} Days
+{PunditPersonality} Rears His Ugly Head Again
+{PunditPersonality}: {OpenSourceProject} Sucks
+{TechPublication} Publishes {OpenSourceProject} Benchmarks
+Intel Announces 1.{#1-9} GHz Chip
+AMD Price Cuts
+Overclock Your Athlon to 1.{#0-9} GHz!
+New Open Source {ComputerLanguage} Implementation
+{LinuxDomain} and {LinuxDomain} Merge
+Does {FreshmeatApp} Violate the GPL?
+Big Computer Outtage at {RealCompany} -- Windows {WindowsVersion} Blamed
+{TechCompany} Renews Commitment to {OpenSourceProject}
+Web now has over {#500-999} million pages -- 90% of which suck
+{OpenSourceProject} Licensing Problems
+Stupid {ComputerLanguage} Tricks
+Prototype of {#500-1000} Gig Hard Drive Demo'd
+{LinuxPublication} on Linux Advocacy
+{^LinuxDomain} Needs A New {[Home|Server|Host}
+{OpenSourceProject} Featured in {TechPublication}
+New Geek Website: {LinuxDomain}
+{LinuxPersonality} On {TechGeekTarget}
+{LinuxPersonality} On {TechGeekEnemy}
+Recall On {TechCompany} {Peripheral}
+{OpenSourceProject} Needs A New {[Logo|Mascot}
+Future of {TechCompany}
+{TechCompany} Cuts {#50-3000} Jobs
+{^Domainname}.com Delisted from Nasdaq
+{AppNameSimple} 1.0 Officially Released
+School Loses Lawsuit Over Student Webpage; Forced To Pay ${#10-50},000
+Court Rules Against {TechCompany}
+More Trouble For {TechCompany}
+Nasty Security Hole Found in {LinuxDistro}
+{LinuxPersonality} Speaks At {LINUXUSERGROUP}
+{TechCompany} Announces {BuzzwordAdjective} {BuzzwordNoun} {AppSuffix}
+Microsoft Abuses Monopoly Power Again
+{TechColumnist} on {TechTopic}
+{TechTopic} In The News Again
+{TechProblem} Cause Havoc In {RealCity}
+Important {LinuxDistro} News
+{SoftwareProduct} Sales Up {#10-40}%
+New {SoftwareProduct} Version {[Announced|Released|Demoed|Shipping}
+Credit Card Sized Pentium {[450|500|550|600|633|700|800|900} PC
+{RealCompany} vs. Microsoft
+{LINUXUSERGROUP} Sponsors Install-Fest
+{LINUXUSERGROUP} Has Over {#1000-5000} Members
+{OpenSourceProject} Bumber Stickers
+{LinuxDistro} T-Shirt Contest {[Results|Underway|Announced}
+{LinuxDistro} Wins {TechPublication} Award
+{RealCompany} Turns Down Windows {WindowsVersion}
+{LinuxDomain} Revamp
+{LinuxDomain} Temporarily Down
+{TechCompany} Sues {TechCompany}
+US Postal Service Eyes .US Domain
+{RealCompany} Prefers Apache For E-Commerce
+NetCraft Releases New Apache Stats
+You've Got Telco!
+{LinuxPersonality} Forum Tommorrow
+{TechPublication} Editorial On {TechProblem}
+Buy {TechCompany} Stock Now... Cheap!
+The Case Against {OpenSourceProject}
+{TechCompany} Accused Of GPL Violation
+Free {LinuxEvent} Passes Available
+New Linux Gazette Issue Out
+World's Smallest Hard Drive
+{TechPublication} on {LinuxDistro}
+{LinuxEvent} Announces Keynote Speaker: {LinuxPersonality}
+{PunditPersonality} to Keynote at Microsoft Stockholder Meeting
+Court Rejects {TechCompany}'s {[restraining order|lawsuit|patent claim} against {TechCompany}
+{#15-200}0 Gig Hard Drives Coming
+Another Portable MP3 Player
+Battle over {LinuxDomain}
+{RealCompany} to buy out {TechCompany}?
+{TechPublication} on {LinuxPersonality}
+{RealCompany} Deploy {#10-99},000 Linux Boxes Companywide
+Hacking {[Furby|Barney|Lego Mindstorms}
+Is {RealCompany} Violating the GPL?
+
+SDOLDERSTUFF
+{SDOlderStuff0}{SDOlderStuff0}{SDOlderStuff0}
+
+SDOLDERSTUFF0
+{SDOlderStuffItem}
+{SDOlderStuffItem}{SDOlderStuffItem}
+{SDOlderStuffItem}{SDOlderStuffItem}{SDOlderStuffItem}
+{SDOlderStuffItem}{SDOlderStuffItem}{SDOlderStuffItem}{SDOlderStuffItem}
+
+SDOLDERSTUFFITEM
+<LI><A HREF="http://slashdot.org/article.pl?sid={@%y/%m/%d|$time|25000}/{#100000-9999999}">{SDHeadline}</A>{\n}
+
+SDARTICLE
+{title=Miscellaneous Slashdot Notes}{SDTopicSlashdot}{author:=SDAuthorCmdrTaco}{dept=stuff-to-grok}{cmts:=SDCmtsMed}{totalcmts:=SDCmtsHigh}I finally found some time to do a little perl hacking on the Slashdot codebase.  Like usual, I've probably broken something, but I'll leave it to you guys to find the bugs (and hopefully submits diffs :-)).  Some of the changes include tweaks to the moderation code (if you're a moderator or a moderator-wannabee, please click below for full details), subliminal advertising embedded in the html source code (maybe I shouldn't mention that), and an anti-spam system to thwart user agents with names like 'EmailCollector' and 'SpamMaker'.  Click the more link for details...
+{title=Software patents are patently offensive}{SDTopicDOJ}{author:=SDAuthor}{dept=kill-all-the-lawyers}{cmts:=SDCmtsMed}{totalcmts:=SDCmtsHigh}{SDContributor} writes "<I>I was browsing IBM's patent server when I came across this disturbing patent on '{BogusPatent}'.  Not good!</I>"  {SDContributor} pointed out an <A HREF="{SDCite}{$publink}">article</A> in {$Pub} about a patent on {BogusPatent} held by {SDBigEvilCompany}. Dozens of people sent <A HREF="{SDCite}{$publink}">linkage</A> to a {$Pub} {[op-ed|editorial|column|feature} entitled "Why Software Patents Benefits Consumers" written by {CongressCritter}.  Finally, {SDContributor} sent us an rebuttal editorial about the evils of software patents. Click below to read it."
+{title=Attack of the Killer Backhoe}{SDTopicNews}{author:=SDAuthor}{dept=nerds-panic-nationwide}{cmts:=SDCmtsMed}{totalcmts:=SDCmtsHigh}Net access was severaly disrupted earlier today by an errant backhoe that accidentally cut two major net backbone cables near {[Palo Alto|San Jose|Mountain View}, California. Preliminary reports indicate that as much as {#20-50}% of all US-based websites were offline for as many as three hours.  The backhoe operator, "Bubba" {LastName}, says that he "pulled the wrong lever". A full investigation by the FCC will commence as soon as the department receives sufficient funding.
+{title=Modern Art Beowulf Cluster}{SDTopicNews}{author:=SDAuthor}{dept=i-should-have-majored-in-art} {cmts:=SDCmtsLow}{totalcmts:=SDCmtsMed}{SDContributor} writes, "<I>A bored grad student at {University} created a modern art sculpture in the campus courtyard made entirely out of old {#2-4}86 computers.  The cool part is that this Rube Goldberg-like contraption actually works -- part of it is a fully functional Beowulf cluster!  The Computer Science Club's  <A HREF="http://geekzilla.cs.{acronym}.edu">website</A> is served by the cluster, which is nicknamed Geekzilla</I>." I wish they had cool stuff like that at my college.
+{title=Linux Possibly Defamed Somewhere!}{SDTopicLinux}{author:=SDAuthorCmdrTaco}{dept=call-out-the-linux-brigade!}{cmts:=SDCmtsHigh}{totalcmts:=SDCmtsVeryHigh}Several hundred people have sent word of a Linux  <A HREF="{SDCite}{$publink}">roast-a-thon</A> over at {$Pub}.  We recommend you send hostile flames to the <A HREF="mailto:{username}@{acronym}.{[net|com}">{[author|editor|publisher}</A> to let your voice be heard -- we simply cannot and will not allow idiots to badmouth our favorite operating system.
+{title:=SDArticleNewLinuxKernel}{SDTopicLinux}{author:=SDAuthor}{dept=download-compile-reboot}{cmts:=SDCmtsLow}{totalcmts:=SDCmtsMed}{SDContributorPhrase} the latest, greatest version of the Linux kernel is now available at a download site near you.  You know what to do.
+{title:=SDArticleSlashdotEffect}{SDTopicSlashdot}{author:=SDAuthorCmdrTaco}{dept=oops-i'm-sorry-about-that}{cmts:=SDCmtsMed}{totalcmts:=SDCmtsHigh}Yesterday's story about <A HREF="http://{$var1}">{$Var1}</A> triggered a massive attack on their website, causing {#3-6} servers to literally explode.  At least {#2-4} employees were injured by flying sparks, but none seriously.  We really do apologize for this massive denial-of-service attack: Slashdot needs to use its power for good, not evil.
+{title:=SDArticleHoax}{SDTopicNews}{author:=SDAuthor}{dept:=SDGenericDept}{cmts:=SDCmtsMed}{totalcmts:=SDCmtsHigh}{SDArticleHoaxBody}{[<BR>| }<B>Update by <A HREF="http://cmdrtaco.net">CT</A></B>: {SDArticleHoaxBody2}
+{title:=SDArticleNewHardDrive}{SDTopicTech}{author:=SDAuthor}{dept:=SDGenericDeptCoolStuff}{cmts:=SDCmtsLow}{totalcmts:=SDCmtsMed}{SDArticleNewHardDriveBody}
+{SDArticleMetaBiz}
+
+SDARTICLEMETABIZ
+{title:=SDArticleDotBomb}{SDTopicNews}{author:=SDAuthor}{dept:=SDGenericDept}{cmts:=SDCmtsLow}{totalcmts:=SDCmtsMed}{SDCite}{$Pub} takes a <A HREF="{$publink}">look</A> at why {$Firm} failed and what they probably could have done to survive. They suggest that they {SDArticleDotBombExp}.  Another explanation is that the company {SDArticleDotBombExp}. I realized as I read this that I never once bought anything from {$Firm}.  Oh well.
+{title:=SDArticleDotBomb2}{SDTopicNews}{author:=SDAuthor}{dept:=SDGenericDept}{cmts:=SDCmtsMed}{totalcmts:=SDCmtsHigh}Another day, another dotcom bites the dust.  This time it's {$Firm}.  This <A HREF="{SDCite}{$publink}">article</A> in {$Pub} analyzes the latest victim in the dotcom downturn, suggesting that the company failed because it {SDArticleDotBombExp}.
+{title:=SDArticleDotBomb3}{SDTopicNews}{author:=SDAuthor}{dept:=SDGenericDept}{cmts:=SDCmtsLow}{totalcmts:=SDCmtsMed}{[Financial experts|Analysts|Pundits} are worried about {$Firm}, which is not only in financial trouble but has been acting very {[erratically|strange} lately. Instead of laying off employees that they don't need, they've increased their workforce by {#30-50}% even though in a few months they'll start bouncing payroll checks.  According to some, the company is doomed because it {SDArticleDotBombExp}.  So what gives?
+{title:=SDArticleMerger}{SDTopicNews}{author:=SDAuthor}{dept=a-match-made-in-hell}{cmts:=SDCmtsMed}{totalcmts:=SDCmtsHigh}This {SDCite}<A HREF="{$publink}">{[article|feature|editorial}</A> over at {$Pub} argues that {$Firm1} should merge with {$Firm2}.  Why? Because "{SDArticleMergerExp}."
+
+SDXXXXXXXXXXXXX
+{title=}
+{SDTopic}
+{author:=SDAuthor}
+{dept=}
+{cmts:=SDCmtsLow}{totalcmts:=SDCmtsMed}
+Body
+
+SDARTICLEMERGER
+Should {firm1:=TechCompany}{$Firm1} Acquire {firm2:=TechCompany}{$Firm2}?
+What If {firm1:=DotComCompany}{$Firm1} Merged With {firm2:=TechCompany}{$Firm2}?
+Why {firm1:=TechCompany}{$Firm1} Should Buy {firm2:=DotComCompany}{$Firm2}
+
+SDARTICLEMERGEREXP
+both companies would share {buzzwordadjective} synergies
+both companies currently have inferior products, but together they might produce something that people might actually buy
+{$Firm2} is on the verge of bankruptcy
+{$Firm2} has a CEO that is totally clueless and needs to be replaced
+{$Firm1} has high hopes for world domination, which it won't be able to fulfill without the help of {$Firm2}
+
+SDARTICLEDOTBOMB
+{firm:=DotComCompany}{$Firm} Post Mortem
+Why Did {firm:=DotComCompany}{$Firm} Go {[Bankrupt|Bust}?
+The {firm:=DotComCompany}{$Firm} Failure: What Went Wrong?
+
+SDARTICLEDOTBOMB2
+{firm:=DotComCompany}{$Firm} Goes Out Of Business
+{firm:=DotComCompany}{$Firm} Bites The Dust
+{firm:=DotComCompany}{$Firm} Files For Bankruptcy
+The {[Demise|End|Collapse} of {firm:=DotComCompany}{$Firm}
+
+SDARTICLEDOTBOMB3
+What's Going On With {firm:=DotComCompany}{$Firm}?
+Is {firm:=DotComCompany}{$Firm} In Trouble?
+
+SDARTICLEDOTBOMBEXP
+blew all of their Venture Capital on {[worthless|stupid|pointless|extravagant} employee perks, such as a {[heated swimming pool|movie theater|game room|new Ferrari for everyone|team of gourmet chiefs}
+wasted all of their money on the lamest Super Bowl commercial ever produced
+didn't try to convert the large number of visitors into paying customers
+fell into the trap of believing that "If you build it, they will come and spend money", which, unlike in movies, doesn't happen in the Real World
+built a website with gratuitious Flash, JavaScript, and ActiveX features that irritated everyone
+had a business plan written on a napkin
+employed a bunch of teenagers who learned everything they knew about business from running a lemonade stand when they were younger
+intended to get rich from selling out to Microsoft even though they didn't have a product
+
+SDARTICLENEWHARDDRIVE
+{firm:=TechHardwareCompany}{$Firm} Announces {size:=#250-900}{$size} GB Hard Drive
+{firm:=TechHardwareCompany}Did Somebody Say {size:=#250-900}{$size} Gigabytes?
+{firm:=TechHardwareCompany}{$Firm}{size:=#250-900} Unveils {[Ultra|Super|Mega}{[Active|Super|Mega}{[Drive|Store|Capacity}{[&reg;|(tm)|(r)|} Hard Drive
+
+SDARTICLENEWHARDDRIVEBODY
+{$Firm} has done it again.  According to this {SDCite}{$Pub} <A HREF="{$publink}">article</A>, they've patented new technology that will allow them to produce a {$size} gigabyte hard drive the size of a {[penny|quarter|bacterium|molecule|peanut}.  {SDArticleNewHardDriveComment}
+{SDContributor} writes, <I>"In this {SDCite}<A HREF="{$publink}">{$Pub} article</A>, {$Firm} CEO {Person} talks about new advances in hard drive technology which could quadruple storage density."</I> {SDArticleNewHardDriveComment}
+{SDContributor} writes, <I>"I just got a press release from {$Firm} claiming that they've invented a new hard drive that can store {$size} gigabytes and runs on solar power.  Cool!"</I>
+
+SDARTICLENEWHARDDRIVECOMMENT
+Of course, it's still vaporware, but man that would hold a lot of MP3's!
+It's vaporware at this point, but I'm drooling already!
+Production isn't expected to begin until 200{#3-9}, which means you'll need to find some other way to store your {[porn|MP3} library for now.
+Man, I wish I was a dotcom billionaire so I could afford one of these babies.  Oh wait... I am!  Suckers!
+I remember back in the Good Ole Days when we walked uphill both ways to school and used computers that had {#5-10} megabyte hard drives... Things have really changed since then.
+
+SDARTICLEHOAX
+{MicrosoftPersonality} {[Killed|Shot|Arrested}!
+Gay Love Letters Written By {MicrosoftPersonality} Discovered!
+{[Microsoft|Intel|Red Hat} Goes Bankrupt!
+{PunditPersonality} Undergoes Sex Change Operation!
+{LinuxCompany} Stock Drops By {#70-99} Percent!
+Alien Spacecraft Lands Near {RealCity}!
+
+SDARTICLEHOAXBODY
+{SDContributor} writes, <I>"This is unbelievable!  The headline speaks for itself... see this article over at {SDCiteRumor}."</I>  Yep, this one certainly got my attention.
+{SDContributor} writes, <I>"This article over at {SDCiteRumor} pretty much sums it all up.  Heaven help us!"</I>  {SDArticleQuickiesSuffix}
+Several dozen people sent linkage to this {[story|article|rumor} over at {SDCiteRumor}.  {SDArticleQuickiesSuffix}
+{SDContributor} was the first of many to tell us about this article over at {SDCiteRumor}.  After the news broke, the NASDAQ plummeted by {#10-20} percent!  Quick, somebody get me some aspirin.
+
+SDARTICLEHOAXBODY2
+Okay, so we screwed up (again).  This story is a hoax.  We apologize.
+Well, let's all give a big thanks to the ten million people who wrote in to tell us this story is a hoax.
+Fine, we messed up again, this article is a scam.  Will you quit flaming us now?
+It seems we've been had.  The whole thing is a hoax.  Nevermind.
+Yes, we <I>do</I> have journalistic standards here at Slashdot.  It's just that we sometimes forget about them.  We apologize... this article is a hoax.  Now will you all shut up about it?
+
+SDARTICLENEWLINUXKERNEL
+Linux Kernel {linuxkernelversion} Released
+Here It Comes: Linux {linuxkernelversion}
+Linus Releases Kernel {linuxkernelversion} To The World
+
+SDARTICLESLASHDOTEFFECT
+{var1:=^LinuxDomain}{$Var1} Hit With Slashdot Effect
+Slashdot Effect Strikes {var1:=^LinuxDomain}{$Var1}
+Slashdot Effect Strikes {var1:=DotComCompany}{$Var1}
+
+SDARTICLESLASHBACK
+It's time again to take another look at Slashdot articles from the past week.  Click below to read updates for two previous articles about <A HREF="{SDGenericLink}">{SDArticleQuickiesItem}</A> and <A HREF="{SDGenericLink}">{SDArticleQuickiesItem}</A>, and to read about the latest developments in {[CmdrTaco's|Hemos'|CowboyNeal's} life.
+Okay, we admit it.  Things were said, mistakes were made.  It seems a whole batch of recent articles has turned out to be false.  For instance, the <A HREF="{SDGenericLink}">{SDArticleQuickiesItem}</A> is a hoax.  And the article entitled <A HREF="{SDGenericLink}">{SDHeadlineNews}</A> was completely untrue.
+Please, quit sending us email about all the mistakes we've made in the past week.  This is Slashdot, what do you expect?  If you want perfection, go read the New York Times (registration required).  Click below for our corrections for several previous articles, including <A HREF="{SDGenericLink}">{SDHeadlineNews}</A>, <A HREF="{SDGenericLink}">{SDHeadlineNews}</A>, and <A HREF="{SDGenericLink}">{SDHeadlineNews}</A>.
+
+SDARTICLEFEATURE
+{SDArticleFeatureJonKatz}
+
+SDARTICLEFEATUREJONKATZ
+{title:=SDHeadlineJonKatzFreedom}{SDTopicUSA}{author:=SDAuthorJonKatz}{dept:=SDJonKatzDept}{cmts:=SDCmtsMed}{totalcmts:=SDCmtsHigh}{SDArticleJonKatzFreedom}
+{title:=SDHeadlineJonKatzGoal}{SDTopicTech}{author:=SDAuthorJonKatz}{dept:=SDJonKatzDept}{cmts:=SDCmtsMed}{totalcmts:=SDCmtsHigh}{SDArticleJonKatzGoal}
+
+SDARTICLEJONKATZGOAL
+Over {[a decade|two decades|five years} ago, the concept of the {$JKGoal} was one of the most {[powerful|insightful|promising} ideas coming from {[the Net|Usenet|the online world}.  Now everybody is a little more {[skeptical|wiser}, and less {[idealistic|naive}.  Still, could the idea come back?  {SDArticleJonKatzEnding}
+{$JKGoal} is an idea whose time has come.  But {[narrow-minded|clueless|egocentric} {sdjonkatztarget} and {sdjonkatzenemy} must change their ways before it can happen. {SDArticleJonKatzEnding}
+
+SDARTICLEJONKATZFREEDOM
+{SDArticleJonKatzFreedomBody#3-5}{SDArticleJonKatzEnding}
+
+SDARTICLEJONKATZFREEDOMBODY
+We are at a crossroads. 
+This is no longer a problem that faces just {$jkpeople}. 
+The time for action is now. 
+I look around and all I see are {SDJonKatzEnemy} who will stop at nothing to restrict the freedoms of {$jkpeople}. 
+The world as we know it will come to an abrupt end unless all of the {$jkpeople} of the world band together and fight as a united whole against oppression at the hands of {$sdjonkatzenemy}. 
+All of the emails I keep receiving confirm one fact: a whole lotta {$jkpeople} are pissed off and aren't going to take it anymore. 
+Can you believe what's happening? 
+We must stop the {sdjonkatzenemy} of the {[world|US}. 
+The price of freedom is eternal vigilance. 
+I've seen the future and it doesn't look good. 
+I've been a {[pundit|social commentator|windbag|gasbag} for over {#5-10} years, and I've never seen anything like this. 
+This {SDCite}<A HREF="{$publink}">article</A> from {$Pub} should sent a warning signal to any freedom-loving Slashdotter. 
+One doesn't need to look very far to see the trend: the {sdjonkatzenemy} have declared war against {$jkpeople}. 
+
+SDARTICLEJONKATZENDING
+{\0}
+Click below for details.
+Click below to find out more.
+First of a {[three|four|five}-part series.
+
+SDHEADLINEJONKATZ
+{SDHeadlineJonKatzFreedom}
+{SDHeadlineJonKatzGoal}
+
+SDHEADLINEJONKATZFREEDOM
+Feature: {SDJonKatzPrefix} The {SDJonKatzAdj} {SDJonKatzNoun}{jkpeople:=GeekPeople}
+Feature: {jkpeople:=GeekPeople}{$JKPeople} And {SDJonKatzAdj} {SDJonKatzNoun}
+
+SDHEADLINEJONKATZGOAL
+Feature: {jkgoal:=SDJonKatzGoal}{SDJonKatzPrefixGood} {$JKGoal}
+
+SDJONKATZDEPT
+Stuff-To-Read
+I-Like-To-Use-Capital-Letters
+Rambling-On-About-Nothing
+It's-Time-To-Panic!
+
+SDJONKATZPREFIX
+The Rise Of
+The Road To
+The Era Of
+Descent Into
+The Future Of
+The Power Of
+The War Against
+The Secrets Of
+Rethinking
+The Attack Of
+The Paradox Of
+At The Crossroads Of
+Brief History Of
+Showdown With
+Beyond
+The Dynamics Of
+
+SDJONKATZPREFIXGOOD
+The Rise Of
+The Road To
+The Era Of
+The Future Of
+Beyond
+Rethinking
+At The Crossroads Of
+The Dynamics Of
+
+SDJONKATZTARGET
+Hackers
+Nerds
+Geeks
+Teenagers
+Troubled Teens
+Lurkers
+Flamers
+Anonymous Cowards
+Perverts
+Angst-Ridden Teens
+Kids
+
+SDJONKATZADJ
+Spiritual
+Digital
+Virtual
+Open-Source
+Post-Columbine
+Techno-Romantic
+Technocentric
+American
+
+SDJONKATZNOUN
+Revolution
+{[Cyber|Lawyer|Techno|Chrono}clysm
+Meltdown
+War
+Nightmare
+Tragedy
+Republic
+Hype
+Nation
+
+SDJONKATZGOALADJ
+Virtual
+Global
+Spiritual
+World
+Cyber
+
+SDJONKATZGOAL
+{SDJonKatzGoalAdj} Community
+{SDJonKatzGoalAdj} Property
+{SDJonKatzGoalAdj} Republic
+{SDJonKatzGoalAdj} Democracy
+{SDJonKatzGoalAdj} Revolution
+
+SDJONKATZENEMY
+Bible-Thumpers
+Congresscritters
+Paranoid Parents
+Clueless Soccer Moms
+Recording Industry Executives
+Unelected Bureaucrats
+Software Moguls
+Media Tycoons
+{OrgMembers}
+
+SDARTICLEASKSLASHDOT
+{SDContributor} writes, "<I>{SDArticleAskQuestion}</I>" {SDArticleAskComment}
+{SDContributor} asks, "<I>{SDArticleAskQuestion}</I>" {SDArticleAskComment}
+{SDContributor} poses this question: "<I>{SDArticleAskQuestion}</I>" {SDArticleAskComment}
+{SDContributor} wrote in with this {[good|excellent|} question: "<I>{SDArticleAskQuestion}</I>" {SDArticleAskComment}
+
+SDARTICLEASKQUESTION
+{title=Ask Slashdot: Which is the best Linux distro?}I'm wanting to try Linux, but I don't know where to begin.  My friends recommend {LinuxDistro} and {LinuxDistro}, but what is really the {[best|easiest to install|most user friendly} Linux distribution?
+{title:=SDQuestionBestSoftware}Our company is looking to deploy a 500 new Linux desktops throughout its corporate headquarters.  Which {$Var1} would you all recommend that we migrate to?
+{title:=SDQuestionBestSoftware}I don't want to start a {[flame war|holy war|flame-fest}, but which {$Var1} do you think is the best?
+{title:=SDQuestionBestSoftware}I convinced my mother to upgrade her system to Linux.  Unfortunately, I've had trouble setting her up with a good {$Var1}.  Any thoughts?  Which is the best choice for a newbie?
+{title:=SDQuestionLinuxSupport}I'm wanting to buy a new {$var1}, but nobody at {[CompUSA|CompUSSR|Circuit City} can tell me which models work with Linux.  Can anybody help?
+{title:=SDQuestionLinuxSupport}I've been shopping for a new {$var1}, but most everything only works with Windows.  The only exception is the {TechHardwareCompany} {#101-5000}{LETTER}, but it's way more than I can afford.  Does anybody know of any other models that do work with Linux?
+
+SDQUESTIONBESTSOFTWARE
+Ask Slashdot: What is the best {var1:=SDSoftwareCategory}{$Var1}?
+Ask Slashdot: {var1:=SDSoftwareCategory}{$^Var1}s -- What is the best choice?
+Ask Slashdot: We Need A Good {var1:=SDSoftwareCategory}{$^Var1}!
+Ask Slashdot: What are the pros and cons of different {var1:=SDSoftwareCategory}{$^Var1}s?
+Ask Slashdot: Which {var1:=SDSoftwareCategory}{$Var1} do you prefer?
+
+SDQUESTIONLINUXSUPPORT
+Ask Slashdot: What is the best Linux-supported {var1:=Peripheral}{$Var1}?
+Ask Slashdot: {var1:=Peripheral}{$^Var1} Buying Recommendations
+Ask Slashdot: Which {var1:=Peripheral}{$Var1} Do You Recommend?
+Ask Slashdot: Which {var1:=Peripheral}{$Var1} Has The Best Linux Drivers?
+
+SDARTICLEASKCOMMENT
+Good question!
+So what are your thoughts?
+Any thoughts?
+Now this is a doozy!
+I have a few thoughts on this, but I'll let the Slashdot community take it from here.
+{\0}
+
+SDARTICLEASKDEPT
+what-a-question
+no-flame-wars-please
+just-say-no-to-holy-wars
+think-before-you-post
+another-tough-question
+
+SDARTICLEQUICKIES
+{SDArticleQuickiesPhrase#6-10}
+I've been so busy lately that I've fallen behind on the quickies! Tragic! {SDArticleQuickiesPhrase#6-10}
+It's that time again for everyone's favorite Slashdot feature. {SDArticleQuickiesPhrase#6-10}
+Yep, it's that time again! {SDArticleQuickiesPhrase#6-10}
+First up: {SDArticleQuickiesPhrase#6-10} And finally... {SDArticleQuickiesPhrase}
+Time once again to clean out the submission queue: {SDArticleQuickiesPhrase#6-10}
+
+SDHEADLINEQUICKIES
+Quickies: Error -- {LinuxError}
+Return of the Quickies
+Did Somebody Say Quickies?
+Quickies: Welcome To {DayOfWeek}
+Quickie {DayOfWeek}
+{DayOfWeek} Quickies
+Quickies: Lame Filler Material
+Quickies: Cleaning Out The Submission Queue
+Quickies: Lotta Links
+Quickies: It's that time again
+Quickies For Me, Quickies For You
+Quickies Keep On Coming
+Two Scoops Of Quickies
+Full Quickie Disclosure
+Steaming Heap Of Quickies
+Super Quick Quickies
+Stop: Quickies Time
+Here Come Da Quickies
+Quickie Fu
+Big Batch Of Quickies
+Can You Say Quickies?
+
+SDARTICLEQUICKIESPHRASE
+{SDArticleQuickiesPrefix} <A HREF="{url}">{SDArticleQuickiesItem}</A>. 
+{SDArticleQuickiesPrefix} <A HREF="{url}">{SDArticleQuickiesItem}</A>. {SDArticleQuickiesSuffix} 
+{SDArticleQuickiesPrefix} <A HREF="{url}">{SDArticleQuickiesItem}</A>. 
+{SDArticleQuickiesPrefix} <A HREF="{url}">{SDArticleQuickiesItem}</A>. {SDArticleQuickiesSuffix} 
+{SDArticleQuickiesPrefix} a new site called <A HREF="{var1:=LinuxDomain}http://{$var1}">{$Var1}</A> to help {[beginners|newbies|neophytes|former Windows users}. 
+{SDContributor} has launched a new {[Linux advocacy|news site|Open Source community} site called <A HREF="{var1:=LinuxDomain}http://{$var1}">{$Var1}</A>. 
+{SDArticleQuickiesPrefixThat} <A HREF="{var1:=LinuxDomain}http://{$var1}">{$Var1}</A> has a new {[look|design|theme|owner}. 
+{SDArticleQuickiesPrefixThat} the {@%B} issue of <A HREF="{var1:=LinuxDomain}http://{$var1}">{$Var1}</A> is out. 
+{SDArticleQuickiesPrefixThat} version {AppVersion} of {AppName} is out.  {[Whatever the heck that is.|So?|And I just downloaded the previous version earlier today!|You know what to do.} 
+{SDArticleQuickiesPrefix} an article in {SDCite}{$Pub} about <A HREF="{$publink}">{SDArticleQuickiesItem}</A>. {SDArticleQuickiesSuffix} 
+{SDContributor} noted yet another Slashdot {SDCite}<A HREF="{$publink}">reference</A>, this time in {$Pub}. 
+{SDArticleQuickiesPrefix} this Slashdot plug in {SDCite}<A HREF="{$publink}">{$Pub}</A>. 
+{SDArticleQuickiesPrefix} this <A HREF="http://www.patents.ibm.com/details?patent_number=5{#100000-999999}">disturbing patent</A>. 
+{SDArticleQuickiesPrefix} yet another place you don't want to see a <A HREF="http://{domain}/{username}/bsod.jpg">BSOD</A>. 
+{SDArticleQuickiesPrefix} an {[IETF draft|RFC document} entitled "<A HREF="http://{domain}/rfc/{digit#4-5}.{[txt|html}">{RFCDocument}"</A>. {SDArticleQuickiesSuffix} 
+{SDArticleQuickiesPrefixThat} {SDCite}{$Pub} has an <A HREF="{$publink}">article</A> on Slashdot. 
+{SDArticleQuickiesPrefixThat} the {LinuxExpo} {[early registration|registration|call for papers} deadline is next {DayOfWeek}. 
+{SDArticleQuickiesPrefixThat} {SDCite}{$Pub} has started a {[daily|weekly|monthly|bi-weekly} {[Linux|BSD|Apache|Open Source} <A HREF="{$publink}">section</A>. 
+{SDArticleQuickiesPrefixThat} the website for the <A HREF="http://{domain}">{OrgPolitical}</A> {[runs on Linux.|runs on Linux.  How terribly ironic.|has some "interesting" comments embedded in the source code.} 
+{SDContributor} sent us a nice <A HREF="http://{domain}/{username}/hubble.jpg">photo</A> of {Planet} that officially meets Rob's First Law Of Art. 
+As {[usual|always|expected}, several new Linux websites have popped up, including <A HREF="{var1:=LinuxDomain}http://{$var1}">{$Var1}</A>, <A HREF="{var1:=LinuxDomain}http://{$var1}">{$Var1}</A>, and <A HREF="{var1:=LinuxDomain}http://{$var1}">{$Var1}</A>. {[This is starting to get out of hand.|Don't we have enough already?|How many do we need?} 
+{SDArticleQuickiesPrefixThat} ESR has updated the <A HREF="http://www.tuxedo.org/~esr/jargon/">Jargon File</A> to version 4.{#2-4}.{digit}.  It includes new definitions for {randomname}, {randomname}, and {randomname}. 
+
+SDARTICLEQUICKIESPREFIX
+{SDContributor} told us about
+{SDContributor} sent linkage to
+{SDContributor} forwarded us a link to
+Several people sent linkage to
+Quite a few people sent us a link to
+For something truly {[bizarre|wierd|strange}, {SDContributor} pointed out 
+
+SDARTICLEQUICKIESPREFIXTHAT
+{SDContributor} was the first to mention that
+We've received word that
+{SDContributor} told us that
+{SDContributor} wrote in to {[mention|tell us} that
+{SDContributor} pointed out that
+{SDContributor} noted that
+
+SDARTICLEQUICKIESSUFFIX
+Be very afraid.
+This can't be good.
+This is exactly what the world needs.
+It's another wonder of the Web.
+You've got to be kidding.
+Heaven help us!
+It's funny.
+When will the insanity end?
+It's old, but still amusing.
+No comment.
+Now I've seen it all.
+And you thought things couldn't possibly get any worse.
+{\0}
+
+SDARTICLEQUICKIESITEM
+{GeekEntertainment} {[Porn|Origami|Interpretive Dance}
+Furniture Porn: {[2.0|The Next Generation}
+the Random Slashdot Generator
+Bill Gates' computer teacher
+the {[dungeon|sub-sub-basement} under Microsoft Building #{#10-40}
+another wacky eBay auction
+the Pokey the Penguin comic strip
+The Church Of {^BuzzwordAdjective} {^BuzzwordNoun}
+The Church Of {LinuxPersonality}
+a research paper on why User Friendly sucks
+the {DotComCompany} gravesite
+the world's {[smallest|largest} Beowulf cluster
+rejected Linux mascots
+the QUERTY keyboard conspiracy
+Web-controlled microwave oven
+the world's *least* ergonomic keyboard
+the truth about {MicrosoftPersonality}
+a new {[beer|caffeinated beverage|beverage} called {^RandomName}
+The {^Animal} Dance
+The Boycott {RealCompany} Campaign
+the Tuxissa Virus
+proposed Star Wars pre-pre-prequels
+{[deep-fried|country-fried|barbequed|oven-roasted} {[Twinkies|pizza}
+{RealCompany} Ate My Balls
+Mr. T vs. {RealCompany}
+a quantitative study of the meaning of life
+the {GeekSciFiAuthor} Fan Club
+The Horrible, Terrible {RealCompany} Conspiracy
+the Bridges Of {USPresidentCommon} County
+the {[amusing|bizarre|funny} editorial policy of the {Newspaper}
+The {CareerTech} From Hell
+
+SDARTICLEQUICKIESDEPT
+stuff-to-link-to
+stuff-to-read
+stuff-to-click
+here-comes-the-slashdot-effect
+before-my-wrists-fall-off
+mindless-link-propagation
+stuff-that-wastes-time
+brace-yourself
+rob-must-be-bored
+new-and-improved
+happy-happy-joy-joy
+what-a-lame-title
+another-waste-of-time
+
+SDARTICLEBOOKREVIEW
+{title:=SDArticleBookReviewDummies}{author:=SDAuthor}{dept:=SDArticleBookReviewDept}{cmts:=SDCmtsLow}{totalcmts:=SDCmtsMed}We usually don't cover books in the {[IDG|O'Reilly|Sams} "...{$BookSuff}" line, but this is one is {[different|special|worth looking at}. If you've ever wanted to know more about {$BookSubj}, this is the book to get.
+{title:=SDArticleBookReviewDummies}{author:=SDAuthor}{dept:=SDArticleBookReviewDeptNeg}{cmts:=SDCmtsMed}{totalcmts:=SDCmtsHigh}I've never been very fond of books in the never-ending "{$BookSuff}" series.  But this particular book is horrible.  It spends more time talking about the author's {[hobbies|psychiatric problems|credentials} than about {$BookSubj}.  Don't even bother with this book.  Trust me.
+{title:=SDArticleBookReviewOReilly}{author:=SDAuthor}{dept:=SDArticleBookReviewDept}{cmts:=SDCmtsLow}{totalcmts:=SDCmtsMed}O'Reilly does it again: this time it's the "{^NaturalColor} {^Animal} Book".  Written by {Person}, this book covers everything you could ever dream of learning about {$BookSubj}.
+{title:=SDArticleBookReviewOReilly}{author:=SDAuthor}{dept:=SDArticleBookReviewDept}{cmts:=SDCmtsLow}{totalcmts:=SDCmtsMed}We often get bombarded with questions from people wanting to learn about {$BookSubj}.  Until now there just hasn't been a good reference.  However, O'Reilly has finally unveiled the "{^NaturalColor} {^Animal}" book, and it's already a classic.  This is a must-have book for your collection.
+{title:=SDArticleBookReviewSciFi}{author:=SDAuthor}{dept:=SDArticleBookReviewDept}{cmts:=SDCmtsLow}{totalcmts:=SDCmtsMed}{$BookAuthor}'s sci-fi classic, "{$BookTitle}", is often regarded as his crowning achievement.  It has everything, from {GeekSciFiElement} to {GeekSciFiElement}.  Click below to read the review, which hopefully doesn't spoil the plot too much.
+{title:=SDArticleBookReviewSciFi}{author:=SDAuthor}{dept:=SDArticleBookReviewDept}{cmts:=SDCmtsLow}{totalcmts:=SDCmtsMed}If you like science fiction books in which the central theme revolves around {GeekSciFiElement}, then you should run -- not walk -- over to our affiliate bookstore to buy "{$BookTitle}" by {$BookAuthor}.  You'll be glad you did, and we'll have some more money in our pockets to buy a new hard drive to hold our MP3 library.
+
+SDARTICLEBOOKREVIEWSCIFI
+Book Review: {booktitle:=GeekSciFiBook}{$BookTitle}{bookauthor:=SDArticleBookReviewSciFiAuthor}
+Book Review: {booktitle:=GeekSciFiBook}{$BookTitle}{bookauthor:=SDArticleBookReviewSciFiAuthor}
+Book Review: {booktitle:=GeekSciFiBook}{$BookTitle} by {bookauthor:=SDArticleBookReviewSciFiAuthor}{$BookAuthor}
+
+SDARTICLEBOOKREVIEWSCIFIAUTHOR
+{GeekSciFiAuthor}
+{FirstNameMale} {LastName}
+
+SDARTICLEBOOKREVIEWDUMMIES
+{booksubj:=SDArticleBookReviewTopic}{booksuff:=SDHeadlineBookReviewSuffix}Book Review: {$BookSubj} {$BookSuff}
+{booksubj:=SDArticleBookReviewTopic}{booksuff=In 21 Days}Book Review: Learn {$BookSubj} {$BookSuff}
+
+SDARTICLEBOOKREVIEWOREILLY
+Book Review: Mastering {booksubj:=SDArticleBookReviewTopic}{$BookSubj}
+Book Review: The Zen and Art Of {booksubj:=SDArticleBookReviewTopic}{$BookSubj}
+Book Review: {booksubj:=SDArticleBookReviewTopic}{$BookSubj} In A Nutshell
+Book Review: Advanced {booksubj:=ComputerLanguage}{$BookSubj} Programming{SDTopicTech}
+Book Review: Programming With {booksubj:=ComputerLanguage}{$BookSubj}{SDTopicTech}
+Book Review: Effective {booksubj:=ComputerLanguage}{$BookSubj} Programming{SDTopicTech}
+
+SDARTICLEBOOKREVIEWTOPIC
+{ComputerLanguage}{SDTopicTech}
+{ComputerLanguage}{SDTopicTech}
+{ComputerLanguage} Algorithms{SDTopicTech}
+{LinuxDistro}{SDTopicLinux}
+{^BuzzwordAdjective} {^BuzzwordNoun}{SDTopicTech}
+{^UnixTool}{SDTopicLinux}
+
+SDARTICLEBOOKREVIEWDEPT
+stuff-to-read
+stuff-to-read
+gonna-sell-like-hotcakes
+buy-beg-or-steal-this-book
+
+SDARTICLEBOOKREVIEWDEPTNEG
+stuff-not-to-read
+buy-an-oreilly-book-instead
+what-did-you-expect?
+why-did-anybody-publish-this?
+
+SDSLASHBOX
+{SDSlashBoxAskSlashdot}
+
+SDSLASHBOXASKSLASHDOT
+<B><A HREF="http://slashdot.org/index.pl?section=askslashdot"><FONT COLOR="#FFFFFF">Ask Slashdot</FONT></A></B></FONT></TD></TR><TR><TD bgcolor="#CCCCCC"><FONT color="#000000" size=2><LI><A HREF="{SDGenericLink}">{SDHeadlineAskSlashdot}</A>{\n}<LI><A HREF="{SDGenericLink}">{SDHeadlineAskSlashdot}</A>{\n}<LI><A HREF="{SDGenericLink}">{SDHeadlineAskSlashdot}</A>{\n}<LI><A HREF="{SDGenericLink}">{SDHeadlineAskSlashdot}</A>{\n}<LI><A HREF="{SDGenericLink}">{SDHeadlineAskSlashdot}</A>{\n}<LI><A HREF="{SDGenericLink}">{SDHeadlineAskSlashdot}</A>{\n}<LI><A HREF="{SDGenericLink}">{SDHeadlineAskSlashdot}</A>{\n}<LI><A HREF="{SDGenericLink}">{SDHeadlineAskSlashdot}</A>{\n}<LI><A HREF="{SDGenericLink}">{SDHeadlineAskSlashdot}</A>{\n}
+
+SDSLASHBOXBOOKREVIEWITEM
+For the Perl lovers amongst us (I think that's everyone), {Person} sent us a review of the amazing {SDBookReviewLink}Perl for Smarties</A>, a great IDG book.
+{SDContributor} sent in a review of {SDBookReviewLink}How To Write Programs Compatible With GNOME and KDE</A>, a book that might finally put an end to some of the flame wars.
+Jesse Berst's new book, <I>{SDBookReviewLink}Anchored To The Desk: Succeeding As An Online Pundit</A></I>, is a waste of money according to {SDContributor}.
+O'Reilly's latest masterpiece, {SDBookReviewLink}Learning How To Write Open Source Licenses In 21 Days</A>, is a must-have for the lawyer-wannabee.
+{Person} reviews {SDBookReviewLink}Bob's Silly Guide to ActiveX</A>, a funny book about a topic nobody here is actually interested in.
+{Person} critiques the latest Microsoft-bashing work, {SDBookReviewLink}Microsoft: The Evil Empire</A>.
+{SDBookReviewLink}Python in a Nutshell</A> is a good introductory book for Python novices, although I'll stick with Perl myself.
+{SDContributor} reviews the sci-fi classic, "{SDBookReviewLink}{GeekSciFiBook}</A>", by {SDArticleBookReviewSciFiAuthor}.  It's a must-read for those interested in {GeekSciFiElement}.
+According to {SDContributor}, {SDBookReviewLink}{SDArticleBookReviewTopic} {SDHeadlineBookReviewSuffix}</A> is the worst how-to book he's ever read.
+For something a little different, try {Person}'s science fiction {[novel|novella|anthology}, {SDBookReviewLink}{GeekSciFiBook}</A>.  It makes most other books in the genre look like crap.
+
+SDBOOKREVIEWLINK
+<a href="http://slashdot.org/books/{@%y/%m/%d|100000|9000000}/{#100000-9999999}.shtml">
+
+SDSTORYHEADER
+<TABLE width="100%" cellpadding=0 cellspacing=0 border=0><TR><TD valign=top bgcolor="#006666"><IMG src="http://images.slashdot.org/slc.gif" width=13 height=16 alt="" align=top><FONT size=4 color="#FFFFFF" face="arial,helvetica"><B>{$Title}</B></FONT></TD></TR></TABLE>
+
+SDTOPICCODE
+<A HREF="http://slashdot.org/search.pl?topic={$topicid}"><IMG SRC="http://images.slashdot.org/topics/{$TopicImg}" WIDTH="{$TopicImgW}" HEIGHT="{$TopicImgH}" BORDER="0" ALIGN="RIGHT" HSPACE="20" VSPACE="10" ALT="{$TopicLabel}"></A>
+
+SDSTORYHEADER2
+<B>Posted by {$Author} on {@%A %B %d, @%I:%M%p|$time|10000}</B><BR><FONT size=2><B>from the {$Dept} dept.</B></FONT><BR>
+
+SDSTORYFOOTER
+<P><B>( </B><A HREF="http://slashdot.org/{$section}/{link:=SDStoryPath}{$link}.shtml"><B>Read More...</B></A> | <B><A HREF="http://slashdot.org/article.pl?sid={$link}&mode=thread&threshold=1">{$cmts}</A> of <A HREF="http://slashdot.org/article.pl?sid={$link}&mode=thread&threshold=-1">{$totalcmts}</A> </B>comments<B>)</B></P>
+
+SDSTORYPATH
+{@%y/%m/%d|$time|0}/{#100000-9999999}
+
+SDSTORYPATHPAST
+{@%y/%m/%d|10000|300000}/{#100000-9999999}
+
+SDGENERICLINK
+http://slashdot.org/article.pl?sid={@%y/%m/%d|0|50000}/{digit}{digit}{digit}{digit}{digit}{digit}{digit}
+
+SDCMTSLOW
+{#10-50}
+
+SDCMTSMED
+{#51-150}
+
+SDCMTSHIGH
+{#150-400}
+
+SDCMTSVERYHIGH
+{#400-1500}
+
+SDAUTHOR
+{SDAuthorCmdrTaco}
+{SDAuthorHemos}
+
+SDAUTHORCMDRTACO
+<A HREF="http://CmdrTaco.net">CmdrTaco</A>
+
+SDAUTHORHEMOS
+<A HREF="http://hemos.net">Hemos</A>
+
+SDAUTHORCLIFF
+<A HREF="http://exit118.com/">Cliff</A>
+
+SDAUTHORJONKATZ
+<A HREF="mailto:jonkatz@slashdot.org">JonKatz</A>
+
+SDAUTHORTIMOTHY
+<A HREF="http://www.monkey.org/~timothy">timothy</A>
+
+SDAUTHORJAMIE
+<A HREF="">jamie</A>
+
+SDCONTRIBUTOR
+<A HREF="mailto:{Email}">{Person}</A>
+<A HREF="mailto:{Email}">{UserName}</A>
+<A HREF="{url}">{Person}</A>
+<A HREF="{url}">{UserName}</A>
+<A HREF="mailto:{var1:=username}{$var1}@{domain}">{$var1}</A>
+<A HREF="mailto:{var1:=LastName}{$var1}@{domain}">{FirstName} {$Var1}</A>
+<A HREF="mailto:{var1:=FirstName}{$var1}@{domain}">{$Var1} {LastName}</A>
+<A HREF="http://www.{domainname}.{bigtld}/~{var1:=username}{$var1}/">{$var1}</A>
+<A HREF="http://www.{var1:=LastName}{$var1}.com/">{FirstName} {$Var1}</A>
+{Person}
+{^Username}
+
+SDCONTRIBUTORPHRASE
+{SDContributor} informed us that
+{SDContributor} was the first of many to tell us that
+According to {SDContributor},
+
+SDFORTUNE
+Can't you run fortune yourself?
+This fortune intentionally left blank.
+Nine out of ten fortunes are not funny.
+
+SDCITE
+{pub=Ziff-Davis AnchorDesk}{publink:=SDCiteAnchorDesk}
+{pub=CNN}{publink:=SDCiteCNN}
+{pub=Wired News}{publink:=SDCiteWiredNews}
+{pub=Salon.com}{publink:=SDCiteSalon}
+{pub=PC Week}{publink:=SDCitePCWeek}
+{pub=MSNBC}{publink:=SDCiteMSNBC}
+{pub=InfoWorld}{publink:=SDCiteInfoWorld}
+{pub=TechWeb}{publink:=SDCiteTechWeb}
+
+SDCITEANCHORDESK
+http://www.zdnet.com/anchordesk/story/story_{#1000-9999}.html
+
+SDCITECNN
+http://www.cnn.com/TECH/computing/{@%y%m/%d|0|100000}/{$topicid}.idg/index.html
+
+SDCITEWIREDNEWS
+http://{[www.}wired.com/news/news/politics/story/{#10000-99999}.html
+http://{[www.}wired.com/news/business/0,{#1000-9999},{#10000-99999},00.html
+
+SDCITESALON
+http://www.salon.com/tech/review/{@%Y/%m/%d|0|100000}/{$topicid}/index.html
+http://www.salon.com/news/feature/{@%Y/%m/%d|0|100000}/ellsberg/index.html
+
+SDCITEPCWEEK
+http://www.zdnet.com/pcweek/stories/news/0,{#1000-9999},{#1000000-9999999},00.html
+
+SDCITEMSNBC
+http://www.msnbc.com/news/{#400000-999999}.asp
+
+SDCITEINFOWORLD
+http://www.infoworld.com/articles/hn/xml/{@%y/%m/%d/%y%m%d|0|100000}{$topicid}.xml
+
+SDCITETECHWEB
+http://www.techweb.com/wire/story/TWB{@%Y%m%d|0|100000}S00{#1-9}{digit}
+
+XSDCITEPATENT
+http://www.patents.ibm.com/details?patent_number=5501650
+
+SDCITERUMOR
+<A HREF="http://www.drudgereport.com">Drudge Report</A>
+<A HREF="http://{var1:=LinuxDomain}{$var1}">{$Var1}</A>
+<A HREF="http://www.arstechnica.com">Ars Technica</A>
+<A HREF="http://www.{var1:=FirstNameMale}{$var1}shardware.{bigtld}">{$Var1}'s Hardware</A>
+<A HREF="http://www.newsmax.com">NewsMax</A>
+
+SDANYTOPIC
+{SDTopicAmd}
+{SDTopicAol}
+{SDTopicAmiga}
+{SDTopicAnnounce}
+{SDTopicApache}
+{SDTopicApple}
+{SDTopicBe}
+{SDTopicBeanies}
+{SDTopicBsd}
+{SDTopicBug}
+{SDTopicCaldera}
+{SDTopicCda}
+{SDTopicCensorship}
+{SDTopicXmas}
+{SDTopicComdex}
+{SDTopicCompaq}
+{SDTopicCorel}
+{SDTopicDebian}
+{SDTopicDoj}
+{SDTopicDigital}
+{SDTopicEd}
+{SDTopicEncryption}
+{SDTopicEnlightenment}
+{SDTopicEplus}
+{SDTopicGames}
+{SDTopicGnome}
+{SDTopicGnu}
+{SDTopicGnustep}
+{SDTopicGraphics}
+{SDTopicHardware}
+{SDTopicIbm}
+{SDTopicIntel}
+{SDTopicIe}
+{SDTopicHumor}
+{SDTopicJava}
+{SDTopicKde}
+{SDTopicLinks}
+{SDTopicLinux}
+{SDTopicLinuxbiz}
+{SDTopicMandrake}
+{SDTopicLinuxcare}
+{SDTopicMicrosoft}
+{SDTopicMovies}
+{SDTopicMozilla}
+{SDTopicMusic}
+{SDTopicNetscape}
+{SDTopicNews}
+{SDTopicPilot}
+{SDTopicPatents}
+{SDTopicPerl}
+{SDTopicPrivacy}
+{SDTopicProgramming}
+{SDTopicQuake}
+{SDTopicQuickies}
+{SDTopicRedhat}
+{SDTopicScience}
+{SDTopicSgi}
+{SDTopicSlashback}
+{SDTopicSlashdot}
+{SDTopicSpace}
+{SDTopicSpam}
+{SDTopicStarwars}
+{SDTopicSun}
+{SDTopicSuse}
+{SDTopicTech}
+{SDTopicTv}
+{SDTopicMoney}
+{SDTopicGimp}
+{SDTopicInternet}
+{SDTopicMedia}
+{SDTopicToys}
+{SDTopicTransmeta}
+{SDTopicUsa}
+{SDTopicUnix}
+{SDTopicUpgrades}
+{SDTopicVa}
+{SDTopicWine}
+{SDTopicX}
+
+SDTOPICAMD
+{topicid=amd}{topiclabel=AMD}{topicimg=topicamd.gif}{topicimgw=53}{topicimgh=53}
+
+SDTOPICAOL
+{topicid=aol}{topiclabel=America Online}{topicimg=topicaol.jpg}{topicimgw=60}{topicimgh=48}
+
+SDTOPICAMIGA
+{topicid=amiga}{topiclabel=Amiga}{topicimg=topicamiga.gif}{topicimgw=64}{topicimgh=64}
+
+SDTOPICANNOUNCE
+{topicid=announce}{topiclabel=Announcements}{topicimg=topicannouncements.gif}{topicimgw=67}{topicimgh=51}
+
+SDTOPICAPACHE
+{topicid=apache}{topiclabel=Apache}{topicimg=topicapache.gif}{topicimgw=80}{topicimgh=25}
+
+SDTOPICAPPLE
+{topicid=apple}{topiclabel=Apple}{topicimg=topicapple.gif}{topicimgw=60}{topicimgh=64}
+
+SDTOPICBE
+{topicid=be}{topiclabel=Be}{topicimg=topicbe.gif}{topicimgw=60}{topicimgh=50}
+
+SDTOPICBEANIES
+{topicid=beanies}{topiclabel=Beanies}{topicimg=topicbeanies.gif}{topicimgw=50}{topicimgh=40}
+
+SDTOPICBSD
+{topicid=bsd}{topiclabel=BSD}{topicimg=topicfreebsd.gif}{topicimgw=50}{topicimgh=56}
+
+SDTOPICBUG
+{topicid=bug}{topiclabel=Bug}{topicimg=topicbug.jpg}{topicimgw=80}{topicimgh=62}
+
+SDTOPICCALDERA
+{topicid=caldera}{topiclabel=Caldera}{topicimg=topiccaldera.gif}{topicimgw=80}{topicimgh=65}
+
+SDTOPICCDA
+{topicid=cda}{topiclabel=CDA}{topicimg=topiccda.jpg}{topicimgw=100}{topicimgh=33}
+
+SDTOPICCENSORSHIP
+{topicid=censorship}{topiclabel=Censorship}{topicimg=topiccensorship.gif}{topicimgw=44}{topicimgh=55}
+
+SDTOPICXMAS
+{topicid=xmas}{topiclabel=Christmas Cheer}{topicimg=topicxmas.jpg}{topicimgw=80}{topicimgh=91}
+
+SDTOPICCOMDEX
+{topicid=comdex}{topiclabel=Comdex}{topicimg=topiccomdex.gif}{topicimgw=90}{topicimgh=12}
+
+SDTOPICCOMPAQ
+{topicid=compaq}{topiclabel=Compaq}{topicimg=topiccompaq.gif}{topicimgw=80}{topicimgh=16}
+
+SDTOPICCOREL
+{topicid=corel}{topiclabel=Corel}{topicimg=topiccorel.gif}{topicimgw=80}{topicimgh=31}
+
+SDTOPICDEBIAN
+{topicid=debian}{topiclabel=Debian}{topicimg=topicdebian.gif}{topicimgw=40}{topicimgh=51}
+
+SDTOPICDOJ
+{topicid=doj}{topiclabel=Department of Justice}{topicimg=topicdoj.jpg}{topicimgw=50}{topicimgh=79}
+
+SDTOPICDIGITAL
+{topicid=digital}{topiclabel=Digital}{topicimg=topicdigital.gif}{topicimgw=68}{topicimgh=21}
+
+SDTOPICED
+{topicid=ed}{topiclabel=Education}{topicimg=topiced.gif}{topicimgw=87}{topicimgh=64}
+
+SDTOPICENCRYPTION
+{topicid=encryption}{topiclabel=Encryption}{topicimg=topicencryption.gif}{topicimgw=80}{topicimgh=70}
+
+SDTOPICENLIGHTENMENT
+{topicid=enlightenment}{topiclabel=Enlightenment}{topicimg=topicenlightenment.gif}{topicimgw=34}{topicimgh=40}
+
+SDTOPICEPLUS
+{topicid=eplus}{topiclabel=ePlus}{topicimg=topiceplus.jpg}{topicimgw=70}{topicimgh=57}
+
+SDTOPICGAMES
+{topicid=games}{topiclabel=Games}{topicimg=topicgames.jpg}{topicimgw=80}{topicimgh=56}
+
+SDTOPICGNOME
+{topicid=gnome}{topiclabel=GNOME}{topicimg=topicgnome.gif}{topicimgw=64}{topicimgh=80}
+
+SDTOPICGNU
+{topicid=gnu}{topiclabel=GNU is Not Unix}{topicimg=topicgnu.jpg}{topicimgw=50}{topicimgh=76}
+
+SDTOPICGNUSTEP
+{topicid=gnustep}{topiclabel=GNUStep}{topicimg=topicgnustep.gif}{topicimgw=45}{topicimgh=48}
+
+SDTOPICGRAPHICS
+{topicid=graphics}{topiclabel=Graphics}{topicimg=topicgraphics3.gif}{topicimgw=69}{topicimgh=62}
+
+SDTOPICHARDWARE
+{topicid=hardware}{topiclabel=Hardware}{topicimg=topichardware.gif}{topicimgw=65}{topicimgh=68}
+
+SDTOPICIBM
+{topicid=ibm}{topiclabel=IBM}{topicimg=topicibm.gif}{topicimgw=87}{topicimgh=35}
+
+SDTOPICINTEL
+{topicid=intel}{topiclabel=Intel}{topicimg=topicintel.gif}{topicimgw=68}{topicimgh=35}
+
+SDTOPICIE
+{topicid=ie}{topiclabel=Internet Explorer}{topicimg=topicie.jpg}{topicimgw=50}{topicimgh=53}
+
+SDTOPICHUMOR
+{topicid=humor}{topiclabel=It's funny. Laugh.}{topicimg=topichumor.gif}{topicimgw=59}{topicimgh=39}
+
+SDTOPICJAVA
+{topicid=java}{topiclabel=Java}{topicimg=topicjava.jpg}{topicimgw=43}{topicimgh=60}
+
+SDTOPICKDE
+{topicid=kde}{topiclabel=KDE}{topicimg=topickde.gif}{topicimgw=73}{topicimgh=73}
+
+SDTOPICLINKS
+{topicid=links}{topiclabel=Links}{topicimg=quicklinks.gif}{topicimgw=60}{topicimgh=60}
+
+SDTOPICLINUX
+{topicid=linux}{topiclabel=Linux}{topicimg=topiclinux.gif}{topicimgw=60}{topicimgh=70}
+
+SDTOPICLINUXBIZ
+{topicid=linuxbiz}{topiclabel=Linux Business}{topicimg=topiclinuxbiz.gif}{topicimgw=60}{topicimgh=71}
+
+SDTOPICMANDRAKE
+{topicid=mandrake}{topiclabel=Linux Mandrake}{topicimg=mandrake.gif}{topicimgw=61}{topicimgh=61}
+
+SDTOPICLINUXCARE
+{topicid=linuxcare}{topiclabel=Linuxcare}{topicimg=topiclinuxcare.gif}{topicimgw=100}{topicimgh=13}
+
+SDTOPICMICROSOFT
+{topicid=microsoft}{topiclabel=Microsoft}{topicimg=topicms.gif}{topicimgw=75}{topicimgh=55}
+
+SDTOPICMOVIES
+{topicid=movies}{topiclabel=Movies}{topicimg=topicmovies.gif}{topicimgw=50}{topicimgh=50}
+
+SDTOPICMOZILLA
+{topicid=mozilla}{topiclabel=Mozilla}{topicimg=topicmozilla.gif}{topicimgw=64}{topicimgh=65}
+
+SDTOPICMUSIC
+{topicid=music}{topiclabel=Music}{topicimg=topicmusic.gif}{topicimgw=60}{topicimgh=49}
+
+SDTOPICNETSCAPE
+{topicid=netscape}{topiclabel=Netscape}{topicimg=topicnetscape.gif}{topicimgw=64}{topicimgh=64}
+
+SDTOPICNEWS
+{topicid=news}{topiclabel=News}{topicimg=topicnews.gif}{topicimgw=34}{topicimgh=44}
+
+SDTOPICPILOT
+{topicid=pilot}{topiclabel=PalmPilot}{topicimg=topicpilot.gif}{topicimgw=55}{topicimgh=75}
+
+SDTOPICPATENTS
+{topicid=patents}{topiclabel=Patents}{topicimg=topicpatents.gif}{topicimgw=75}{topicimgh=54}
+
+SDTOPICPERL
+{topicid=perl}{topiclabel=Perl}{topicimg=topicperl.gif}{topicimgw=80}{topicimgh=64}
+
+SDTOPICPRIVACY
+{topicid=Privacy}{topiclabel=Privacy}{topicimg=topicprivacy.gif}{topicimgw=71}{topicimgh=53}
+
+SDTOPICPROGRAMMING
+{topicid=programming}{topiclabel=Programming}{topicimg=topicprogramming.gif}{topicimgw=80}{topicimgh=48}
+
+SDTOPICQUAKE
+{topicid=quake}{topiclabel=Quake}{topicimg=topicquake.gif}{topicimgw=60}{topicimgh=57}
+
+SDTOPICQUICKIES
+{topicid=quickies}{topiclabel=Quickies}{topicimg=topicquickies.gif}{topicimgw=58}{topicimgh=90}
+
+SDTOPICREDHAT
+{topicid=redhat}{topiclabel=Red Hat Software}{topicimg=topicredhat.gif}{topicimgw=60}{topicimgh=53}
+
+SDTOPICSCIENCE
+{topicid=science}{topiclabel=Science}{topicimg=topicscience.gif}{topicimgw=62}{topicimgh=75}
+
+SDTOPICSGI
+{topicid=sgi}{topiclabel=Silicon Graphics}{topicimg=topicsgi.gif}{topicimgw=60}{topicimgh=60}
+
+SDTOPICSLASHBACK
+{topicid=slashback}{topiclabel=Slashback}{topicimg=topicslashback.gif}{topicimgw=74}{topicimgh=74}
+
+SDTOPICSLASHDOT
+{topicid=slashdot}{topiclabel=Slashdot.org}{topicimg=topicslashdot.gif}{topicimgw=100}{topicimgh=34}
+
+SDTOPICSPACE
+{topicid=space}{topiclabel=Space}{topicimg=topicspace.gif}{topicimgw=73}{topicimgh=59}
+
+SDTOPICSPAM
+{topicid=spam}{topiclabel=Spam}{topicimg=topicspam.jpg}{topicimgw=60}{topicimgh=58}
+
+SDTOPICSTARWARS
+{topicid=starwars}{topiclabel=Star Wars Prequels}{topicimg=topicstarwars.gif}{topicimgw=79}{topicimgh=40}
+
+SDTOPICSUN
+{topicid=sun}{topiclabel=Sun Microsystems}{topicimg=topicsun.gif}{topicimgw=43}{topicimgh=43}
+
+SDTOPICSUSE
+{topicid=suse}{topiclabel=SuSE}{topicimg=topicsuse.gif}{topicimgw=60}{topicimgh=44}
+
+SDTOPICTECH
+{topicid=tech}{topiclabel=Technology}{topicimg=topictech2.jpg}{topicimgw=60}{topicimgh=80}
+
+SDTOPICTV
+{topicid=tv}{topiclabel=Television}{topicimg=topictv.jpg}{topicimgw=50}{topicimgh=50}
+
+SDTOPICMONEY
+{topicid=money}{topiclabel=The Almighty Buck}{topicimg=topicmoney.gif}{topicimgw=76}{topicimgh=70}
+
+SDTOPICGIMP
+{topicid=gimp}{topiclabel=The Gimp}{topicimg=topicgimp.gif}{topicimgw=77}{topicimgh=57}
+
+SDTOPICINTERNET
+{topicid=internet}{topiclabel=The Internet}{topicimg=topicinternet.jpg}{topicimgw=75}{topicimgh=79}
+
+SDTOPICMEDIA
+{topicid=media}{topiclabel=The Media}{topicimg=topicmedia.gif}{topicimgw=60}{topicimgh=53}
+
+SDTOPICTOYS
+{topicid=toys}{topiclabel=Toys}{topicimg=topictoys.gif}{topicimgw=59}{topicimgh=46}
+
+SDTOPICTRANSMETA
+{topicid=transmeta}{topiclabel=Transmeta}{topicimg=topictransmeta.gif}{topicimgw=60}{topicimgh=53}
+
+SDTOPICUSA
+{topicid=usa}{topiclabel=United States}{topicimg=topicus.gif}{topicimgw=80}{topicimgh=61}
+
+SDTOPICUNIX
+{topicid=unix}{topiclabel=Unix}{topicimg=topicunix.jpg}{topicimgw=80}{topicimgh=57}
+
+SDTOPICUPGRADES
+{topicid=upgrades}{topiclabel=Upgrades}{topicimg=topicupgrades.gif}{topicimgw=70}{topicimgh=58}
+
+SDTOPICVA
+{topicid=va}{topiclabel=VA}{topicimg=topicva.gif}{topicimgw=55}{topicimgh=42}
+
+SDTOPICWINE
+{topicid=wine}{topiclabel=Wine}{topicimg=topicwine.gif}{topicimgw=75}{topicimgh=70}
+
+SDTOPICX
+{topicid=x}{topiclabel=X}{topicimg=topicx.jpg}{topicimgw=60}{topicimgh=61}
+
+SDSLASHBACKITEM
+Rumination
+Apologies
+Retroaction
+{Nation}
+Elimination
+{USState}
+{USStateAdjective}s
+{^Color}s
+Attrition
+Homecoming
+Buzzwords
+Justice
+Printing
+Bits
+Bytes
+Words
+Paradigms
+Kisses
+Breakeven
+Persistence
+Elaboration
+Gender
+The Number {digit}
+Toys
+Connections
+Tunes
+Congress
+Lunacy
+Parliament
+Feathers
+Juveniles
+Trickery
+Cinema
+Maturity
+Packaging
+Royalty
+Disasters
+Fire
+Secrecy
+Cooperation
+Intrustion
+Espionage
+Books
+Spooks
+Recovery
+Taxes
+Violence
+Script Kiddies
+Fraud
+{RealCity}
+Redundance
+Redundance, Redundance
+Recursion
+{^BuzzwordNoun}
+
+SDSLASHBOXPOLL
+<B>I visit Slashdot:</B> <BR><INPUT TYPE="radio" NAME="aid" VALUE="1">Weekly <BR><INPUT TYPE="radio" NAME="aid" VALUE="2">Daily <BR><INPUT TYPE="radio" NAME="aid" VALUE="3">Hourly <BR><INPUT TYPE="radio" NAME="aid" VALUE="4">Minutely <BR><INPUT TYPE="radio" NAME="aid" VALUE="5">Every {digit}.{digit} seconds <BR><INPUT TYPE="radio" NAME="aid" VALUE="6">Never
+<B>Slashdot polls:</B> <BR><INPUT TYPE="radio" NAME="aid" VALUE="1">Suck <BR><INPUT TYPE="radio" NAME="aid" VALUE="2">Rule <BR><INPUT TYPE="radio" NAME="aid" VALUE="3">Are a waste of time <BR><INPUT TYPE="radio" NAME="aid" VALUE="4">Are a means for CmdrTaco to obtain demograhic info on unsuspecting visitors <BR><INPUT TYPE="radio" NAME="aid" VALUE="5">Contain subliminal messages
+<B>Favorite OS:</B> <BR><INPUT TYPE="radio" NAME="aid" VALUE="1">Linux <BR><INPUT TYPE="radio" NAME="aid" VALUE="2">It's GNU/Linux, dammit! <BR><INPUT TYPE="radio" NAME="aid" VALUE="3">(Free|Net|Open)BSD <BR><INPUT TYPE="radio" NAME="aid" VALUE="4">Mac OS <BR><INPUT TYPE="radio" NAME="aid" VALUE="5">OS/2 <BR><INPUT TYPE="radio" NAME="aid" VALUE="6">BeOS <BR><INPUT TYPE="radio" NAME="aid" VALUE="7">Windoze (I'm a Microsoft stockholder) <BR><INPUT TYPE="radio" NAME="aid" VALUE="8">What's an OS? Oversized Skateboard?
+<B>How many Slashdot accounts do you have?</B> <BR><INPUT TYPE="radio" NAME="aid" VALUE="1">None, I like being an Anonymous Coward <BR><INPUT TYPE="radio" NAME="aid" VALUE="2">One, but I've forgotten my password <BR><INPUT TYPE="radio" NAME="aid" VALUE="3">One, but I'd be willing to sell it for the right price! <BR><INPUT TYPE="radio" NAME="aid" VALUE="4">More than one <BR><INPUT TYPE="radio" NAME="aid" VALUE="5">Jar Jar must die!
+<B>Who should've won the US Presidential election?</B> <BR><INPUT TYPE="radio" NAME="aid" VALUE="1">Al Gore <BR><INPUT TYPE="radio" NAME="aid" VALUE="2">Al Gore <BR><INPUT TYPE="radio" NAME="aid" VALUE="3">Al Gore <BR><INPUT TYPE="radio" NAME="aid" VALUE="4">Al Gore <BR><INPUT TYPE="radio" NAME="aid" VALUE="5">CowboyNeal
+<B>Intellectual property laws are:</B> <BR><INPUT TYPE="radio" NAME="aid" VALUE="1">Evil<BR><INPUT TYPE="radio" NAME="aid" VALUE="2">Bad<BR><INPUT TYPE="radio" NAME="aid" VALUE="3">Undemocratic<BR><INPUT TYPE="radio" NAME="aid" VALUE="4">Unfair<BR><INPUT TYPE="radio" NAME="aid" VALUE="5">A tool used by big evil companies to oppress geeks<BR><INPUT TYPE="radio" NAME="aid" VALUE="6">Jar Jar Must Die!
+<B>How many times has your Windows box crashed today?</B><BR><INPUT TYPE="radio" NAME="aid" VALUE="1">Less than 10<BR> <INPUT TYPE="radio" NAME="aid" VALUE="2">10-20<BR> <INPUT TYPE="radio" NAME="aid" VALUE="3">20-100<BR> <INPUT TYPE="radio" NAME="aid" VALUE="4">None (I don't use Windows)<BR> <INPUT TYPE="radio" NAME="aid" VALUE="5">None (I dumped my Windows box into the ocean last month)
+
+SDSECTIONINDEX
+{@%m/%d|0|30000} ({#1-13})<BR>
+{@%m/%d|0|30000} ({#1-10})<BR>
+
+SDGENERICDEPT
+stuff-to-read
+stuff-to-read
+stuff-to-grok
+the-truth-is-out-there
+i-can't-believe-it
+holy-cow
+can-you-say-beowulf-cluster?
+what-a-mess
+
+SDGENERICDEPTCOOLSTUFF
+drool-drool-drool
+i-want-one
+will-it-support-linux?
+gimme-gimme-gimme
+stuff-to-drool-over
+{SDGenericDept}
+
+SDBIGEVILCOMPANY
+Microsoft
+Unisys
+Network Solutions
+Adobe
+AOL
+
+SDSOFTWARECATEGORY
+webserver
+FTP server
+IRC client
+word processor
+MTA
+email client

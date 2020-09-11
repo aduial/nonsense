@@ -1,0 +1,11 @@
+<HTML><HEAD><TITLE>Buzzword Bingo</TITLE>
+</HEAD><BODY>
+<H1 ALIGN="CENTER">Buzzword Bingo</H1>
+<TABLE BORDER="1"><TR><TH WIDTH="20%">B</TH><TH WIDTH="20%">I</TH><TH WIDTH="20%">N</TH><TH WIDTH="20%">G</TH><TH WIDTH="20%">O</TH></TR>
+<TR><TD>{BuzzwordBingo}</TD><TD>{BuzzwordBingo}</TD><TD>{BuzzwordBingo}</TD><TD>{BuzzwordBingo}</TD><TD>{BuzzwordBingo}</TD></TR>
+<TR><TD>{BuzzwordBingo}</TD><TD>{BuzzwordBingo}</TD><TD>{BuzzwordBingo}</TD><TD>{BuzzwordBingo}</TD><TD>{BuzzwordBingo}</TD></TR>
+<TR><TD>{BuzzwordBingo}</TD><TD>{BuzzwordBingo}</TD><TD><B>FREE</B></TD><TD>{BuzzwordBingo}</TD><TD>{BuzzwordBingo}</TD></TR>
+<TR><TD>{BuzzwordBingo}</TD><TD>{BuzzwordBingo}</TD><TD>{BuzzwordBingo}</TD><TD>{BuzzwordBingo}</TD><TD>{BuzzwordBingo}</TD></TR>
+<TR><TD>{BuzzwordBingo}</TD><TD>{BuzzwordBingo}</TD><TD>{BuzzwordBingo}</TD><TD>{BuzzwordBingo}</TD><TD>{BuzzwordBingo}</TD></TR>
+</TABLE>
+</BODY></HTML>

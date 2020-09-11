@@ -1,0 +1,69 @@
+Slashdot RDF Template
+Prereqs: slashdot.data, linux.data
+__BEGIN__
+<?xml version="1.0" encoding="ISO-8859-1"?><rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://my.netscape.com/rdf/simple/0.9/">
+	<channel>
+		<title>Slashdot: News for nerds, stuff that matters</title>
+		<link>http://slashdot.org</link>
+		<description>News for nerds, stuff that matters</description>
+	</channel>
+
+	<image>
+		<title>Slashdot</title>
+		<url>http://images.slashdot.org/topics/topicslashdot.gif</url>
+		<link>http://slashdot.org</link>
+	</image>
+
+	<item>
+		<title>{SDHeadline}</title>
+		<link>{SDGenericLink}</link>
+	</item>
+
+	<item>
+		<title>{SDHeadline}</title>
+		<link>{SDGenericLink}</link>
+	</item>
+
+	<item>
+		<title>{SDHeadline}</title>
+		<link>{SDGenericLink}</link>
+	</item>
+
+	<item>
+		<title>{SDHeadline}</title>
+		<link>{SDGenericLink}</link>
+	</item>
+
+	<item>
+		<title>{SDHeadline}</title>
+		<link>{SDGenericLink}</link>
+	</item>
+
+	<item>
+		<title>{SDHeadline}</title>
+		<link>{SDGenericLink}</link>
+	</item>
+
+	<item>
+		<title>{SDHeadline}</title>
+		<link>{SDGenericLink}</link>
+	</item>
+
+	<item>
+		<title>{SDHeadline}</title>
+		<link>{SDGenericLink}</link>
+	</item>
+
+	<item>
+		<title>{SDHeadline}</title>
+		<link>{SDGenericLink}</link>
+	</item>
+
+	<item>
+		<title>{SDHeadline}</title>
+		<link>{SDGenericLink}</link>
+	</item>
+
+</rdf:RDF>

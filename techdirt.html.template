@@ -1,0 +1,228 @@
+Techdirt HTML Template
+prereq: slashdot.data, techdirt.data, linux.data
+__BEGIN__
+<HTML><HEAD><TITLE>Techdirt. [Produced by Nonsense]</TITLE>
+<BASE HREF="http://www.techdirt.com">
+		</HEAD>
+	<LINK REL=stylesheet HREF='/styles/techdirt.css' TYPE='text/css'>
+        <BODY bgcolor=ffffff text=333333 link=#0033CC vlink=#374D95>
+	<CENTER>
+	
+	<TABLE bgcolor=ffffff cellpadding=0 cellspacing=0 border=0 width=99%>
+	<TR><TD><a href='/index.shtml'><img border=0 src=/images/tdlogo.gif></a>
+	</TD><td> &nbsp;<A href=/search.pl><b>older&nbsp;stuff</b></A>&nbsp; &nbsp;<A href=/submit.pl><b>submit&nbsp;story</b></A>&nbsp; &nbsp;<A href=/pollBooth.pl><b>past&nbsp;polls</b></A>&nbsp; &nbsp;<A href=/about.shtml><b>about</b></A>&nbsp;<br> &nbsp;<A href=/uptodate/><b>up-to-date</b></A>&nbsp; &nbsp;<A href=/fotr/><b>friends of the revolution</b></A>&nbsp; </TD>
+
+	<td align=right>
+	<FORM method=GET action="/search.pl">
+	Search Techdirt<br>
+        <INPUT type=name name=query value='' width=20 size=20 length=20>
+        <INPUT type=submit value='Go'>
+        <BR>
+	<small>Try the <a href='/search.pl'>Advanced Search</a>.</small>
+  	</FORM>
+	</td></TR>
+	 </TABLE><TABLE width=99% cellpadding=0 cellspacing=0 border=0 bgcolor=ffffff>
+         <TR><TD valign=top><FONT color=000000>&nbsp;
+
+{TechDirtStoryTemplate#10-15}
+
+<br></TD><TD width=210 align=center valign=top>
+	<table cellpadding=2 cellspacing=0 border=0 width=200 bgcolor=#374D95>
+	<tr><td align=center>
+	<TABLE cellpadding=3 cellspacing=0 border=0 width=198 bgcolor=#ffffff>
+	<TR bgcolor=cccccc>
+                 <TD valign=top>&nbsp;<FONT size=4 color=000000 face='arial,helvetica'>     
+                  <B>Features</B></FONT>
+                 </TD>
+		</TR>
+		<TR><TD width=99%>
+		    The <a href="http://www.techdirt.com/articles/990830/0247212_F.shtml">Techdirt Tagline Contest</a>.  Go ahead and enter.
+<p>
+  For all you PalmVII early adopters, pick up the <a href="http://www.techdirt.com/pqa/">Techdirt PQA</a>.<p>
+
+This site only works if you help!  <a href="submit.pl">Submit a link!</a>
+<p>
+If you are confused (and don't worry, we all are), you can read some more what this site is <a href="about.shtml">
+about</a> and the <a href="/about/who.shtml">people</a> behind it.
+<p>
+Also, if you find any bugs, have any feature requests, or just want to chat, please, give us <A href="/about/feedback.shtml">feedback</a>.
+
+</FORM>
+
+		</TD></TR> </TABLE>
+	</td></tr>
+	</table>
+	<br>
+
+	<table cellpadding=2 cellspacing=0 border=0 width=200 bgcolor=#374D95>
+	<tr><td align=center>
+	<TABLE cellpadding=3 cellspacing=0 border=0 width=198 bgcolor=#ffffff>
+	<TR bgcolor=cccccc>
+                 <TD valign=top>&nbsp;<FONT size=4 color=000000 face='arial,helvetica'>     
+                  <B>Techdirt Poll</B></FONT>
+                 </TD>
+		</TR>
+		<TR><TD width=99%>
+		     
+                	<FORM action=/pollBooth.pl>
+                	<INPUT type=hidden name=qid value="poll"><B>How often do you vote in online polls?</B><BR><INPUT type=radio name=aid
+value=1>Never<BR><INPUT type=radio name=aid
+value=2>Always<BR><INPUT type=radio name=aid
+value=3>Always, I love giving up my personal and demographic information to strangers<BR><INPUT type=radio name=aid
+value=4>Whenever I feel like it<BR><INPUT type=radio name=aid
+value=5>Who cares?<BR><INPUT type=submit value=Vote> [ 
+                <A href=/pollBooth.pl?qid=blame&aid=-1>Results</A> | 
+                <A href=/pollBooth.pl>Polls</A> ] </FORM>
+		</TD></TR> </TABLE>
+	</td></tr>
+	</table>
+	<br>
+
+	<table cellpadding=2 cellspacing=0 border=0 width=200 bgcolor=#374D95>
+	<tr><td align=center>
+	<TABLE cellpadding=3 cellspacing=0 border=0 width=198 bgcolor=#ffffff>
+	<TR bgcolor=cccccc>
+                 <TD valign=top>&nbsp;<FONT size=4 color=000000 face='arial,helvetica'>     
+                  <B>Up-To-Date</B></FONT>
+                 </TD>
+		</TR>
+		<TR><TD width=99%>
+		    <a href=/uptodate/>Latest Issues</a>:<br><li><B><a href='/uptodate/000508/0255241.shtml'>May 1 - 7, 2000</a></B><br><li><B><a href='/uptodate/000327/0316234.shtml'>March 20 - 26, 2000</a></B><br><li><B><a href='/uptodate/000207/0335231.shtml'>January 31 - February 6, 2000</a></B><br><li><B><a href='/uptodate/000124/0332249.shtml'>January 17 -23, 2000</a></B><br><br>Go to the <a href='/search.pl?section=uptodate'>Archives</a><br>Read the <a href='/uptodate/faq.shtml'>FAQ</a><FORM ACTION='/cgi-techdirt/formmail.cgi' METHOD='POST'>
+		    <small><b>Enter your email address to subscribe to Up To date:</b><br></small>
+                    <INPUT type=hidden name='subject' value='Subscribe Up-To-Date'>
+                    <INPUT type='hidden' name='recipient' value='utd-sub@techdirt.com'>
+                    <INPUT type=hidden name='redirect' value='http://www.techdirt.com/uptodate/thanks.shtml'>
+                    <INPUT type=hidden name='required' value='email'>
+                    <INPUT type=hidden name='env_report' value='REMOTE_HOST'>
+		    <INPUT TYPE='TEXT' NAME='email' size=16> <input type=submit border=0 value=Send>
+		    </FORM>
+		</TD></TR> </TABLE>
+	</td></tr>
+	</table>
+	
+<br>
+
+	<table cellpadding=2 cellspacing=0 border=0 width=200 bgcolor=#374D95>
+	<tr><td align=center>
+	<TABLE cellpadding=3 cellspacing=0 border=0 width=198 bgcolor=#ffffff>
+	<TR bgcolor=cccccc>
+                 <TD valign=top>&nbsp;<FONT size=4 color=000000 face='arial,helvetica'>     
+                  <B>Friends of the Revolution</B></FONT>
+                 </TD>
+		</TR>
+		<TR><TD width=99%>
+		    <a href=/fotr/>Latest Issues</a>:<br>
+<li><B><a href='/fotr/001102/{#200000-2000000}.shtml'>{SDHeadlineFeature}</a></B><br>
+<li><B><a href='/fotr/001102/{#200000-2000000}.shtml'>{SDHeadlineFeature}</a></B><br>
+<li><B><a href='/fotr/001102/{#200000-2000000}.shtml'>{SDHeadlineFeature}</a></B><br>
+<li><B><a href='/fotr/001102/{#200000-2000000}.shtml'>{SDHeadlineFeature}</a></B>
+                    <br><br>Go to the <a href='/search.pl?section=fotr'>Archives</a><FORM ACTION='/cgi-techdirt/formmail.cgi' METHOD='POST'>
+				<small><b>Enter your email address to subscribe to Friends of the Revolution:</b><br></small>
+				<INPUT type=hidden name='subject' value='Subscribe Friends'>
+				<INPUT type='hidden' name='recipient' value='brian@techdirt.com'>
+				<INPUT type=hidden name='redirect' value='http://www.techdirt.com/uptodate/thanks.shtml'>
+				<INPUT type=hidden name='required' value='email'>
+				<INPUT type=hidden name='env_report' value='REMOTE_HOST'>
+				<INPUT TYPE='TEXT' NAME='email' size=16> <input type=submit border=0 value=Send>
+				</FORM>
+		</TD></TR> </TABLE>
+	</td></tr>
+	</table>
+	
+<br>
+
+	<table cellpadding=2 cellspacing=0 border=0 width=200 bgcolor=#374D95>
+	<tr><td align=center>
+	<TABLE cellpadding=3 cellspacing=0 border=0 width=198 bgcolor=#ffffff>
+	<TR bgcolor=cccccc>
+                 <TD valign=top>&nbsp;<FONT size=4 color=000000 face='arial,helvetica'>     
+                  <B>Older Stuff</B></FONT>
+                 </TD>
+		</TR>
+		<TR><TD width=99%>
+		    <TABLE width=190><TR><TD colspan=2>
+				   <FONT size=4 color=#374D95><B>
+					{@%A|$time|0}</B></FONT><br></TD></TR>
+{TechDirtOlderStuff#10-15}
+<TR><TD colspan=2 align=right>
+		<P><A href="/search.pl?min=30"><B>Older Stuff...</B></A><BR>
+		   <A href="/index.pl?mode=&date=730886"><B>Yesterday's Edition...</B></A>
+		</TD></TR>
+		</TABLE>
+		</TD></TR> </TABLE>
+	</td></tr>
+	</table>
+	<br>
+
+	<table cellpadding=2 cellspacing=0 border=0 width=200 bgcolor=#374D95>
+	<tr><td align=center>
+	<TABLE cellpadding=3 cellspacing=0 border=0 width=198 bgcolor=#ffffff>
+	<TR bgcolor=cccccc>
+                 <TD valign=top>&nbsp;<FONT size=4 color=000000 face='arial,helvetica'>     
+                  <B>Quick Links</B></FONT>
+                 </TD>
+		</TR>
+		<TR><TD width=99%>
+		    Just a few links that users of Techdirt might find useful in their quest for high tech knowledge:
+<p>
+<ul>
+<li><a href="http://www.news.com/">News.com</a>
+<li><a href="http://www.wired.com/">Wired News</a>
+<li><a href="http://www.zdnet.com/">ZDNet</a>
+<li><a href="http://www.techweb.com/">Techweb</a>
+<li><a href="http://www.herring.com/">The Red Herring</a>
+<li><a href="http://www.upside.com/">Upside</a>
+<li><a href="http://www.thestandard.com/">The Industry Standard</a>
+<li><a href="http://www.siliconvalley.com/">SiliconValley.com</a>
+<li><a href="http://www.slashdot.org/">Slashdot.org</a>
+<li><a href="http://www.wonko.com/">WonkoSlice</a>
+<li><a href="http://www.nerdperfect.com/">NerdPerfect</a>
+<li><a href="http://www.zebulun.org/">Zebulun.org</a>
+<li><a href="http://www.kuro5hin.org/">Kuro5hin</a>
+<li><a href="http://www.networkingnews.org/">NetworkingNews.org</a>
+<li><a href="http://www.geekpress.com/">GeekPress.com</a>
+<li><a href="http://www.davenetics.com/">Davenetics</a>
+<li><a href="http://www.ntk.net/">Need To Know</a>
+<li><a href="http://www.tbtf.com/">Tasty Bits From the Technology Front</a>
+</ul>
+		</TD></TR> </TABLE>
+	</td></tr>
+	</table>
+	<img src="http://209.163.232.172/usr/gumball.cgi?id=techdirt&gmt=-0800" height=1 width=1 border=0>
+
+<!-- BEGIN HITOMETER TAG VERSION 2 -->
+<img WIDTH=1 HEIGHT=1 border=0 src=" http://i22.netscape.com/c.cgi?B2528022$2399316" alt="Hitometer">
+<!-- END HITOMETER TAG ( WWW.HITOMETER.COM ) -->
+
+<!-- Start of TheCounter.com Code -->
+<A HREF="http://www.TheCounter.com" TARGET="_top"><IMG
+SRC="http://c2.thecounter.com/id=1009027" ALT="TC" BORDER=0></A>
+<!-- End of TheCounter.com Code -->
+
+
+</FONT></TD>
+	 </TR>
+	</TABLE><TABLE cellpadding=0 cellspacing=0 border=0 width=99%
+		bgcolor=ffffff>
+	    <TR>
+	     <TD colspan=2 align=center><IMG src=/images/dot.gif
+	     	alt='' width=80% height=1 hspace=10 vspace=30></TD>
+	    </TR>
+  <TR><TD colspan=3 align=center>
+</CENTER>
+	     </TD>
+	    </TR>
+	   </TABLE>
+	  <FONT size=2 color=#374D95>
+
+         [ <A href=/>home</A> | 
+         <A href=/submit.pl>contribute story</A> |
+         <A href=/search.pl>older articles</A> |
+         <A href=/pollBooth.pl>past polls</A> | 
+	 <A href=/about/feedback.shtml>feedback</a> |</FONT>
+<p>
+<small>
+This site was built on the <a href='http://www.slashdot.org'>slashdot</a> code.  
+</small>
+</CENTER> </BODY>
+	</HTML>

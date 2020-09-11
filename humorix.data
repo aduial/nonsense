@@ -1,0 +1,216 @@
+HXSTORYTEMPLATE
+{body:=HXStory}{HXStoryHeader}{$Body}{HXStoryFooter}
+
+HXSTORYHEADER
+<TR><TD BGCOLOR="#AA3333"><FONT COLOR="#FFFFFF"><BIG>{$Title}</A></BIG></FONT></TD></TR><TR><TD>  <B>Written by {$Author} on {@%B %d, %Y|$time|250000}</B><BR>  <SMALL>from the {$Dept} dept.</SMALL><P>
+
+HXSTORYFOOTER
+<P><B><A HREF="{hxstorypath}">Read more...</A></B><BR><BR>
+
+HXSTORYPATH
+{@%b%y|$time|0}.shtml
+
+HXSTORY
+{author:=HXAuthor}{dept:=HXDept}{HXArticle}
+
+HXARTICLE
+{title:=HXArticleLinuxTown}The {$Var1} town of Linn announced yesterday that it will be henceforth called 'Linux'. Mayor {Person} said, "Linn needed something to put it on the map. A few weeks ago my daughter mentioned that she installed Linux on her computer and how great she thought it was. I thought to myself, 'Self, changing the town's name to 'Linux' could be an opportunity to attract attention -- and money -- to our town. We could even hold a Linux Convention at the community center.' So I approached the city council about the idea, and they loved it. The rest is history."
+{title='Kitchen Sink' OS Announced}Coding has begun on a new operating system code named 'Kitchen Sink'. The new OS will be based entirely on GNU Emacs. One programmer explained, "Since many hackers spend a vast amount of their time in Emacs, why not just make it the operating system?" When asked about the name, he responded, "Well, it has been often said that Emacs has everything except a kitchen sink. Now it will." 
+{title=Open Source Beer Revolution}Yesterday, Red Hat introduced an 'open source' beer called Red Brew. The recipes for making the beer are available for free over the Net, and microbrewery kits are available at low cost from Red Hat. Says a Red Hat spokesman, "With the proliferation of free (open source) software, it was only a matter of time before open source beer became reality. After all, the only thing hackers like more than free software is free beer!"
+{title=Linux Infiltrates Windows 2000 Demo}SILICON VALLEY, CA -- Attendees at the Microsoft ActiveDemo Conference held this week in San Jose were greeted by a pleasant surprise yesterday: Linux. Somehow a group of Linux enthusiasts were able to replace the Windows machine with a Linux box right before an "ActiveDemo" of Windows 2000. "I have no clue how they were able to pull off this prank," a Microserf spokesman said. "Rest assured, Microsoft will do everything to investigate and prosecute the Linux {[zealots|nuts|freaks|communists} who did this. Our bottom line must be protected."
+{title=Microsoft Acquires Nothing}REDMOND, WA -- In an unprecedented move, Microsoft refrained from acquiring any rival companies for a full week. "I can't believe it," one industry analyst noted. "This is the first time in years that I haven't read any headlines about Microsoft acquiring something." 
+{title=Could You Get Fired for Visiting Slashdot?}{CITY}, {USPOSTALSTATE} -- {FirstNameMale} {var1:=LastName}{$Var1}, an employee at {^Buzzword} Consulting, Inc., was fired from his programming job because of his addiction to Slashdot. He typically visited Slashdot several times a day during working hours. Citing productivity problems, his boss gave him the pink slip and instituted a 'NoDot' policy -- no visiting Slashdot or related sites from the office, ever.  Now {$Var1} has filed a lawsuit, claiming that his Slashdot addiction is protected by the Americans With Disabilities Act.
+{title=Linux Advocacy Crackdown}{CITY}, {USPOSTALSTATE} -- In an unprecedented blow to Linux advocacy, {FirstNameMale} {var1=LastName}{$Var1}, an employee at a Try-N-Save Discount Store, was fired last week. According to the store's general manager, {$Var1} was fired because "he constantly rearranged items on shelves so that Linux-related books and software boxes would be displayed more prominently than Windows merchandise." His boss added, "If he would have spent as much time actually working as he did hiding Windows books at the back of shelves, he wouldn't have received the pink slip."
+{title=Is Windows Antique?}SILICON VALLEY -- The first ever antique mall devoted to computers has opened its doors deep in the heart of Silicon Valley.  Named "Stacks of Antiqueues", the new mall features obsolete hardware, old software, and other curiosities that only a nerd would want to buy.  The mall also features a whole collection of Microsoft software, which, as can be expected, has the Redmond giant up in arms.
+{title=Open Source Irrational Constant}In a revelation that could rock the foundations of science, a researcher in {USState} has discovered that the digits of the irrational constant PI encode a version of the Linux kernel.  "I can't believe it," the researcher, {Person}, exclaimed.  "And yet, here I am staring at what appears to be the source code for Linux kernel {#4-6}.{[0|2|4}.0. Needless to say, my whole world-view has changed..."
+{title=Invasion of the Dancing Penguin}Those annoying, dancing cartoon characters embedded in software applications are no longer confined to Microsoft programs.  They have entered the realm of Linux.  A new Linux distribution under development, called LinTux, promises to provide a more "user-friendly" environment through its "Dancing Penguin" assistant.
+{title=BSOD Simulator}Users of Red Hat {#7-10}.{#0-4} are discovering a new feature that hasn't been widely advertised: a Blue Screen of Death simulator.  By default, the bsodsim program activates when the user hits the virtually unused SysRq key (this is customizable) causing the system to switch to a character cell console to display a ficticious Blue Screen. Red Hat hails the bsodsim program as the "boss key" for the Linux world.
+{title=Boston Software Party}BOSTON, MA -- Thousands of disgruntled Linux revolutionaries showed up at the Boston Harbor today to protest "taxation without representation" by the oppressive Microsoft Corporation. Thousands of pounds of Microsoft boxes, CD-ROMs, manuals, license agreements, promotional materials, and registration forms were dumped into the harbor during the First Annual Boston Software Party. 
+{title=Treaty of Helsinki Signed}HELSINKI, FINLAND -- A cease-fire in the flame war between Linux and FreeBSD has been reached. A group of two dozen Linux and FreeBSD zealots met in Helsinki to ratify a treaty bringing a temporary end to the hostile fighting between both camps. "Today is a good day for peace," one observer noted. "Now both sides can lay down their keyboards and quit flaming the opposing side on Usenet and Slashdot." 
+{title=Alan Cox Releases Quantum Kernel}{author:=HXAuthorFinton}A surprising development in the linux-kernel mailing list surfaced when Alan Cox announced the release of a 2.{[4-6} Linux kernel existing both as an official stable kernel and as a prepatch kernel. This immediately spurred the creation of two different realities (and hence two different Alan Coxes), where a kernel would not settle down to one or the other state until someone looked at it.
+{title=Affordable Virtual Beowulf Cluster}Every {[geek|nerd} drools over Beowulf clusters, but very few have even seen one, much less own one. Until now, that is. {Person}, the open source hacker famous for EviL (the dancing ASCII paperclip add-on to vi), is working on a program that will emulate Beowulf clusters on a standard desktop PC. 
+{title=Will Silicon Valley Become A Ghost Town?}Back in the 80s, businessmen hoped that computers would usher in a paperless office. Now in the 00s, businessmen are hoping that paper will usher in a computerless office. "We've lost more productivity this last decade to shoddy software," explained Mr. Lou Dight, the author of the bestselling book, "The Dotless Revolution". "By getting rid of computers and their infernal crashes, bluescreens, and worst of all, Solitaire, the US gross domestic product will soar by {#20-40}% over the next decade. It's time to banish Microsoft crapware from our corporate offices." 
+{title=Security Holes Found In Microsoft Easter Eggs}REDMOND, WA -- It's damage control time for the Microsoft Marketing Machine. Not only have exploits been found in IE, Outlook, and even the Dancing Paper Clip, but now holes have been uncovered in Excel's Flight Simulator and Word's pinball game.
+{title=Elite Nerds Create Linux Distro From Hell}HELL, MICHIGAN -- A group of long-time Linux zealots and newbie haters have thrown together a new Linux distro called Hellix that is so user-hostile, so anti-newbie, so cryptic, and so old-fashioned that it actually makes MS-DOS look like a real operating system. Said the founder of the project, "I'm sick and tired of the Windowsification of the Linux desktop in a fruitless attempt to make the system more appealing to newbies, PHBs, and MCSEs. Linux has always been for nerds only, and we want to make sure it stays that way!" 
+{title=Won't Somebody Please Think Of The Microsoft Shareholder's Children?}The Evil Monopoly will soon be a duopoly of MICROS~1 and MICROS~2 now that Judge Jackson has made his ruling. Geeks everywhere are shedding tears of joy, while Microsoft investors are shedding real tears. But not everybody is ecstatic about the ruling. "It dawned on me today that if Microsoft is broken up, we won't have anyone to bash anymore. We can have that," said {Person}, the founder of the new "Save Microsoft Now! Campaign". 
+{title=DeCSS T-Shirt Used To Commit Piracy!}College student Cody Potter stunned the world yesterday when he used a T-shirt with the printed DeCSS source code to illegally copy a DVD of "Star Trek XXI: We Promise This Is The Last One". Well, it wasn't the actual DeCSS source code. The shirt contained a Perl script which spits out a bash shell script which produces a GW-BASIC program which outputs a ROT13-encoded Python script that manufactures a Pig-Latin-encoded Java program that finally produces the real DeCSS C source code when executed. 
+{title=Clippit Charged With Attempted Murder}Microsoft's Dancing Paper Clip turned violent last week and nearly killed a university student testing a new Windows-based human-computer interface. The victim is expected to make a full recovery, although psychiatrists warn that the incident may scar him emotionally for life. "You can bet this kid won't be using Windows or Office ever again," said one shrink. 
+{title=Microsoft Fights Linux -- By Contributing Kernel Patches}If you can't beat 'em, join 'em... and then destory 'em. That seems to be the new Microsoft strategy for dealing with Linux. Instead of fighting a FUD or patent war, Microsoft operatives are doing something totally out of character: they are contributing patches for the Linux kernel and other programs.  It's all part of a massive denial of service attack against Linus Torvalds designed to bring kernel development to a standstill. By sending over {#1-5}0,000 patches per minute by email to Linus and other top kernel hackers, Microsoft has exposed Linux's Achilles heel.
+{title=Evolution Of A Linux User}During the past year, the scientists in Humorix's Vast Research Lab Of Doom have studied the behavior and attitude of the typical Windows and Linux user. They have found that the average Linux user goes through ten stages of development from a "Microserf" to an "Enlightened Linux User". An eleventh stage, "Getting A Life", has also been observed, but only on extremely rare occasions. 
+{title=Jargon Coiner}{dept=lexicon-laziness}{author:=HXAuthorBaughn}Jargon Coiner is an irregular Humorix feature that aims to give you advance warning of new jargon that we've just made up. If any of this jargon is actually adopted in the Real World, rest assured that we will waste no time in bragging about it. Of course, if it isn't adopted, then we will quietly delete this article from the archives and nobody will be the wiser.<P> In this installment, we define  "{HXArticleJargon}", "{HXArticleJargon}" and "{HXArticleJargon}".
+{title=Jargon Coiner}{dept=coining-jargon-for-fun-and-profit}{author:=HXAuthorBaughn}Jargon Coiner is an irregular Humorix feature that aims to give you advance warning -- preferably before Tasty Bits from the Technology Front picks it up -- of new jargon that we've just made up. Sit back and enjoy some ficticious jargon that you won't see used anywhere else, including "{HXArticleJargon}", "{HXArticleJargon}" and "{HXArticleJargon}".
+{title=Ask Humorix: Polite Flaming}{dept=a-kinder-gentler-flame-thrower}Anonymous Linux Longhair writes, "Today's edition of my local newspaper, the {Newspaper}, features a column by a so-called computer expert titled 'Bashing the People Who Bash the People Who Don't Bash Microsoft'. This column was a Linux-roast-a-thon, with a higher FUD-per-sentence ratio than any other article I've ever read. I'd like to respond politely to the author via e-mail, but the only message I can compose is a long string of expletives. Oh mighty Oracle, can you provide me with enlightenment in how to write a response that doesn't sound like it came from a crazy Linux longhair bent on world domination?" 
+{title=Ask Humorix: Do-It-Yourself IPO}Anonymous Brave Person writes, "I've been watching with much amusement as companies have announced IPOs and made millions -- or billions -- of dollars even though they haven't turned a profit. How can a "company" like LinuxOne issue stock worth $24 million when their sole product is still in beta? More importantly, is it possible for me to have my own IPO?" 
+{title=Ask Humorix: Printer Fire}{Person} writes,  "I just installed Linux on a new computer. Everything appears to be working okay, except for one problem. I keep getting these strange "lp1 on fire" errors from the Linux kernel. What exactly does this mean? Should I buy a sprinkler system for my computer room?" 
+{title:=HXHeadlineLawyerclysm}{author:=HXAuthorSplatz}{dept=The-End-Is-Near}{HXArticleLawyerclysm#4-6}
+{title=Welcome to Humorixia}{author:=HXAuthorSplatz}{dept=The-Final-Solution}"We the Geeks of Humorixia, in Order to form a more perfect, bullshit-free Society, establish real Justice, insure domestic Freedom, provide for the common defense of Geeks, promote the general Quality of Software, and secure the Blessings of Free Software to ourselves and our Posterity, do ordain and establish this General Social License for the Nation of Humorixia..." 
+
+HXARTICLELINUXTOWN
+{var1:=USState}{$Var1} {[Town|City} Changes Name To 'Linux'
+
+HXARTICLEJARGON
+Karma Kollector
+penguinization
+lilosplaining
+uptime downer
+for(;;)tune loop
+duke of url
+advoidance
+TLDography
+deep write mode
+Star Spinoffs
+threenym
+domaineering
+Editorial War
+
+HXARTICLELAWYERCLYSM
+The time for action is now. 
+Lawyers are slowing but steadily conquering the world. 
+We cannot let {[ambulance chasers|leeches} push us around and usurp our freedoms. 
+Geeks everywhere must stand up in unison to fight off the Phantom Menace: Lawyers. 
+If the Founding Fathers of the US saw what is happening today in the so-called "Justice" system, they would be appalled. 
+Attorneys are the middle-men of society, skimming off a percentage of each transaction. 
+The world has gone downhill since the first Law School was established in the Middle Ages. 
+Big settlements involving ${#3-9}00 million claims will only become more common as the Lawyercrats seize more power. 
+Shakespeare was right.  Let's kill all the lawyers. 
+If intellectual property laws were enforced to the fullest extent possible by overzealous lawyers, absolutely no innovation would take place anywhere whatsoever. 
+The Lawyerclysm is already occuring.  Be afraid.  Be very afraid. 
+In my last column I predicted the Lawyerclysm was still decades away.  Boy was I wrong!  Recent events show they we've already surpassed Stage 0 and are quickly heading for Stage 1. 
+The insanity must end before {[society|civilization} {[collapses|comes to a halt|grinds to a screeching halt|implodes}. 
+Why isn't anybody doing something about this? 
+The single biggest enemy of Geeks is not Microsoft, or Big Brother, or even AOL.  It's the American Bar Association. 
+
+HXHEADLINE
+{HXHeadlineStatic}
+{HXHeadlineStatic}
+{temp:=HXStory}{$Title}
+
+HXHEADLINETEMPLATE
+- <A HREF="{hxstorypath}">{HXHeadline}</A><BR>
+
+HXHEADLINESTATIC
+"{[Capt|Cmdr|Lt|Mjr}{[Taco|Burrito|Enchilada}" Launches Slashdot Parody 
+Red Hat Unveils New Ad Campaign 
+Tux Penguin Beanie Baby Sales Skyrocket 
+{[Slashdot|Linux|Microsoft Press Release} Drinking Game
+Increased Electricity Consumption Blamed on Linux
+Linux Ported to {[Toasters|Zangelding|Two-Cans-and-a-String|Homer Simpson's Brain}
+Operation Desert Slash
+The Movement Formerly Known As Open Source
+Humorix Holiday Gift Guide
+Microsoft Open Source Solitaire
+Attack of the Tuxissa Virus
+New Crime Identified: "Tech Rage"
+The War Against Linux
+Rob Malda Finally Gets His Damned Nano-Technology 
+The GPL Is Not Y2K-Compliant! 
+Geek Grok {@%Y} Telethon
+Do-It-Yourself IPO
+Bill Gates Passes Turing Test 
+Evolution Of A Linux User
+Is Linux A Finnish Conspiracy? 
+First Annual Nerd Bowl
+Geek Temptation Island
+Man Charged With Crashing Windows 
+Brief History Of Linux (Part {#2-5}
+A Five-Day Waiting Period For Microsoft Software?
+Look Out! It's Microsoft Outlook!
+The Next Big Thing: "Clairvoyant Consultants" 
+The Linux House 1.0{#1-5}
+Throwing Windows Out The Window 
+Unobfuscated Perl Code Contest
+People for the Ethical Treatment of Computers
+World Domination, One CPU Cycle At A Time 
+The Socioeconomic Group Formerly Known As "Geeks" 
+There Is No Conspiracy
+{FirstName} Acquires All Red Hat Shares
+I Want My Beowulf Cluster!
+The {[Humorix|LinuxToday|Freshmeat|Slashdot} Conspiracy!
+Bloatware Comes To Linux
+Microsoft Conspiracy Theories
+New OS Released: Yodix
+Attack of the Venture Capitalists
+{HXHeadlineLawyerclysm}
+Microsoft Unveils New Measurement System
+Interview: Tux Penguin
+The Great Portal War
+Open Source Action Figures
+Nerds Panic Over Slashdot Outtage, Again
+Humorixia Nation Founded
+Book Review: Guide To Defending Against Lawsuits
+Book Review: Stranger in a Slashdot Land
+
+HXHEADLINELAWYERCLYSM
+A Brief History Of The {[20th|21st} Century Lawyerclsym
+The Lawyerclsym Is Upon Us
+It's Too Late -- The Lawyerclsym Is Here
+Descent Into The Lawyerclsym
+The Lawyercrats Have Achieved World Domination
+Beware: The Lawyerclsym Is {[Here|Coming|Arrived}
+Welcome To The Lawyerclysm
+
+HXDEPT
+stuff-to-read
+stuff-to-laugh-at
+another-lame-humor-article
+more-fake-news
+another-excuse-to-bash-microsoft
+more-filler-material
+my-kingdom-for-a-funny-dept-name!
+insert-lame-dept-name-here
+
+HXAUTHOR
+{HXAuthorBaughn}
+{HXAuthorBaughn}
+{HXAuthorBaughn}
+{HXAuthorBaughn}
+{HXAuthorBaughn}
+{HXAuthorFinton}
+<A HREF="people.shtml#Bernhard-Rosenkraenzer">Bernhard Rosenkraenzer</A>
+<A HREF="people.shtml#Robert-Werner">Robert G. Werner</A>
+<A HREF="people.shtml#{varf:=FirstName}{$VarF}-{varl:=LastName}{$VarL}">{$VarF} {$VarL}</A>
+
+HXAUTHORBAUGHN
+<A HREF="people.shtml#James-Baughn">James Baughn</A>
+
+HXAUTHORFINTON
+<A HREF="people.shtml#Dave-Finton">Dave Finton</A>
+
+HXAUTHORSPLATZ
+<A HREF="people.shtml#Jon-Splatz">Jon Splatz</A>, Humorix Pundit and Social Commentator, 
+
+HXFORTUNE
+Windows: The first user interface where you click Start to turn it off.
+Your mouse has moved. Windows NT must be restarted for the change to take effect. Reboot now?  [ OK ]
+General Protection Fault!  [ Ignore ]  [ Reboot ]  [ Install Linux ]
+Linux - It is now safe to turn on your computer.
+Windows NT source code now available... download WIN2000.BAS now! 
+Where do you want Bill Gates to go today?
+Microsoft does have a Y2K problem... it's called Linux! 
+C:\WINDOWS\RUN C:\WINDOWS\CRASH C:\ME\FDISK /usr/src/linux 
+Windows 2000, Users Zilch 
+I'm not a programmer, but I play one at Microsoft. 
+To segfault is human; to bluescreen moronic. 
+If Bill Gates had a nickel for every time Windows crashed... Oh wait, he does!
+I'm not in favor of senseless Micro$oft bashing. I'm in favor of bashing Micro$oft senseless. 
+It's ten o'clock. Do you know where your source code is? 
+I'm still waiting for the "Honk if you hate Microsoft" [bumper sticker], but that might get annoying, everyone honking at you. 
+The relative speed of a computer, regardless of CPU architecture, is inversely proportional to the number of Microsoft products installed. 
+Microsoft Zen - Become one with the blue screen. 
+Linux: Fast Pane Relief 
+Given enough time and money, eventually Microsoft will re-invent UNIX. 
+Carpe Daemon -- Seize the background process! 
+Gates' Law: Every 18 months, the speed of software halves. 
+Windows hasn't increased computer literacy. It's just lowered the standard. 
+The best Windows accelerator is that which works at 9.81 m/s2 
+The Information Revolution will be fought on the command line. 
+Accept risk. Accept responsibility. Put a lawyer out of business.
+Geeks aren't interested in politics because government doesn't double its efficiency and speed once every 18 months.
+Windows 2000: Designed for the Internet... The Internet: Designed for UNIX. 
+
+HXRERUNS
+Jon Splatz's <A HREF="feb99.shtml#Splatz-Descent1">Descent Into Microsoft</A> four-part series<BR> <SMALL>Follow Humorix's new pundit as he battles the forces of evil (Microsoft) to obtain a Windows refund on his new computer from CompUSSR.   Read parts  <A HREF="feb99.shtml#Splatz-Descent1">1</A>,  <A HREF="feb99.shtml#Splatz-Descent2">2</A> <A HREF="feb99.shtml#Splatz-Descent3">3</A>, and <A HREF="mar99.shtml#Splatz-Descent4">4</A>.</SMALL> <P> <A HREF="dec98.shtml#Advocacy-Crackdown">Linux Advocacy Crackdown</A><BR> <SMALL>This incident puts a whole new spin on Jesse Berst's infamous question, "Could you get fired for choosing Linux?"</SMALL>
+The Ask Humorix series<BR> <SMALL>Grok the Humorix Oracle's distilled wisdom on such matters as <A HREF="jan99.shtml#Ask-Portals">Portal Mania</A>,  <A HREF="jan99.shtml#Ask-Fire">Pyromaniac Daemons</A>,  <A HREF="apr99.shtml#Make-Money-Fast">Linux Business Opportunities</A>, <A HREF="apr99.shtml#Ask-Flaming">Clueless Pundits</A>, <A HREF="sep99.shtml#Ask-DIY-IPO">Do-It-Yourself IPOs</A>,  <A HREF="nov99.shtml#Ask-Segfaults">Segmentation Faults</A>, and  <A HREF="jun00.shtml#Ask-LUG">Founding a LUG</A>.</SMALL> <P> <A HREF="nov98.shtml#Desert-Slash">Operation Desert Slash</A><BR> <SMALL>The US military puts everybody's favorite Denial Of Service Attack to work against unfriendly nations.</SMALL>
+<A HREF="mar99.shtml#Humorix-Portal">Humorix: We're A Portal Too!</A><BR> <SMALL>Humorix isn't just a lame humor site, we're also a publicly traded company (Nasdaq: FAUX).  Track our rise to power as we <A HREF="jun99.shtml#Humorix-IPO">file for an IPO</A>, <A HREF="jun99.shtml#Future-Tech">unveil technology stolen from the future</A>,  <A HREF="jul99.shtml#IPO-Delay">deal with the Securities &amp; Exchange Commission</A>,  <A HREF="jul99.shtml#IPO-Success">undergo a wildly successful IPO</A>,  <A HREF="aug99.shtml#IPO-Failure">lose it all the next week</A>,  <A HREF="sep99.shtml#Patent-Grab2">get sued by Microsoft</A>, and, most recently,  <A HREF="dec99.shtml#Humorixia-Founded">establish our own independent Pacific island nation</A>.</SMALL> <P> <A HREF="oct98.shtml#Drinking-Game">Linux Drinking Game</A><BR> <SMALL>A perfect excuse to drink mass quantities of alcohol, all in the name of Linux World Domination. </SMALL>
+Bizarre Linux Ports<BR> <SMALL>Linux's portability has allowed it to be ported to such exotic platforms as <A HREF="jul98.shtml#TI99">graphing calculators</A>,  <A HREF="oct98.shtml#Port-Cans">two cans and a string</A>,  <A HREF="oct98.shtml#SlackToast">toasters</A>,  <A HREF="nov98.shtml#Homer">Homer Simpson's brain</A>,  <A HREF="sep99.shtml#Zangelding">Zangelding</A>,  and <A HREF="oct99.shtml#Flintix">stone-age flint chips</A>.</SMALL> <P> Microsoft Hostile Takeovers<BR> <SMALL>Last year Humorix broke the <A HREF="aug98.shtml#Microdot">rumors</A> that Microsoft was planning to acquire Slashdot, only to  <A HREF="aug98.shtml#Microdot-Update">retract the story</A> the next week (if only we'd known it was <A HREF="sep99.shtml#Andover-IPO">Andover</A>, we could have set ourselves up as fortune tellers).  Then, Microsoft acquired <A HREF="sep98.shtml#Nothing">nothing</A>,  <A HREF="oct98.shtml#Monkeys">an infinite number of monkeys</A>,  <A HREF="apr99.shtml#Humorix-Cracked">Humorix</A> (not really),  <A HREF="oct99.shtml#MS-Transmeta">Transmeta</A>, and <A HREF="dec99.shtml#MS-Red-Hat">Red Hat</A>.</SMALL>
+<A HREF="mar99.shtml#Tuxissa">Tuxissa Virus</A><BR> <SMALL>Unlike most viruses, Tuxissa does no harm: it installs Linux on infected computers.  Our alert about Tuxissa was, of course, a  hoax, but nevertheless a  <A HREF="http://www.google.com/search?q=tuxissa">few anti-virus companies</A> <A HREF="oct99.shtml#Google-Project">took it seriously</A>.  What part of <A HREF="about.shtml#Fake">fake news</A> don't these people understand?</SMALL> <P> <A HREF="jul98.shtml#Mush">Humorix's first article</A><BR> <SMALL>Humorix's first fake news article dealt with the announcement of a new shell designed for Microserfs called MUSH.  We've come a long way  since then.</SMALL>

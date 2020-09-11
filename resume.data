@@ -1,0 +1,86 @@
+GRADEPOINTAVG
+4.00
+3.{digit}0
+3.{digitnozero}{digit}
+3.{digit}{digit}
+3.{digit}{digit}
+2.{digit}{digit}
+
+HIGHSCHOOLAWARD
+Grow Old and Die
+Grow Fat and Bald
+Succeed
+Succeed... Then Fail
+Fail
+Get Drunk a Lot
+Become an Alcoholic
+Get Kicked by a Mule and Lose All Memory
+Go to Jail
+Become a Liar, Thief, and/or Lawyer
+Flunk Out of College
+Become a {#26-29} Year Old Grandparent
+NOT Become US President
+Live in this Podunk Town Until Death
+Live in a Trailer Park
+Overdose on Caffeine
+Become a {#300-400} Pound Blimp
+Continue to be a Pathetic Loser
+Be Audited by the IRS
+
+SILLYCONTEST
+Cow Milking
+Cow Tipping
+Mud Wrestling
+Limbo
+Tic-Tac-Toe
+Checkers
+Easy Quiz Game
+Macarena Dancing
+Disco Dancing
+Hog Calling
+Bobbing-for-Apples
+Loudest Belch
+Hot Dog Eating
+Stupid Human Tricks
+Worst Actor
+Most Annoying Voice
+Bad Elvis Impersonation
+
+RESUMEAVAILABILITY
+right now
+today
+just as soon as I get fired from my current job
+just as soon as I punch my current boss in the face and get fired
+right after I take a two-week vacation and then serve notice to my current employer
+real soon now
+only because I'm required to search for a job to keep my welfare check coming in
+
+RESUMEAVAILABILITY2
+a major national corporation
+an unsuccessful corporation desperate for qualified employees
+a major corporation recently featured on "60 Minutes"
+a Silicon Valley startup with a lucrative compensation package including lots of stock options
+a Big Evil Corporation
+a small-town employer
+an unprofitable dotcom startup
+any company that will actually look at this resume
+a bureaucratic state or federal agency
+a business with a solid health insurance plan that covers sex-change operations
+
+RESUMEREFERENCE
+{Careertech}, {Company}
+{Careertech}, {Company}
+{Careertech}, {Company}
+{Careertech}, {Company}
+drinking buddy from high school
+best friend from high school
+classmate from college
+ex-spouse
+parole officer
+former co-worker
+neighbor
+my lawyer
+{ordinal} cousin
+acquaintance
+college professor in {Collegemajortech} Dept.
+high school teacher

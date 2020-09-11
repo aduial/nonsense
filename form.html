@@ -1,0 +1,79 @@
+<HTML><HEAD><TITLE>Nonsense</TITLE></HEAD>
+<BODY>
+<BASE HREF="http://localhost/cgi-bin/nonsense/">
+<H1>Nonsense</H1>
+<TABLE BORDER="0"><TR>
+<FORM ACTION="nonsense">
+<TD VALIGN="TOP">
+<INPUT TYPE="HIDDEN" NAME="standalone" VALUE="1">
+Command: <INPUT TYPE="TEXT" NAME="cmd"><BR>
+File: <INPUT TYPE="TEXT" NAME="file"><BR>
+&nbsp;&nbsp;&nbsp;or All Files: <INPUT TYPE="CHECKBOX" NAME="allfiles" VALUE="1"><BR>
+Template: <INPUT TYPE="TEXT" NAME="template"><BR>
+Iterations: <INPUT TYPE="TEXT" NAME="number" VALUE="1"><BR>
+Bullets:<BR>
+&nbsp;&nbsp;&nbsp;<INPUT TYPE="RADIO" NAME="bullet" VALUE="" CHECKED="CHECKED"> None<BR>
+&nbsp;&nbsp;&nbsp;<INPUT TYPE="RADIO" NAME="bullet" VALUE="ul"> Unordered<BR>
+&nbsp;&nbsp;&nbsp;<INPUT TYPE="RADIO" NAME="bullet" VALUE="ol"> Ordered<BR>
+Spacer: <INPUT TYPE="TEXT" NAME="spacer" VALUE=""><BR>
+Debug:<BR>
+&nbsp;&nbsp;&nbsp;<INPUT TYPE="RADIO" NAME="debug" VALUE="0" CHECKED="CHECKED"> Off<BR>
+&nbsp;&nbsp;&nbsp;<INPUT TYPE="RADIO" NAME="debug" VALUE="1"> On<BR>
+&nbsp;&nbsp;&nbsp;<INPUT TYPE="RADIO" NAME="debug" VALUE="2"> Verbose<BR>
+<P>
+<INPUT TYPE="SUBMIT">
+</TD>
+</FORM>
+<TD>&nbsp;&nbsp;&nbsp;</TD>
+<TD VALIGN="TOP">
+Simple things
+<UL>
+<LI><A HREF="nonsense?cmd=Person&number=20">People</A>
+<LI><A HREF="nonsense?cmd=City&number=20">Cities</A>
+<LI><A HREF="nonsense?cmd=Street&number=20">Streets</A>
+<LI><A HREF="nonsense?cmd=University&number=20">Universities</A>
+<LI><A HREF="nonsense?cmd=Company&number=20">Companies</A>
+<LI><A HREF="nonsense?cmd=Trademark&number=20">Trademarks</A> 
+(<A HREF="nonsense?cmd=TrademarkDrug&number=20">Drugs</A>)
+<LI><A HREF="nonsense?cmd=Newspaper&number=20">Newspaper Names</A>
+<LI><A HREF="nonsense?cmd=OrgPolitical&number=20&bullet=ul">Political Organizations</A>
+<LI><A HREF="nonsense?cmd=CongressCritter&number=20">Congress Critters</A>
+<LI><A HREF="nonsense?cmd=FakeEmail&number=100">Fake Emails</A>
+<LI><A HREF="nonsense?cmd=Domain&number=20">Domain Names</A>
+<LI><A HREF="nonsense?cmd=RandomName&number=50">Random Names</A>
+</UL>
+<P>
+Data files
+<UL>
+<LI><A HREF="nonsense?allfiles=1&cmd=Fortune&bullet=ul&number=20">Random Fortune</A>
+<LI><A HREF="nonsense?file=stupidlaws.data&bullet=ul&number=20">Stupid Laws</A>
+<LI><A HREF="nonsense?file=college.data&bullet=ul&number=20">College Courses</A>
+<LI><A HREF="nonsense?file=mission.data&bullet=ul&number=20">Mission Statement</A>
+<LI><A HREF="nonsense?cmd=LinuxDomain&file=linux.data&number=20">Linux Domains</A>
+<LI><A HREF="nonsense?cmd=GeekSciFiBook&file=linux.data&number=20">Science Fiction titles</A>
+<LI><A HREF="nonsense?cmd=FreshmeatApp&file=linux.data&number=20">Freshmeat App</A>
+<LI><A HREF="nonsense?cmd=Headline&file=newspaper.data&bullet=ul&number=20">News Headline</A>
+<LI><A HREF="nonsense?cmd=Insult&file=insults.data&bullet=ul&number=20">Insult</A>
+<LI><A HREF="nonsense?cmd=FortuneCookie&file=cookie.data&bullet=ul&number=20">Fortune Cookie</A>
+<LI><A HREF="nonsense?file=shows.data&bullet=ul&number=20">TV Shows</A>
+<LI><A HREF="nonsense?cmd=RatherismTemplate&file=ratherism.data&number=10&spacer=p">Dan Rather</A>
+<LI><A HREF="nonsense?cmd=HaikuHtml&file=poetry.data&number=10&spacer=p">Haiku</A>
+</UL>
+<P>
+Templates
+<UL>
+<LI><A HREF="nonsense?template=newspaper.html.template&file=newspaper.data">Newspaper</A>
+<LI><A HREF="nonsense?template=resume.html.template&file=resume.data">Resume</A>
+<LI><A HREF="nonsense?template=bizplan.html.template&file=mission.data">Business Plan</A>
+<LI><A HREF="nonsense?template=bingo.html.template">Buzzword Bingo</A>
+<LI><A HREF="nonsense?template=freshmeat.rdf.template">Freshmeat RDF</A>
+<LI><A HREF="nonsense?template=techdirt.html.template">Techdirt HTML</A>
+<LI><A HREF="nonsense?template=humorix.html.template">Humorix HTML</A>
+<LI><A HREF="nonsense?template=slashdot.rdf.template">Slashdot RDF</A>
+<LI><A HREF="nonsense?template=slashdot.html.template">Slashdot HTML</A>
+</UL>
+</TD>
+</TR>
+</TABLE>
+</BODY>
+</HTML>

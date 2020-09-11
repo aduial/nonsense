@@ -1,0 +1,128 @@
+<HTML>
+<HEAD>
+<TITLE>{papername:=Newspaper}{$PaperName} [Produced by Nonsense]</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<CENTER><SMALL>{TemplateTopItem}, See Page {#2-10}{[A|B|C}</SMALL><P>
+<BIG>{$Papername}</BIG></CENTER>
+
+<TABLE WIDTH="100%"><TR>
+<TD WIDTH="33%" ALIGN="LEFT">
+<SMALL>Volume {#1-50} Issue {#1-350}</SMALL>
+</TD><TD WIDTH="33%" ALIGN="CENTER">
+<SMALL>{@%A, %B %d, %Y|0|0}</SMALL>
+</TD><TD WIDTH="33%" ALIGN="RIGHT">
+<SMALL>Price ${#0-2}.{[25|50|75}</SMALL>
+</TD></TR>
+</TABLE>
+
+<HR SIZE=1 NOSHADE WIDTH="100%">
+
+<TABLE WIDTH="100%"><TR>
+<TD VALIGN="TOP" WIDTH="55%">
+
+<TABLE>
+<TR><TD>
+{TemplateTopStory}<BR>
+<SMALL>By {Person}</SMALL><BR>
+<FONT SIZE="-2" COLOR="#AAAAAA">{FillerText}</FONT>
+<BR>
+</TD></TR>
+<TR><TD>
+<B>{HeadlineFrontPage}</B><BR>
+<SMALL>{Subline}</SMALL><BR>
+<FONT SIZE="-2" COLOR="#AAAAAA">{FillerText}</FONT>
+<BR>
+</TD></TR>
+<TR><TD>
+<B>{HeadlineFrontPage}</B><BR>
+<SMALL>{Subline}</SMALL><BR>
+<FONT SIZE="-2" COLOR="#AAAAAA">{FillerText}</FONT>
+<BR>
+</TD></TR>
+<TR><TD>
+<B>{HeadlineFrontPage}</B><BR>
+<SMALL>{Subline}</SMALL><BR>
+<FONT SIZE="-2" COLOR="#AAAAAA">{FillerText}</FONT>
+<BR>
+</TD></TR>
+
+<TR><TD>
+<B>Also in this issue:</B><BR>
+<SMALL>
+<LI><B>Page {#2-5}A:</B> {HeadlineNews}<BR>
+<LI><B>Page {#2-7}A:</B> {HeadlineNews}<BR>
+<LI><B>Page {#5-15}{[A|B}:</B> {HeadlineOpinion}<BR>
+<LI><B>Page {#1-6}{[B|C}:</B> {HeadlineSportsPro}<BR>
+</SMALL>
+</TD></TR>
+
+</TABLE></TD>
+
+<TD VALIGN="TOP" WIDTH="35%">
+
+<TABLE>
+<TR><TD>
+<B>{HeadlineFrontPage}</B><BR>
+<SMALL>{Subline}</SMALL><BR>
+<FONT SIZE="-2" COLOR="#AAAAAA">{FillerText}</FONT>
+<BR>
+</TD></TR>
+<TR><TD>
+<B>{HeadlineFrontPage}</B><BR>
+<SMALL>{Subline}</SMALL><BR>
+<FONT SIZE="-2" COLOR="#AAAAAA">{FillerText}</FONT>
+<BR>
+</TD></TR>
+<TR><TD>
+<B>{HeadlineFrontPage}</B><BR>
+<SMALL>{Subline}</SMALL><BR>
+<FONT SIZE="-2" COLOR="#AAAAAA">{FillerText}</FONT>
+<BR>
+</TD></TR>
+<TR><TD>
+<B>{HeadlineOpinion}</B><BR>
+<FONT SIZE="-2" COLOR="#AAAAAA">{FillerText}</FONT>
+</TD></TR>
+
+</TABLE></TD>
+
+</TR></TABLE>
+
+<HR SIZE=1 NOSHADE WIDTH="100%">
+<TABLE WIDTH="100%"><TR><TD VALIGN="TOP">
+<SMALL>
+National News... <B>{#3-6}A</B><BR>
+{[Opinion|Editorials}... <B>{#5-15}{[A|B}</B><BR>
+Sports... <B>1B</B><BR>
+</SMALL>
+
+</TD><TD VALIGN="TOP">
+<SMALL>
+{[Police Reports|Obituaries|Weddings}... <B>{#3-10}{[A|B|C}</B><BR>
+{[Home & Garden|Food|Arts & Culture|Learning}... <B>1{[B|C|D}</B><BR>
+{[Business|Technology|Finance}... <B>{#1-5}{[B|C|D}</B><BR>
+</SMALL>
+
+</TD><TD VALIGN="TOP">
+<SMALL>
+Classifieds... <B>{#3-10}{[B|C}</B><BR>
+{[Real Estate|Automotive|Help Wanted}... <B>{#3-10}{[B|C|D}</B><BR>
+Comics... <B>{#5-15}{[A|B|C}</B><BR>
+</SMALL>
+
+</TD><TD VALIGN="TOP">
+<SMALL>
+<B>Today's Weather</B><BR>
+{TemplateWeather}
+</SMALL>
+</TD></TR>
+<TR><TD COLSPAN="4" ALIGN="CENTER">
+<SMALL>{$Papername} is a publication of {Company};
+&copy; Copyright 2000.
+</SMALL>
+</TD></TR>
+</TABLE>
+
+<HR SIZE=1 NOSHADE WIDTH="100%">
+</BODY></HTML>
