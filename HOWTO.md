@@ -193,14 +193,23 @@ Command Line Usage
   `nonsense [ -f file.data ] [ -t file.template ] [ -n number ] [ -p ] [ -b bullet string ] [ -e ] [ -D | -d ] [ command string ]`
 
    `-f`   Specify a data file to load in.  Use multiple -f parameters to include additional files. The default.data file is always loaded.
+   
    `-F`  Load ALL data files (i.e. all files in the current directory with a .data extension).
+   
    `-t`   Use a template file.  The markup in this file will be processed and the result output to STDOUT.
+   
    `-n`   Repeat n times. 
+   
    `-p`   Separate each item with a blank line (i.e. paragraph break)
+   
    `-b`   Specify a "bullet" to go in front of each item.
+   
    `-e`   Disable direct eval()'s
+   
    `-d`   Debug mode (shows each substituation)
+   
    `-D`   Verbose debug mode (shows each substitution and the result)
+   
    `command string`  Instead of specifying a template file, you can just specify a section to pull out from the data files.
 
 
