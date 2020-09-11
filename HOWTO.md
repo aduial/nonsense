@@ -131,18 +131,26 @@ There's also a few special cases that allow Nonsense to handle more elaborate si
   
 * `#number#{tag}` - adds a weight factor if more than one tag is listed under a category, e.g.: 
   
-	`CATEGORY
+	```
+	CATEGORY
 	#3#{tag_1}
-	{tag_2}`
-	the likelihood that that tag_1 is picked is then multiplied by that number. In this example, `tag_1` will be picked 3 out of 4 times.
+	{tag_2}
+  ```
+  
+  
+  the likelihood that that tag_1 is picked is then multiplied by that number. In this example, `tag_1` will be picked 3 out of 4 times.
   
 * `#number#item` - identical to above, but adds a weight factor for literal items (lines) under a category, e.g.:
 
-  `CATEGORY 
-#7#item_1
-  #3#item_2`
-for this example, `item_1` will be picked 7 out of 10 times, and `item_2` 3 out of 10.
-  
+  ```
+  CATEGORY 
+  #7#item_1
+  #3#item_2
+  ```
+
+
+  for this example, `item_1` will be picked 7 out of 10 times, and `item_2` 3 out of 10.
+
 * `{[item1|item2|item3...}` - Nonsense will pick out one item from this list (each item is seperated by pipe characters). If only one item is listed, then it will be output 50% of the time (otherwise nothing is output)
 
 * `{@strftime format}` - Nonsense will pass the current date/time to strftime and return the output.  So, for instance, {@%A|0|0} would return the current day of the week.
@@ -155,11 +163,13 @@ for this example, `item_1` will be picked 7 out of 10 times, and `item_2` 3 out 
   
 * `{\character}` - Allows you to embed literal characters that couldn't otherwise be specified, such as:
   
-     `{\n} - Newline`
-     `{\0} - Null (i.e. nothing)`
-     `{\L} - Left brace '{'`
-     `{\R} - Right brace '}'`
-     `{\###} - ASCII character in decimal`
+  ```
+  {\n} - Newline
+  {\0} - Null (i.e. nothing)
+  {\L} - Left brace '{'
+  {\R} - Right brace '}'
+  {\###} - ASCII character in decimal
+```
   
 * `{variablename=literal text}` - Stores the text on the right-hand side of the equals sign to the specified state variable, without outputting anything.  This is useful for preserving context and is used, for example, in the Slashdot simulator.
   
@@ -167,7 +177,7 @@ for this example, `item_1` will be picked 7 out of 10 times, and `item_2` 3 out 
   
 * `{$variablename}` - Returns the contents of a state variable.
 
-* `{command#number1-number2}` - Evaluates the command a random number of times between number1 and number2
+* `{command#number1-number2}` - Evaluates the command a random number of times between `number1` and `number2`
 
 -*-
 
@@ -248,7 +258,6 @@ Here are the CGI parameters that Nonsense takes:
    `bullet=[ol|ul]`
       Displays the text as an ordered list (ol) or an unordered
       list (ul)         
-      
 
 * Examples:
 
