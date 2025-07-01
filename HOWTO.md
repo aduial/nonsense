@@ -1,4 +1,4 @@
-HOWTO for Nonsense 0.7
+HOWTO for Nonsense 0.7.1
 =======================
 
 ------------

@@ -14,7 +14,7 @@
 #
 # Original Homepage: http://i-want-a-website.com/about-linux/downloads.shtml
 # Current homepage (TBD)
-# Version: 0.7 (September 11, 2020)
+# Version: 0.7.1 (March 4, 2023)
 # License: GNU General Public License 2.0
 #
 # COMMAND LINE USAGE:
@@ -46,7 +46,7 @@ use POSIX qw( strftime );   # Just in case somebody needs the date
 use URI;
 use URI::QueryParam;
 use HTTP::Headers;
-use Data::Dumper;
+# use Data::Dumper;
 
 my %pool;                   # Where the datafiles are slurped into
 my %static;                 # Hash of persistent data (to maintain state)
@@ -317,9 +317,9 @@ sub Pick {
    ## Handle lowercase/uppercase conversions
    if( !defined $case ) {                # No need to worry about case
       return $pick;
-   } elsif( $case =~ /^[A-Z0-9]+$/ ) {   # UPPERCASE
+   } elsif( $case =~ /^[A-Z0-9_-]+$/ ) {   # UPPERCASE
       return uc $pick;
-   } elsif( $case =~ /^[a-z0-9]+$/ ) {   # lowercase
+   } elsif( $case =~ /^[a-z0-9_-]+$/ ) {   # lowercase
       return lc $pick;
    } elsif( $case =~ /^\^/ ) {           # begins with '^' -- Ucfirst
       return ucfirst $pick;

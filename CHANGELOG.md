@@ -8,6 +8,16 @@ Released: September 11, 2020
 
 -----------------------
 
+CHANGES FROM 0.7 TO 0.7.1
+-----------------------
+
+[March 4, 2023]
+
+- fixed bug where case transformations weren't applied if the section name included _ or -
+
+
+-----------------------
+
 CHANGES FROM 0.6 TO 0.7
 -----------------------
 
