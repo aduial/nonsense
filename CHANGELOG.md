@@ -1,10 +1,8 @@
 CHANGELOG for Nonsense
 ======================
 
-I doubt anybody is seriously interested in this, but here it is anyway...
-
-Current version: 0.7
-Released: September 11, 2020
+Current version: 0.7.1
+Released: March 4, 2023
 
 -----------------------
 

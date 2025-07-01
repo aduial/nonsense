@@ -4,6 +4,9 @@
 
 A continuation of the old Perl Nonsense CFG-parser on Humorix
 
+Version 0.7.1 (March 4, 2023)
+- fixed bug in case transformations
+
 Version 0.7 (September 11, 2020)
 - Extended with weight factoring for section variables and and literal items.
 - Removed the deprecated CGI.pm module and replaced the functionality with Perl URI and HTTP modules. This should make it possible again to run it as CGI application with a recent Perl distribution.
